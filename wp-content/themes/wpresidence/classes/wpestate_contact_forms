@@ -1,0 +1,369 @@
+<?php
+/* Copyright (C) Wpestate/Sc Internet Viboo SRL, Inc - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by wpestate.org, March 2019
+ */
+class Wpestate_Contact_Forms {
+
+    private $use_schedule_tour;
+    private $use_schedule_tour_location;
+    private $contact_form_7_agent;
+    private $contact_form_7_contact;
+    
+    private $form_settings = array(
+        'simple'            =>  array(
+                                'wrapper_classes'=>'',
+                                ),
+        'schedule_tour'     =>  array(
+                                'wrapper_classes'=>'panel-group property-panel wpestate_schedule_tour_wrapper',
+                                ),
+        'sidebar'           =>  array(
+                                'wrawrapper_classespper'=>'',
+                                ),
+        'global_footer'     =>  array(
+                                'wrapper_classes'=>'',
+                                ),
+        'property_gallery'  =>  array(
+                                    'wrapper_classes'=>'',
+                                ),
+    
+    );
+
+   
+   
+   
+   
+    /*
+    *
+    *   Class construct
+    *
+    */
+
+    function _construct(){
+        $this->use_schedule_tour            = wpresidence_get_option('wp_estate_show_schedule_tour', '');
+        $this->use_schedule_tour_location   = wpresidence_get_option('wp_estate_show_schedule_tour_location', '');
+        $this->contact_form_7_agent         = stripslashes(( wpresidence_get_option('wp_estate_contact_form_7_agent', '')));
+        $this->contact_form_7_contact       = stripslashes(( wpresidence_get_option('wp_estate_contact_form_7_contact', '')));    
+        
+        if (function_exists('icl_translate')) {
+            $this->contact_form_7_agent     = icl_translate('wpestate', 'contact_form7_agent', $contact_form_7_agent);
+            $this->contact_form_7_contact   = icl_translate('wpestate', 'contact_form7_contact', $contact_form_7_contact);
+        }
+
+        //     add_action( 'wp_ajax_wpestate_stripe_recurring', array($this,'wpestate_stripe_recurring') );
+    }
+
+
+
+    /*
+    *
+    * Display contact form
+    *  
+    *
+    */
+    function display_form($context,$postID){
+
+        $return_string='<div class="'.$this->form_settings[$context]['wrapper_classes'].'">';
+
+        if($context=='schedule_tour'){
+            $return_string.= $this->wpestate_display_schedule_tour_dates($context);
+            $return_string.= $this->wpestate_display_schedule_tour_time_select();
+            $return_string.= $this->wpestate_display_schedule_tour_options();
+        }
+
+
+        $return_string.= $this->wpestate_display_contact_form($postID,'','schedule_section');
+        $return_string.= '</div>';
+
+        return $return_string;
+    }
+    
+    
+    
+    /*
+    *
+    * Display  contact form
+    *
+    */
+  
+    protected function wpestate_display_contact_form($propid,$slider_property_id,$context){
+        $return_string='';
+
+        if (isset($slider_property_id) && intval($slider_property_id) != 0) {
+            $propid = $slider_property_id;
+        }
+        
+        $agent_id = intval(get_post_meta($propid, 'property_agent', true));
+        
+        if (is_singular('estate_agent') || is_singular('estate_agency') || is_singular('estate_developer')) {
+            $agent_id = get_the_ID();
+        }
+        
+    
+       
+        
+        $current_page_template  = basename(get_page_template());
+    
+
+    
+    
+        // display section title
+        if($context!='schedule_section'):
+            $title = $this->wpestate_display_contact_form_title( $current_page_template,$contact_form_7_agent);
+            $return_string.= trim($title);
+        endif;
+
+
+        if ( (  $this->contact_form_7_agent == '' && $this->current_page_template  != 'contact_page.php') || 
+            ( $this->contact_form_7_contact == '' && $this->current_page_template  == 'contact_page.php')) { 
+
+            $return_string.='
+            <div class="alert-box error">
+                <div class="alert-message" id="alert-agent-contact"></div>
+            </div>';
+
+            if($context!='schedule_section'):
+                $return_string.= wpestate_display_simple_schedule_form();
+            endif;
+            $return_string .= $this->wpestate_display_actual_contact_form($propid,$agent_id,$slider_property_id,$context);
+
+
+
+
+        }else{
+            if (basename(get_page_template()) == 'contact_page.php') {
+                $return_string.= do_shortcode($contact_form_7_contact);
+            } else {
+                wp_reset_query();
+                $return_string.= do_shortcode($contact_form_7_agent);
+            }
+        }
+
+        return $return_string;
+    
+    }
+     
+    /*
+    *
+    * Display  the actual contact form
+    *
+    */
+
+
+    function wpestate_display_actual_contact_form($propid,$agent_id,$slider_property_id,$context){
+            $return_string='
+            <div class="contact_form_flex_wrapper">
+                <input name="contact_name" id="agent_contact_name" type="text"  placeholder="'.esc_html__('Your Name', 'wpresidence').'" aria-required="true" class="form-control">
+                <input type="text" name="email" class="form-control" id="agent_user_email" aria-required="true" placeholder="'.esc_html__('Your Email', 'wpresidence').'">
+                <input type="text" name="phone"  class="form-control" id="agent_phone" placeholder="'.esc_html__('Your Phone', 'wpresidence').'">
+            </div>
+        
+            <textarea id="agent_comment" name="comment" class="form-control" cols="45" rows="8" aria-required="true">';
+        
+                if (is_singular('estate_property') || isset($slider_property_id)) {
+                    $return_string.= esc_html__("I'm interested in", "wpresidence");
+                    $return_string.= ' [ ' . get_the_title($propid) . ' ] ';
+                }
+            $return_string.='</textarea>';
+        
+            $return_string.= wpestate_check_gdpr_case();
+        
+            $return_string.='<input type="submit" class="wpresidence_button agent_submit_class "  id="agent_submit" value="'. esc_html__('Send Email', 'wpresidence').'">';
+        
+            include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+            if (is_singular('estate_property')) {
+                if (class_exists( 'Elementor\Plugin') && \Elementor\Plugin::$instance->editor->is_edit_mode()) {
+                    //do nothing
+                    
+          
+                } else if($context!='schedule_section'){
+                    
+                    ob_start();
+                    get_template_part('templates/realtor_templates/agent_contact_bar');
+                    $contact_bar=ob_get_contents();
+                    ob_clean();
+                }
+            }
+        
+            if (wpresidence_get_option('wp_estate_enable_direct_mess') == 'yes' &&  $context!='schedule_section' ) { 
+                $return_string.='<input type="submit" class="wpresidence_button message_submit"   value="'.esc_html__('Send Private Message', 'wpresidence').'">
+                <div class=" col-md-12 message_explaining">'.esc_html__('You can reply to private messages from "Inbox" page in your user account.', 'wpresidence').'</div>';
+            }
+            $return_string.='
+            <input name="prop_id" type="hidden"  id="agent_property_id" value="'. intval($propid).'">
+            <input name="prop_id" type="hidden"  id="agent_id" value="'.intval($agent_id).'">
+            <input type="hidden" name="contact_ajax_nonce" id="agent_property_ajax_nonce"  value="'. wp_create_nonce('ajax-property-contact').'" />';
+        
+        
+        
+            return $return_string;
+        
+        }
+        
+
+
+
+
+
+        /*
+        *
+        * Display  contact form title
+        *
+        */
+
+
+        protected function wpestate_display_contact_form_title( $current_page_template,$contact_form_7_agent){
+        
+        
+            $return_string          =   '';
+        
+            if ($current_page_template   != 'contact_page.php') { 
+        
+                if (is_singular('estate_agency') || is_singular('estate_developer')) {
+                    $return_string .= '<h4 id="show_contact">' . esc_html__('Contact Us', 'wpresidence') . '</h4>';
+                } else {
+                    $return_string .= '<h4 id="show_contact">' . esc_html__('Contact Me', 'wpresidence') . '</h4>';
+                }
+                
+                if ($this->contact_form_7_agent == '' && wpresidence_get_option('wp_estate_use_classic_schedule','')=='yes') {
+                    $return_string .='<div  class="schedule_meeting">'.esc_html__('Schedule a showing?', 'wpresidence').'</div>';        
+                }
+            
+        
+        
+            } else { 
+                $return_string .='<h4 id="show_contact">'.esc_html__('Contact Us', 'wpresidence').'</h4>';
+            } 
+        
+            return $return_string;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        * display schedule tour time select
+        *
+        *
+        *
+        *
+        */
+    
+        protected function wpestate_display_schedule_tour_time_select() {
+            $return_string  =   '';
+            $options        =   wpresidence_get_option('wp_estate_schedule_tour_timeslots', '');
+            $options_array  =   explode(',',$options);
+            
+            $return_string='<select name="wpestate_schedule_tour_time" id="wpestate_schedule_tour_time">';
+            $return_string.='<option value="0">'.esc_html__('Please select the time','wpresidence').'</option>';
+            foreach($options_array as $key=>$value):
+                $return_string.='<option value="'.$value.'">'.$value.'</option>';
+            endforeach;        
+            $return_string.='</select>';
+
+            return $return_string;
+
+        }
+
+
+        /*
+        *  Displaye schedule tour dates
+        *
+        *
+        */
+
+        protected function wpestate_display_schedule_tour_dates($context){
+            
+            $slider_id = 'wpestate_schedule_tour_slider_' . rand(1, 99999);
+            $return='<div class="wpestate_property_schedule_dates_wrapper" id="' . $slider_id . '" data-visible-items="6" data-auto="0"> ';
+            
+                $current_month  =   date("m");
+                $current_day    =   date("d");
+                $current_year   =   date("y");
+                $number_of_days_in_advance = 10;
+                $counter        =   0;
+                while($counter<$number_of_days_in_advance){
+                    
+                    $day_name   = date_i18n('D',mktime(0,0,0,$current_month,($current_day+$counter),$current_year) ); 
+                    $day_number = date_i18n('d',mktime(0,0,0,$current_month,($current_day+$counter),$current_year) );
+                    $month      = date_i18n('M',mktime(0,0,0,$current_month,($current_day+$counter),$current_year) );
+                    $counter++;
+
+                $return.='<div class="wpestate_property_schedule_singledate_wrapper item">';
+                    //   $return.='<input name="wpestate_schedule_date" type="radio" value="'.esc_attr( $day_name.' '.$day_number.' '.$month).'">';
+                        $return.='<div class="wpestate_property_schedule_singledate_wrapper_display">';
+                        $return.='<span class="wpestate_day_unit_day_name">'.esc_html($day_name).'</span>';
+                        $return.='<span class="wpestate_day_unit_day_number">'.esc_html($day_number).'</span>';
+                        $return.='<span class="wpestate_day_unit_day_month">'.esc_html($month).'</span>';
+                        $return.='</div>';
+
+                    $return.='</div>';
+                }
+
+            $return.='</div>';
+
+            $return .= '
+            <script type="text/javascript">
+                //<![CDATA[
+                jQuery(document).ready(function(){
+                wpestate_schedule_tour_slider("' . $slider_id . '");
+                });
+                //]]>
+            </script>';
+
+            return $return;
+        }
+
+
+
+        /*
+        * display schedule tour options
+        *
+        *
+        *
+        *
+        */ 
+        function wpestate_display_schedule_tour_options() {
+                
+            $return_string='
+            <div class="wpestate_display_schedule_tour_options_wrapper">
+            
+                <div class="wpestate_display_schedule_tour_option shedule_option_selected">'.esc_html__('In Person','wpresidence').'</div>
+                <div class="wpestate_display_schedule_tour_option">'.esc_html__('Video Chat','wpresidence').'</div>
+            </div>';    
+
+            return $return_string;
+        }
+
+
+
+        /*
+        *
+        *
+        *
+        */
+
+        /*
+        *
+        *
+        *
+        */
+
+        /*
+        *
+        *
+        *
+        */
+
+
+
+    }

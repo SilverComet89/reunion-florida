@@ -1,0 +1,620 @@
+# Copyright (C) 2019 WpEstate
+# This file is distributed under the same license as the WpResidence Elementor Widgets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WpResidence Elementor Widgets 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/residence-"
+"elementor\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-03-26 09:32+0200\n"
+"PO-Revision-Date: 2019-03-26 09:32+0200\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Domain: residence-elementor\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#. Plugin Name of the plugin
+msgid "WpResidence Elementor Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid ""
+"https://themeforest.net/item/wp-residence-real-estate-wordpress-theme/7896392"
+msgstr ""
+
+#. Description of the plugin
+msgid "Elementor widgets for WpResidence"
+msgstr ""
+
+#. Author of the plugin
+msgid "WpEstate"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpestate.org/"
+msgstr ""
+
+#: plugin.php:161
+msgid "WpResidence Widgets"
+msgstr ""
+
+#: plugin.php:168
+msgid "WpResidence Property Page Widgets"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor
+#: wpresidence-elementor.php:122
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: wpresidence-elementor.php:123 wpresidence-elementor.php:170
+msgid "WpResidence Elementor"
+msgstr ""
+
+#: wpresidence-elementor.php:124 wpresidence-elementor.php:147
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: wpresidence-elementor.php:145 wpresidence-elementor.php:169
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: wpresidence-elementor.php:146
+msgid "WpResidence Elementor "
+msgstr ""
+
+#: wpresidence-elementor.php:171
+msgid "PHP"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:40
+msgid "Property Gallery"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:100
+#: widgets/property_page_slider_section.php:100 widgets/hello-world.php:97
+#: widgets/featured-article.php:102 widgets/featured-agent.php:110
+#: widgets/property_page_simple_detail.php:100 widgets/contact_us.php:100
+#: widgets/google_map_property.php:136
+#: widgets/property_page_agent_contact.php:100
+#: widgets/propert_page_image_gallery_masonry.php:100
+#: widgets/places-slider.php:108 widgets/propert_page_other_agents.php:100
+#: widgets/property_page_tab_details.php:100 widgets/list-agents.php:135
+#: widgets/list-items-agent.php:107 widgets/recent-items-slider.php:122
+#: widgets/display_categories.php:109 widgets/login-form.php:100
+#: widgets/property_page_simple_detail_section.php:100
+#: widgets/property_page_related_listings.php:100
+#: widgets/property_page_agent_card.php:100
+#: widgets/featured-agency-developer.php:136
+#: widgets/property_page_agent_details_intext_details.php:100
+#: widgets/recent-items.php:121 widgets/membership-package.php:108
+#: widgets/property_page_accordion_details.php:100
+#: widgets/featured-property.php:103 widgets/testimonial.php:107
+#: widgets/list-items-by-id.php:95 widgets/property_page_intext_details.php:100
+msgid "Content"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:110
+msgid ""
+"Thumbnail max width in px (*height is auto calculated based on image ratio)"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:121
+msgid "Thumbnail right & bottom margin in px"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:132
+msgid "Maximum no of thumbs"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:40
+msgid "Property Slider"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:117
+msgid "Slider Type"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:129
+msgid "Show map in slider type?"
+msgstr ""
+
+#: widgets/hello-world.php:35
+msgid "Hello Worldxxxxx"
+msgstr ""
+
+#: widgets/hello-world.php:104 widgets/list-agents.php:142
+#: widgets/recent-items-slider.php:129 widgets/recent-items.php:128
+#: widgets/list-items-by-id.php:102
+msgid "Title"
+msgstr ""
+
+#: widgets/hello-world.php:114
+msgid "Style"
+msgstr ""
+
+#: widgets/hello-world.php:122
+msgid "Text Transform"
+msgstr ""
+
+#: widgets/hello-world.php:126
+msgid "None"
+msgstr ""
+
+#: widgets/hello-world.php:127
+msgid "UPPERCASE"
+msgstr ""
+
+#: widgets/hello-world.php:128
+msgid "lowercase"
+msgstr ""
+
+#: widgets/hello-world.php:129
+msgid "Capitalize"
+msgstr ""
+
+#: widgets/featured-article.php:39
+msgid "WpResidence Featured Article"
+msgstr ""
+
+#: widgets/featured-article.php:109
+msgid "Select article"
+msgstr ""
+
+#: widgets/featured-article.php:120
+msgid "Featured Text(for type1)"
+msgstr ""
+
+#: widgets/featured-article.php:127 widgets/featured-property.php:127
+msgid "Design Type"
+msgstr ""
+
+#: widgets/featured-agent.php:40
+msgid "WpResidence Featured Agent"
+msgstr ""
+
+#: widgets/featured-agent.php:117
+msgid "Select one Agent"
+msgstr ""
+
+#: widgets/featured-agent.php:128
+msgid "Notes"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:40
+msgid "Property Single Detail"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:161
+msgid "Select single detail"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:171
+msgid "Element Label"
+msgstr ""
+
+#: widgets/contact_us.php:40
+msgid "WpResidence Contact Form"
+msgstr ""
+
+#: widgets/contact_us.php:111
+#: widgets/propert_page_image_gallery_masonry.php:111
+msgid "Text Align"
+msgstr ""
+
+#: widgets/google_map_property.php:40
+msgid "WpResidence Google Map with Property Marker"
+msgstr ""
+
+#: widgets/google_map_property.php:145
+msgid "Property ID"
+msgstr ""
+
+#: widgets/property_page_agent_contact.php:40
+msgid "Agent Contact Form"
+msgstr ""
+
+#: widgets/propert_page_image_gallery_masonry.php:40
+msgid "Masonry Gallery"
+msgstr ""
+
+#: widgets/places-slider.php:40
+msgid "WpResidence Category Slider"
+msgstr ""
+
+#: widgets/places-slider.php:115 widgets/display_categories.php:116
+msgid ""
+"Type Categories,Actions,Cities,Areas,Neighborhoods or County name you want "
+"to show"
+msgstr ""
+
+#: widgets/places-slider.php:126 widgets/list-agents.php:206
+#: widgets/recent-items.php:220 widgets/list-items-by-id.php:140
+msgid "No of items per row"
+msgstr ""
+
+#: widgets/places-slider.php:136 widgets/display_categories.php:150
+msgid "Extra Class Name"
+msgstr ""
+
+#: widgets/propert_page_other_agents.php:40
+msgid "Other Agents"
+msgstr ""
+
+#: widgets/property_page_tab_details.php:40
+msgid "Details as Tabs"
+msgstr ""
+
+#: widgets/property_page_tab_details.php:107
+msgid ""
+"Description Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:116
+msgid ""
+"Property Address  Label in the tab. Set it blank if you don't want it to "
+"appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:125
+msgid ""
+"Property Details Label in the tab. Set it blank if you don't want it to "
+"appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:134
+msgid ""
+"Amenities and Features Label in the tab. Set it blank if you don't want it "
+"to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:143
+msgid "Map Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:152
+msgid ""
+"Walkscore Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:161
+msgid ""
+"Floor Plans Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:170
+msgid ""
+"Page Views Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:179
+msgid ""
+"Virtual Tour Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:188
+msgid "Yelp Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/list-agents.php:40
+msgid "WpResidence List Agents"
+msgstr ""
+
+#: widgets/list-agents.php:154
+msgid "Type Category names"
+msgstr ""
+
+#: widgets/list-agents.php:165
+msgid "Type Action name"
+msgstr ""
+
+#: widgets/list-agents.php:176
+msgid "Type City names"
+msgstr ""
+
+#: widgets/list-agents.php:186
+msgid "Type Area names"
+msgstr ""
+
+#: widgets/list-agents.php:198 widgets/recent-items-slider.php:203
+#: widgets/recent-items.php:212 widgets/list-items-by-id.php:132
+msgid "No of items"
+msgstr ""
+
+#: widgets/list-agents.php:213 widgets/list-items-by-id.php:168
+msgid "Link to global listing"
+msgstr ""
+
+#: widgets/list-agents.php:223 widgets/recent-items-slider.php:231
+#: widgets/recent-items.php:247
+msgid "Random Pick ?"
+msgstr ""
+
+#: widgets/list-items-agent.php:40
+msgid "WpResidence List Items per Agent"
+msgstr ""
+
+#: widgets/list-items-agent.php:114
+msgid "Type Agent, Agency or Developert name"
+msgstr ""
+
+#: widgets/list-items-agent.php:127
+msgid "\"Number of Listings"
+msgstr ""
+
+#: widgets/recent-items-slider.php:40
+msgid "WpResidence Items Slider"
+msgstr ""
+
+#: widgets/recent-items-slider.php:139 widgets/recent-items.php:138
+#: widgets/list-items-by-id.php:112
+msgid "What type of items"
+msgstr ""
+
+#: widgets/recent-items-slider.php:150 widgets/recent-items.php:159
+msgid "List of categories (*only for properties)"
+msgstr ""
+
+#: widgets/recent-items-slider.php:161 widgets/recent-items.php:170
+msgid "List of action categories (*only for properties)"
+msgstr ""
+
+#: widgets/recent-items-slider.php:172 widgets/recent-items.php:181
+msgid "List of city  (*only for properties)"
+msgstr ""
+
+#: widgets/recent-items-slider.php:182 widgets/recent-items.php:191
+msgid "List of areas (*only for properties)"
+msgstr ""
+
+#: widgets/recent-items-slider.php:192 widgets/recent-items.php:201
+msgid "List of Counties/States (*only for properties)"
+msgstr ""
+
+#: widgets/recent-items-slider.php:212 widgets/recent-items.php:238
+#: widgets/list-items-by-id.php:149
+msgid "Show featured listings only?"
+msgstr ""
+
+#: widgets/recent-items-slider.php:221
+msgid "Auto scroll period"
+msgstr ""
+
+#: widgets/recent-items-slider.php:240 widgets/recent-items.php:256
+msgid "Show Featured Listings First ?"
+msgstr ""
+
+#: widgets/display_categories.php:40
+msgid "WpResidence Display Categories"
+msgstr ""
+
+#: widgets/display_categories.php:127
+msgid "Items per row"
+msgstr ""
+
+#: widgets/display_categories.php:137
+msgid "Type"
+msgstr ""
+
+#: widgets/login-form.php:40
+msgid "WpResidence Login"
+msgstr ""
+
+#: widgets/login-form.php:109
+msgid "Register link text"
+msgstr ""
+
+#: widgets/login-form.php:116
+msgid "Register page url"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:40
+msgid "Detail Section"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:128
+msgid "Select section"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:138
+msgid ""
+"Columns (*works only for address, property details and features and "
+"amenities)"
+msgstr ""
+
+#: widgets/property_page_related_listings.php:40
+msgid "Related Listings"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:40
+msgid "Agent Card"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:113
+msgid "Columns"
+msgstr ""
+
+#: widgets/advanced-search.php:39
+msgid "WpResidence  Advanced Search"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:40
+msgid "WpResidence Featured Agency Developer"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:143
+msgid "Type Agency or Developer name"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:154
+msgid "Status Text Label"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:163
+msgid "Image "
+msgstr ""
+
+#: widgets/property_page_agent_details_intext_details.php:40
+msgid "Text with Agent Details "
+msgstr ""
+
+#: widgets/recent-items.php:40
+msgid "WpResidence Items List"
+msgstr ""
+
+#: widgets/recent-items.php:148
+msgid ""
+"List of terms for the filter bar (*applies only for properties, not articles/"
+"posts)"
+msgstr ""
+
+#: widgets/recent-items.php:229 widgets/list-items-by-id.php:158
+msgid "\"What type of alignment ?"
+msgstr ""
+
+#: widgets/membership-package.php:40
+msgid "WpResidence Membership Package"
+msgstr ""
+
+#: widgets/membership-package.php:115
+msgid "Type Package name"
+msgstr ""
+
+#: widgets/membership-package.php:126
+msgid "Content of the package box"
+msgstr ""
+
+#: widgets/membership-package.php:134
+msgid "Make package featured?"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:40
+msgid "Details as Accordion"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:104
+msgid "all open"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:105
+msgid "all closed"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:106
+msgid "only the first one open"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:112
+msgid "Accordion Open/Close status"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:122
+msgid "Description Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:131
+msgid "Property Address Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:140
+msgid "Property Details Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:149
+msgid ""
+"Amenities and Features Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:158
+msgid "Map Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:167
+msgid "Walkscore Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:176
+msgid "Floor Plans Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:185
+msgid "Page Views Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:194
+msgid "Virtual Tour Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:203
+msgid "Yelp Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:213
+msgid "Custom Css"
+msgstr ""
+
+#: widgets/featured-property.php:40
+msgid "WpResidence Featured Property"
+msgstr ""
+
+#: widgets/featured-property.php:112
+msgid "Property Id"
+msgstr ""
+
+#: widgets/featured-property.php:119
+msgid "Second Line"
+msgstr ""
+
+#: widgets/testimonial.php:40
+msgid "WpResidence Testimonial"
+msgstr ""
+
+#: widgets/testimonial.php:116
+msgid "Client Name"
+msgstr ""
+
+#: widgets/testimonial.php:124
+msgid "Title Client"
+msgstr ""
+
+#: widgets/testimonial.php:132
+msgid "Image"
+msgstr ""
+
+#: widgets/testimonial.php:141
+msgid "Testimonial Text "
+msgstr ""
+
+#: widgets/testimonial.php:149
+msgid "Testimonial Type"
+msgstr ""
+
+#: widgets/testimonial.php:159
+msgid "Stars "
+msgstr ""
+
+#: widgets/testimonial.php:167
+msgid "Only for type3:Testimonial Title "
+msgstr ""
+
+#: widgets/list-items-by-id.php:40
+msgid "WpResidence List Items By Id"
+msgstr ""
+
+#: widgets/list-items-by-id.php:122
+msgid "Items IDs"
+msgstr ""
+
+#: widgets/register-form.php:40
+msgid "WpResidence Register"
+msgstr ""
+
+#: widgets/property_page_intext_details.php:40
+msgid "Text with Property Details "
+msgstr ""

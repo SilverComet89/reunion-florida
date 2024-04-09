@@ -1,0 +1,5258 @@
+# Copyright (C) 2022 WpEstate
+# This file is distributed under the same license as the WpResidence Elementor Widgets plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WpResidence Elementor Widgets 4.7.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/residence-elementor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-14T07:23:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: residence-elementor\n"
+
+#. Plugin Name of the plugin
+msgid "WpResidence Elementor Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://themeforest.net/item/wp-residence-real-estate-wordpress-theme/7896392"
+msgstr ""
+
+#. Description of the plugin
+msgid "Elementor widgets for WpResidence"
+msgstr ""
+
+#. Author of the plugin
+msgid "WpEstate"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpestate.org/"
+msgstr ""
+
+#: plugin.php:350
+#: property-page-statistics-section.php:368
+msgid "WpResidence Widgets"
+msgstr ""
+
+#: plugin.php:356
+#: property-page-statistics-section.php:374
+msgid "WpResidence Property Page Widgets"
+msgstr ""
+
+#: widgets/advanced-search.php:42
+msgid "WpResidence  Advanced Search"
+msgstr ""
+
+#: widgets/advanced-search.php:101
+#: widgets/blog-list.php:369
+#: widgets/filter_list_properties_v1.php:737
+#: widgets/filter_list_properties_v2.php:702
+#: widgets/filter_list_properties_v3.php:713
+#: widgets/filter_list_properties_v4.php:688
+#: widgets/filter_list_properties_v5.php:632
+#: widgets/filter_list_properties_v6.php:589
+#: widgets/filter_list_properties_v7.php:653
+#: widgets/property_page_agent_card.php:365
+#: widgets/recent-items-slider_v1.php:736
+#: widgets/recent-items-slider_v2.php:698
+#: widgets/recent-items-slider_v3.php:708
+#: widgets/recent-items-slider_v4.php:704
+#: widgets/recent-items-slider_v5.php:644
+#: widgets/recent-items-slider_v6.php:608
+#: widgets/recent-items-slider_v7.php:671
+#: widgets/recent-items_card_v1.php:825
+#: widgets/recent-items_card_v2.php:786
+#: widgets/recent-items_card_v3.php:797
+#: widgets/recent-items_card_v4.php:773
+#: widgets/recent-items_card_v5.php:718
+#: widgets/recent-items_card_v6.php:668
+#: widgets/recent-items_card_v7.php:740
+#: widgets/single-property-widgets/property-page-address-section.php:284
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:413
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:275
+#: widgets/single-property-widgets/property-page-calculator-section.php:264
+#: widgets/single-property-widgets/property-page-description-section.php:262
+#: widgets/single-property-widgets/property-page-details-section.php:284
+#: widgets/single-property-widgets/property-page-features-section.php:284
+#: widgets/single-property-widgets/property-page-floorplans-section.php:267
+#: widgets/single-property-widgets/property-page-header-section.php:238
+#: widgets/single-property-widgets/property-page-map-section.php:273
+#: widgets/single-property-widgets/property-page-overview-section.php:448
+#: widgets/single-property-widgets/property-page-reviews-section.php:281
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:259
+#: widgets/single-property-widgets/property-page-statistics-section.php:258
+#: widgets/single-property-widgets/property-page-subunits-section.php:288
+#: widgets/single-property-widgets/property-page-video-section.php:256
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:258
+#: widgets/single-property-widgets/property-page-walkscore-section.php:264
+#: widgets/single-property-widgets/property-page-yelp-section.php:264
+#: widgets/single-property-widgets/property_page_accordion_details.php:371
+#: widgets/single-property-widgets/property_page_agent_card.php:336
+#: widgets/single-property-widgets/property_page_agent_contact.php:208
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:187
+#: widgets/single-property-widgets/property_page_intext_details.php:231
+#: widgets/single-property-widgets/property_page_schedule_tour.php:182
+#: widgets/single-property-widgets/property_page_simple_detail.php:234
+#: widgets/single-property-widgets/property_page_tab_details.php:242
+#: widgets/testimonial_slider.php:233
+msgid "Colors"
+msgstr ""
+
+#: widgets/advanced-search.php:109
+#: widgets/advanced-search.php:185
+#: widgets/blog-list.php:460
+#: widgets/property_page_agent_card.php:373
+#: widgets/recent-items_card_v1.php:1041
+#: widgets/recent-items_card_v1.php:1110
+#: widgets/recent-items_card_v2.php:951
+#: widgets/recent-items_card_v2.php:1018
+#: widgets/recent-items_card_v3.php:952
+#: widgets/recent-items_card_v3.php:1019
+#: widgets/recent-items_card_v4.php:957
+#: widgets/recent-items_card_v4.php:1024
+#: widgets/recent-items_card_v5.php:839
+#: widgets/recent-items_card_v5.php:908
+#: widgets/recent-items_card_v6.php:762
+#: widgets/recent-items_card_v6.php:831
+#: widgets/recent-items_card_v7.php:882
+#: widgets/recent-items_card_v7.php:951
+#: widgets/search_form_builder.php:625
+#: widgets/single-property-widgets/property-page-address-section.php:291
+#: widgets/single-property-widgets/property-page-addto-favorite.php:121
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:420
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:282
+#: widgets/single-property-widgets/property-page-calculator-section.php:271
+#: widgets/single-property-widgets/property-page-content.php:120
+#: widgets/single-property-widgets/property-page-description-section.php:269
+#: widgets/single-property-widgets/property-page-details-section.php:291
+#: widgets/single-property-widgets/property-page-excerpt.php:120
+#: widgets/single-property-widgets/property-page-features-section.php:291
+#: widgets/single-property-widgets/property-page-floorplans-section.php:274
+#: widgets/single-property-widgets/property-page-map-section.php:280
+#: widgets/single-property-widgets/property-page-overview-section.php:455
+#: widgets/single-property-widgets/property-page-reviews-section.php:288
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:266
+#: widgets/single-property-widgets/property-page-statistics-section.php:265
+#: widgets/single-property-widgets/property-page-status.php:120
+#: widgets/single-property-widgets/property-page-subunits-section.php:295
+#: widgets/single-property-widgets/property-page-video-section.php:263
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:265
+#: widgets/single-property-widgets/property-page-walkscore-section.php:271
+#: widgets/single-property-widgets/property-page-yelp-section.php:271
+#: widgets/single-property-widgets/property_classic_slider.php:127
+#: widgets/single-property-widgets/property_horizontal_slider.php:128
+#: widgets/single-property-widgets/property_page_accordion_details.php:379
+#: widgets/single-property-widgets/property_page_agent_card.php:344
+#: widgets/single-property-widgets/property_page_agent_contact.php:216
+#: widgets/single-property-widgets/property_page_schedule_tour.php:190
+#: widgets/single-property-widgets/property_vertical_slider.php:128
+#: widgets/sliding-box.php:209
+msgid "Background Color"
+msgstr ""
+
+#: widgets/advanced-search.php:122
+#: widgets/sliding-box.php:240
+msgid "Font Color"
+msgstr ""
+
+#: widgets/advanced-search.php:152
+#: widgets/blog-list.php:387
+#: widgets/filter_list_properties_v1.php:758
+#: widgets/filter_list_properties_v2.php:723
+#: widgets/filter_list_properties_v3.php:734
+#: widgets/filter_list_properties_v4.php:709
+#: widgets/filter_list_properties_v5.php:653
+#: widgets/filter_list_properties_v7.php:674
+#: widgets/recent-items-slider_v1.php:754
+#: widgets/recent-items-slider_v2.php:716
+#: widgets/recent-items-slider_v3.php:726
+#: widgets/recent-items-slider_v4.php:722
+#: widgets/recent-items-slider_v5.php:662
+#: widgets/recent-items-slider_v7.php:689
+#: widgets/recent-items_card_v1.php:846
+#: widgets/recent-items_card_v2.php:807
+#: widgets/recent-items_card_v3.php:818
+#: widgets/recent-items_card_v4.php:794
+#: widgets/recent-items_card_v5.php:739
+#: widgets/recent-items_card_v7.php:761
+msgid "Border"
+msgstr ""
+
+#: widgets/advanced-search.php:178
+msgid "Search Button"
+msgstr ""
+
+#: widgets/advanced-search.php:196
+#: widgets/blog-list.php:470
+#: widgets/hotspot.php:424
+#: widgets/recent-items_card_v1.php:1052
+#: widgets/recent-items_card_v1.php:1121
+#: widgets/recent-items_card_v2.php:962
+#: widgets/recent-items_card_v2.php:1029
+#: widgets/recent-items_card_v3.php:963
+#: widgets/recent-items_card_v3.php:1030
+#: widgets/recent-items_card_v4.php:968
+#: widgets/recent-items_card_v4.php:1035
+#: widgets/recent-items_card_v5.php:850
+#: widgets/recent-items_card_v5.php:919
+#: widgets/recent-items_card_v6.php:773
+#: widgets/recent-items_card_v6.php:842
+#: widgets/recent-items_card_v7.php:893
+#: widgets/recent-items_card_v7.php:962
+#: widgets/single-property-widgets/property-page-address.php:109
+#: widgets/single-property-widgets/property-page-addto-favorite.php:109
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:162
+#: widgets/single-property-widgets/property-page-content.php:109
+#: widgets/single-property-widgets/property-page-excerpt.php:109
+#: widgets/single-property-widgets/property-page-price-info.php:116
+#: widgets/single-property-widgets/property-page-price.php:116
+#: widgets/single-property-widgets/property-page-status.php:109
+#: widgets/single-property-widgets/property-page-title.php:162
+msgid "Color"
+msgstr ""
+
+#: widgets/advanced-search.php:209
+#: widgets/blog-list.php:481
+#: widgets/recent-items_card_v1.php:1065
+#: widgets/recent-items_card_v1.php:1134
+#: widgets/recent-items_card_v2.php:975
+#: widgets/recent-items_card_v2.php:1042
+#: widgets/recent-items_card_v3.php:976
+#: widgets/recent-items_card_v3.php:1043
+#: widgets/recent-items_card_v4.php:981
+#: widgets/recent-items_card_v4.php:1048
+#: widgets/recent-items_card_v5.php:863
+#: widgets/recent-items_card_v5.php:932
+#: widgets/recent-items_card_v6.php:786
+#: widgets/recent-items_card_v6.php:855
+#: widgets/recent-items_card_v7.php:906
+#: widgets/recent-items_card_v7.php:975
+msgid "Background Color Hover"
+msgstr ""
+
+#: widgets/advanced-search.php:220
+#: widgets/blog-list.php:491
+#: widgets/recent-items_card_v1.php:1076
+#: widgets/recent-items_card_v1.php:1146
+#: widgets/recent-items_card_v2.php:986
+#: widgets/recent-items_card_v2.php:1054
+#: widgets/recent-items_card_v3.php:987
+#: widgets/recent-items_card_v3.php:1055
+#: widgets/recent-items_card_v4.php:992
+#: widgets/recent-items_card_v4.php:1060
+#: widgets/recent-items_card_v5.php:874
+#: widgets/recent-items_card_v5.php:944
+#: widgets/recent-items_card_v6.php:797
+#: widgets/recent-items_card_v6.php:867
+#: widgets/recent-items_card_v7.php:917
+#: widgets/recent-items_card_v7.php:987
+msgid "Color Hover"
+msgstr ""
+
+#: widgets/advanced-search.php:249
+#: widgets/advanced-search.php:257
+#: widgets/blog-list.php:344
+#: widgets/blog-list.php:351
+#: widgets/display_categories.php:536
+#: widgets/display_categories.php:543
+#: widgets/display_categories_as_tabs.php:587
+#: widgets/display_categories_as_tabs.php:594
+#: widgets/filter_list_properties_v1.php:712
+#: widgets/filter_list_properties_v1.php:720
+#: widgets/filter_list_properties_v2.php:677
+#: widgets/filter_list_properties_v2.php:685
+#: widgets/filter_list_properties_v3.php:688
+#: widgets/filter_list_properties_v3.php:696
+#: widgets/filter_list_properties_v4.php:663
+#: widgets/filter_list_properties_v4.php:671
+#: widgets/filter_list_properties_v5.php:607
+#: widgets/filter_list_properties_v5.php:615
+#: widgets/filter_list_properties_v6.php:564
+#: widgets/filter_list_properties_v6.php:572
+#: widgets/filter_list_properties_v7.php:628
+#: widgets/filter_list_properties_v7.php:636
+#: widgets/properties_slider_v2.php:440
+#: widgets/properties_slider_v2.php:448
+#: widgets/properties_slider_v3.php:506
+#: widgets/properties_slider_v3.php:514
+#: widgets/property_page_agent_card.php:229
+#: widgets/property_page_agent_card.php:237
+#: widgets/property_page_agent_contact.php:120
+#: widgets/property_page_agent_contact.php:128
+#: widgets/recent-items-slider_v1.php:713
+#: widgets/recent-items-slider_v1.php:720
+#: widgets/recent-items-slider_v2.php:675
+#: widgets/recent-items-slider_v2.php:682
+#: widgets/recent-items-slider_v3.php:685
+#: widgets/recent-items-slider_v3.php:692
+#: widgets/recent-items-slider_v4.php:681
+#: widgets/recent-items-slider_v4.php:688
+#: widgets/recent-items-slider_v5.php:621
+#: widgets/recent-items-slider_v5.php:628
+#: widgets/recent-items-slider_v6.php:585
+#: widgets/recent-items-slider_v6.php:592
+#: widgets/recent-items-slider_v7.php:648
+#: widgets/recent-items-slider_v7.php:655
+#: widgets/recent-items_card_v1.php:800
+#: widgets/recent-items_card_v1.php:808
+#: widgets/recent-items_card_v2.php:761
+#: widgets/recent-items_card_v2.php:769
+#: widgets/recent-items_card_v3.php:772
+#: widgets/recent-items_card_v3.php:780
+#: widgets/recent-items_card_v4.php:748
+#: widgets/recent-items_card_v4.php:756
+#: widgets/recent-items_card_v5.php:693
+#: widgets/recent-items_card_v5.php:701
+#: widgets/recent-items_card_v6.php:643
+#: widgets/recent-items_card_v6.php:651
+#: widgets/recent-items_card_v7.php:715
+#: widgets/recent-items_card_v7.php:723
+#: widgets/search_form_builder.php:699
+#: widgets/search_form_builder.php:706
+#: widgets/single-property-widgets/property-page-address-section.php:158
+#: widgets/single-property-widgets/property-page-address-section.php:165
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:211
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:218
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:157
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:164
+#: widgets/single-property-widgets/property-page-calculator-section.php:138
+#: widgets/single-property-widgets/property-page-calculator-section.php:145
+#: widgets/single-property-widgets/property-page-description-section.php:136
+#: widgets/single-property-widgets/property-page-description-section.php:143
+#: widgets/single-property-widgets/property-page-details-section.php:158
+#: widgets/single-property-widgets/property-page-details-section.php:165
+#: widgets/single-property-widgets/property-page-features-section.php:158
+#: widgets/single-property-widgets/property-page-features-section.php:165
+#: widgets/single-property-widgets/property-page-floorplans-section.php:138
+#: widgets/single-property-widgets/property-page-floorplans-section.php:145
+#: widgets/single-property-widgets/property-page-map-section.php:154
+#: widgets/single-property-widgets/property-page-map-section.php:161
+#: widgets/single-property-widgets/property-page-overview-section.php:321
+#: widgets/single-property-widgets/property-page-overview-section.php:328
+#: widgets/single-property-widgets/property-page-reviews-section.php:137
+#: widgets/single-property-widgets/property-page-reviews-section.php:144
+#: widgets/single-property-widgets/property-page-statistics-section.php:139
+#: widgets/single-property-widgets/property-page-statistics-section.php:146
+#: widgets/single-property-widgets/property-page-subunits-section.php:146
+#: widgets/single-property-widgets/property-page-subunits-section.php:153
+#: widgets/single-property-widgets/property-page-video-section.php:138
+#: widgets/single-property-widgets/property-page-video-section.php:145
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:139
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:146
+#: widgets/single-property-widgets/property-page-walkscore-section.php:138
+#: widgets/single-property-widgets/property-page-walkscore-section.php:145
+#: widgets/single-property-widgets/property-page-yelp-section.php:138
+#: widgets/single-property-widgets/property-page-yelp-section.php:145
+#: widgets/single-property-widgets/property_page_accordion_details.php:235
+#: widgets/single-property-widgets/property_page_accordion_details.php:243
+#: widgets/single-property-widgets/property_page_agent_card.php:210
+#: widgets/single-property-widgets/property_page_agent_card.php:218
+#: widgets/single-property-widgets/property_page_agent_contact.php:119
+#: widgets/single-property-widgets/property_page_agent_contact.php:127
+#: widgets/single-property-widgets/property_page_schedule_tour.php:114
+#: widgets/single-property-widgets/property_page_schedule_tour.php:122
+#: widgets/single-property-widgets/propert_page_other_agents.php:264
+#: widgets/single-property-widgets/propert_page_other_agents.php:272
+#: widgets/sliding-box.php:366
+#: widgets/sliding-box.php:373
+#: widgets/testimonial_slider.php:403
+#: widgets/testimonial_slider.php:410
+#: widgets/video_player.php:324
+#: widgets/video_player.php:332
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/blog-list.php:44
+msgid "WpResidence Blog Post List"
+msgstr ""
+
+#: widgets/blog-list.php:125
+#: widgets/contact_us.php:101
+#: widgets/display_categories.php:110
+#: widgets/display_categories_as_tabs.php:105
+#: widgets/favorites-list.php:133
+#: widgets/featured-agency-developer.php:136
+#: widgets/featured-agent.php:110
+#: widgets/featured-article.php:102
+#: widgets/featured-property.php:93
+#: widgets/filter_list_properties.php:140
+#: widgets/filter_list_properties_v1.php:143
+#: widgets/filter_list_properties_v2.php:143
+#: widgets/filter_list_properties_v3.php:143
+#: widgets/filter_list_properties_v4.php:143
+#: widgets/filter_list_properties_v5.php:143
+#: widgets/filter_list_properties_v6.php:143
+#: widgets/filter_list_properties_v7.php:143
+#: widgets/full_map.php:126
+#: widgets/google_map_property.php:136
+#: widgets/hello-world.php:97
+#: widgets/list-agents.php:135
+#: widgets/list-items-agent.php:107
+#: widgets/list-items-by-id.php:95
+#: widgets/login-form.php:100
+#: widgets/membership-package.php:108
+#: widgets/places-slider.php:119
+#: widgets/properties_slider.php:109
+#: widgets/property_page_accordion_details.php:100
+#: widgets/property_page_agent_card.php:107
+#: widgets/property_page_agent_contact.php:107
+#: widgets/property_page_agent_details_intext_details.php:100
+#: widgets/property_page_design_gallery.php:100
+#: widgets/property_page_intext_details.php:100
+#: widgets/property_page_related_listings.php:100
+#: widgets/property_page_simple_detail.php:100
+#: widgets/property_page_simple_detail_section.php:100
+#: widgets/property_page_slider_section.php:100
+#: widgets/property_page_tab_details.php:100
+#: widgets/propert_page_image_gallery_masonry.php:100
+#: widgets/propert_page_other_agents.php:100
+#: widgets/recent-items-slider.php:140
+#: widgets/recent-items-slider_v1.php:129
+#: widgets/recent-items-slider_v2.php:129
+#: widgets/recent-items-slider_v3.php:129
+#: widgets/recent-items-slider_v4.php:129
+#: widgets/recent-items-slider_v5.php:129
+#: widgets/recent-items-slider_v6.php:129
+#: widgets/recent-items-slider_v7.php:129
+#: widgets/recent-items.php:139
+#: widgets/recent-items_card_v1.php:142
+#: widgets/recent-items_card_v2.php:142
+#: widgets/recent-items_card_v3.php:142
+#: widgets/recent-items_card_v4.php:142
+#: widgets/recent-items_card_v5.php:142
+#: widgets/recent-items_card_v6.php:142
+#: widgets/recent-items_card_v7.php:142
+#: widgets/recent-properties-top-bar.php:238
+#: widgets/single-property-widgets/property-page-address-section.php:261
+#: widgets/single-property-widgets/property-page-calculator-section.php:241
+#: widgets/single-property-widgets/property-page-description-section.php:239
+#: widgets/single-property-widgets/property-page-details-section.php:261
+#: widgets/single-property-widgets/property-page-features-section.php:261
+#: widgets/single-property-widgets/property-page-floorplans-section.php:244
+#: widgets/single-property-widgets/property-page-overview-section.php:189
+#: widgets/single-property-widgets/property-page-walkscore-section.php:241
+#: widgets/single-property-widgets/property-page-yelp-section.php:241
+#: widgets/single-property-widgets/property_page_accordion_details.php:108
+#: widgets/single-property-widgets/property_page_accordion_details.php:347
+#: widgets/single-property-widgets/property_page_agent_card.php:107
+#: widgets/single-property-widgets/property_page_agent_contact.php:107
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:107
+#: widgets/single-property-widgets/property_page_design_gallery.php:100
+#: widgets/single-property-widgets/property_page_intext_details.php:107
+#: widgets/single-property-widgets/property_page_related_listings.php:100
+#: widgets/single-property-widgets/property_page_schedule_tour.php:102
+#: widgets/single-property-widgets/property_page_simple_detail.php:107
+#: widgets/single-property-widgets/property_page_simple_detail_section.php:100
+#: widgets/single-property-widgets/property_page_slider_section.php:100
+#: widgets/single-property-widgets/property_page_tab_details.php:108
+#: widgets/single-property-widgets/propert_page_image_gallery_masonry.php:100
+#: widgets/single-property-widgets/propert_page_other_agents.php:107
+#: widgets/sliding-box.php:140
+#: widgets/sliding-box.php:317
+#: widgets/taxonomy_list.php:112
+#: widgets/testimonial.php:107
+#: widgets/testimonial_slider.php:75
+#: widgets/wpresidence-agent-grids.php:100
+#: widgets/wpresidence-grids.php:106
+msgid "Content"
+msgstr ""
+
+#: widgets/blog-list.php:131
+#: widgets/favorites-list.php:140
+#: widgets/filter_list_properties_v4.php:721
+#: widgets/hello-world.php:104
+#: widgets/list-agents.php:142
+#: widgets/list-items-by-id.php:102
+#: widgets/recent-items-slider.php:147
+#: widgets/recent-items-slider_v1.php:135
+#: widgets/recent-items-slider_v2.php:135
+#: widgets/recent-items-slider_v3.php:135
+#: widgets/recent-items-slider_v4.php:135
+#: widgets/recent-items-slider_v4.php:733
+#: widgets/recent-items-slider_v5.php:135
+#: widgets/recent-items-slider_v6.php:135
+#: widgets/recent-items-slider_v7.php:135
+#: widgets/recent-items.php:146
+#: widgets/recent-items_card_v1.php:149
+#: widgets/recent-items_card_v2.php:149
+#: widgets/recent-items_card_v3.php:149
+#: widgets/recent-items_card_v4.php:149
+#: widgets/recent-items_card_v4.php:806
+#: widgets/recent-items_card_v5.php:149
+#: widgets/recent-items_card_v6.php:149
+#: widgets/recent-items_card_v7.php:149
+#: widgets/recent-properties-top-bar.php:246
+#: widgets/sliding-box.php:104
+#: widgets/sliding-box.php:297
+msgid "Title"
+msgstr ""
+
+#: widgets/blog-list.php:141
+msgid "Select Post Categories"
+msgstr ""
+
+#: widgets/blog-list.php:152
+#: widgets/favorites-list.php:153
+#: widgets/filter_list_properties.php:207
+#: widgets/filter_list_properties_v1.php:210
+#: widgets/filter_list_properties_v2.php:210
+#: widgets/filter_list_properties_v3.php:210
+#: widgets/filter_list_properties_v4.php:210
+#: widgets/filter_list_properties_v5.php:210
+#: widgets/filter_list_properties_v6.php:210
+#: widgets/filter_list_properties_v7.php:210
+#: widgets/list-agents.php:198
+#: widgets/list-items-by-id.php:132
+#: widgets/recent-items-slider.php:177
+#: widgets/recent-items-slider_v1.php:154
+#: widgets/recent-items-slider_v2.php:153
+#: widgets/recent-items-slider_v3.php:153
+#: widgets/recent-items-slider_v4.php:154
+#: widgets/recent-items-slider_v5.php:152
+#: widgets/recent-items-slider_v6.php:154
+#: widgets/recent-items-slider_v7.php:154
+#: widgets/recent-items.php:178
+#: widgets/recent-items_card_v1.php:172
+#: widgets/recent-items_card_v2.php:171
+#: widgets/recent-items_card_v3.php:172
+#: widgets/recent-items_card_v4.php:172
+#: widgets/recent-items_card_v5.php:172
+#: widgets/recent-items_card_v6.php:172
+#: widgets/recent-items_card_v7.php:173
+#: widgets/recent-properties-top-bar.php:258
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:130
+#: widgets/single-property-widgets/property_three_items_slider.php:100
+msgid "No of items"
+msgstr ""
+
+#: widgets/blog-list.php:160
+msgid "No of items per row(except card type 1)"
+msgstr ""
+
+#: widgets/blog-list.php:174
+#: widgets/filter_list_properties.php:247
+#: widgets/filter_list_properties_v1.php:251
+#: widgets/filter_list_properties_v2.php:250
+#: widgets/filter_list_properties_v3.php:251
+#: widgets/filter_list_properties_v4.php:249
+#: widgets/filter_list_properties_v5.php:251
+#: widgets/filter_list_properties_v6.php:251
+#: widgets/filter_list_properties_v7.php:249
+#: widgets/recent-items-slider.php:208
+#: widgets/recent-items-slider_v1.php:181
+#: widgets/recent-items-slider_v2.php:179
+#: widgets/recent-items-slider_v3.php:180
+#: widgets/recent-items-slider_v4.php:181
+#: widgets/recent-items-slider_v5.php:179
+#: widgets/recent-items-slider_v6.php:181
+#: widgets/recent-items-slider_v7.php:181
+#: widgets/recent-items.php:218
+#: widgets/recent-items_card_v1.php:212
+#: widgets/recent-items_card_v2.php:210
+#: widgets/recent-items_card_v3.php:211
+#: widgets/recent-items_card_v4.php:211
+#: widgets/recent-items_card_v5.php:212
+#: widgets/recent-items_card_v6.php:211
+#: widgets/recent-items_card_v7.php:212
+#: widgets/recent-properties-top-bar.php:298
+msgid "Sort By ?"
+msgstr ""
+
+#: widgets/blog-list.php:183
+msgid "Card Type ?"
+msgstr ""
+
+#: widgets/blog-list.php:203
+#: widgets/filter_list_properties_v1.php:458
+#: widgets/filter_list_properties_v2.php:460
+#: widgets/filter_list_properties_v3.php:448
+#: widgets/filter_list_properties_v4.php:461
+#: widgets/filter_list_properties_v5.php:447
+#: widgets/filter_list_properties_v6.php:378
+#: widgets/filter_list_properties_v7.php:429
+#: widgets/hotspot.php:495
+#: widgets/hotspot.php:595
+#: widgets/places-slider.php:233
+#: widgets/property_page_agent_card.php:321
+#: widgets/property_page_agent_contact.php:181
+#: widgets/recent-items-slider_v1.php:474
+#: widgets/recent-items-slider_v2.php:471
+#: widgets/recent-items-slider_v3.php:458
+#: widgets/recent-items-slider_v4.php:490
+#: widgets/recent-items-slider_v5.php:471
+#: widgets/recent-items-slider_v6.php:409
+#: widgets/recent-items-slider_v7.php:461
+#: widgets/recent-items_card_v1.php:546
+#: widgets/recent-items_card_v2.php:544
+#: widgets/recent-items_card_v3.php:532
+#: widgets/recent-items_card_v4.php:546
+#: widgets/recent-items_card_v5.php:533
+#: widgets/recent-items_card_v6.php:457
+#: widgets/recent-items_card_v7.php:516
+#: widgets/single-property-widgets/property-page-address-section.php:244
+#: widgets/single-property-widgets/property-page-addto-favorite.php:98
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:356
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:243
+#: widgets/single-property-widgets/property-page-calculator-section.php:224
+#: widgets/single-property-widgets/property-page-description-section.php:222
+#: widgets/single-property-widgets/property-page-details-section.php:244
+#: widgets/single-property-widgets/property-page-features-section.php:244
+#: widgets/single-property-widgets/property-page-floorplans-section.php:224
+#: widgets/single-property-widgets/property-page-header-section.php:197
+#: widgets/single-property-widgets/property-page-map-section.php:242
+#: widgets/single-property-widgets/property-page-overview-section.php:407
+#: widgets/single-property-widgets/property-page-reviews-section.php:223
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:226
+#: widgets/single-property-widgets/property-page-statistics-section.php:225
+#: widgets/single-property-widgets/property-page-subunits-section.php:232
+#: widgets/single-property-widgets/property-page-video-section.php:224
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:225
+#: widgets/single-property-widgets/property-page-walkscore-section.php:224
+#: widgets/single-property-widgets/property-page-yelp-section.php:224
+#: widgets/single-property-widgets/property_page_accordion_details.php:328
+#: widgets/single-property-widgets/property_page_agent_card.php:302
+#: widgets/single-property-widgets/property_page_agent_contact.php:183
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:159
+#: widgets/single-property-widgets/property_page_intext_details.php:203
+#: widgets/single-property-widgets/property_page_simple_detail.php:197
+#: widgets/single-property-widgets/property_page_tab_details.php:213
+#: widgets/single-property-widgets/propert_page_other_agents.php:290
+#: widgets/sliding-box.php:290
+msgid "Typography"
+msgstr ""
+
+#: widgets/blog-list.php:211
+msgid "Post Title"
+msgstr ""
+
+#: widgets/blog-list.php:220
+msgid "Excerpt"
+msgstr ""
+
+#: widgets/blog-list.php:229
+msgid "Post Date & Meta"
+msgstr ""
+
+#: widgets/blog-list.php:237
+msgid "Post Date & Meta Icon size"
+msgstr ""
+
+#: widgets/blog-list.php:267
+msgid "Continue Reading"
+msgstr ""
+
+#: widgets/blog-list.php:286
+msgid "Margins"
+msgstr ""
+
+#: widgets/blog-list.php:327
+msgid "Unit Border Radius"
+msgstr ""
+
+#: widgets/blog-list.php:376
+#: widgets/filter_list_properties_v1.php:745
+#: widgets/filter_list_properties_v2.php:710
+#: widgets/filter_list_properties_v3.php:721
+#: widgets/filter_list_properties_v4.php:696
+#: widgets/filter_list_properties_v5.php:640
+#: widgets/filter_list_properties_v7.php:661
+#: widgets/recent-items-slider_v1.php:743
+#: widgets/recent-items-slider_v2.php:705
+#: widgets/recent-items-slider_v3.php:715
+#: widgets/recent-items-slider_v4.php:711
+#: widgets/recent-items-slider_v5.php:651
+#: widgets/recent-items-slider_v7.php:678
+#: widgets/recent-items_card_v1.php:833
+#: widgets/recent-items_card_v2.php:794
+#: widgets/recent-items_card_v3.php:805
+#: widgets/recent-items_card_v4.php:781
+#: widgets/recent-items_card_v5.php:726
+#: widgets/recent-items_card_v7.php:748
+msgid "Unit Background"
+msgstr ""
+
+#: widgets/blog-list.php:398
+#: widgets/display_categories.php:450
+#: widgets/filter_list_properties_v1.php:807
+#: widgets/filter_list_properties_v2.php:784
+#: widgets/filter_list_properties_v3.php:796
+#: widgets/filter_list_properties_v5.php:704
+#: widgets/filter_list_properties_v6.php:612
+#: widgets/filter_list_properties_v7.php:723
+#: widgets/places-slider.php:368
+#: widgets/recent-items-slider_v1.php:799
+#: widgets/recent-items-slider_v2.php:771
+#: widgets/recent-items-slider_v3.php:783
+#: widgets/recent-items-slider_v5.php:709
+#: widgets/recent-items-slider_v6.php:629
+#: widgets/recent-items-slider_v7.php:734
+#: widgets/recent-items_card_v1.php:895
+#: widgets/recent-items_card_v2.php:868
+#: widgets/recent-items_card_v3.php:880
+#: widgets/recent-items_card_v5.php:790
+#: widgets/recent-items_card_v6.php:691
+#: widgets/recent-items_card_v7.php:810
+#: widgets/sliding-box.php:224
+#: widgets/testimonial_slider.php:251
+#: widgets/wpresidence-agent-grids.php:377
+#: widgets/wpresidence-grids.php:534
+msgid "Title Color"
+msgstr ""
+
+#: widgets/blog-list.php:409
+msgid "Excerpt Color"
+msgstr ""
+
+#: widgets/blog-list.php:420
+msgid "Date or Meta Color"
+msgstr ""
+
+#: widgets/blog-list.php:432
+msgid "Continue Reading Color"
+msgstr ""
+
+#: widgets/blog-list.php:454
+#: widgets/recent-items_card_v1.php:1034
+#: widgets/recent-items_card_v2.php:944
+#: widgets/recent-items_card_v3.php:945
+#: widgets/recent-items_card_v4.php:950
+#: widgets/recent-items_card_v5.php:832
+#: widgets/recent-items_card_v6.php:755
+#: widgets/recent-items_card_v7.php:875
+msgid "Load More Button"
+msgstr ""
+
+#: widgets/contact_form_builder.php:47
+msgid "Contact Form Builder"
+msgstr ""
+
+#: widgets/contact_form_builder.php:72
+msgid "Full Name"
+msgstr ""
+
+#: widgets/contact_form_builder.php:73
+msgid "First Name"
+msgstr ""
+
+#: widgets/contact_form_builder.php:74
+msgid "Last Name"
+msgstr ""
+
+#: widgets/contact_form_builder.php:75
+#: widgets/contact_form_builder.php:211
+#: widgets/contact_form_builder.php:212
+msgid "Email"
+msgstr ""
+
+#: widgets/contact_form_builder.php:76
+msgid "Mobile"
+msgstr ""
+
+#: widgets/contact_form_builder.php:77
+msgid "Phone"
+msgstr ""
+
+#: widgets/contact_form_builder.php:78
+#: widgets/filter_list_properties_v1.php:477
+#: widgets/filter_list_properties_v2.php:479
+#: widgets/recent-items-slider_v1.php:491
+#: widgets/recent-items-slider_v2.php:488
+#: widgets/recent-items_card_v1.php:565
+#: widgets/recent-items_card_v2.php:563
+msgid "Address"
+msgstr ""
+
+#: widgets/contact_form_builder.php:79
+#: widgets/contact_form_builder.php:218
+#: widgets/contact_form_builder.php:219
+msgid "Message"
+msgstr ""
+
+#: widgets/contact_form_builder.php:80
+msgid "Country"
+msgstr ""
+
+#: widgets/contact_form_builder.php:81
+#: widgets/search_form_builder.php:105
+msgid "City"
+msgstr ""
+
+#: widgets/contact_form_builder.php:82
+msgid "State"
+msgstr ""
+
+#: widgets/contact_form_builder.php:83
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: widgets/contact_form_builder.php:91
+#: widgets/contact_form_builder.php:189
+#: widgets/display_categories_as_tabs.php:115
+#: widgets/search_form_builder.php:260
+#: widgets/search_form_builder.php:356
+msgid "Form Fields"
+msgstr ""
+
+#: widgets/contact_form_builder.php:100
+#: widgets/display_categories_as_tabs.php:125
+#: widgets/recent-properties-top-bar.php:192
+#: widgets/search_form_builder.php:285
+msgid "Form Fields Label"
+msgstr ""
+
+#: widgets/contact_form_builder.php:108
+#: widgets/search_form_builder.php:293
+msgid "Form Fields Placeholder"
+msgstr ""
+
+#: widgets/contact_form_builder.php:126
+msgid "Required"
+msgstr ""
+
+#: widgets/contact_form_builder.php:147
+#: widgets/search_form_builder.php:324
+msgid "Column Width"
+msgstr ""
+
+#: widgets/contact_form_builder.php:150
+#: widgets/contact_form_builder.php:327
+#: widgets/search_form_builder.php:327
+#: widgets/search_form_builder.php:471
+msgid "Default"
+msgstr ""
+
+#: widgets/contact_form_builder.php:168
+msgid "Rows"
+msgstr ""
+
+#: widgets/contact_form_builder.php:203
+#: widgets/contact_form_builder.php:204
+#: widgets/wpresidence-grids.php:219
+msgid "Name"
+msgstr ""
+
+#: widgets/contact_form_builder.php:229
+msgid "Input Size"
+msgstr ""
+
+#: widgets/contact_form_builder.php:232
+#: widgets/contact_form_builder.php:313
+msgid "Extra Small"
+msgstr ""
+
+#: widgets/contact_form_builder.php:233
+#: widgets/contact_form_builder.php:314
+msgid "Small"
+msgstr ""
+
+#: widgets/contact_form_builder.php:234
+#: widgets/contact_form_builder.php:315
+msgid "Medium"
+msgstr ""
+
+#: widgets/contact_form_builder.php:235
+#: widgets/contact_form_builder.php:316
+msgid "Large"
+msgstr ""
+
+#: widgets/contact_form_builder.php:236
+#: widgets/contact_form_builder.php:317
+msgid "Extra Large"
+msgstr ""
+
+#: widgets/contact_form_builder.php:245
+msgid "Labels"
+msgstr ""
+
+#: widgets/contact_form_builder.php:247
+#: widgets/contact_form_builder.php:262
+#: widgets/search_form_builder.php:392
+#: widgets/search_form_builder.php:404
+#: widgets/search_form_builder.php:418
+msgid "Show"
+msgstr ""
+
+#: widgets/contact_form_builder.php:248
+#: widgets/contact_form_builder.php:263
+#: widgets/search_form_builder.php:393
+#: widgets/search_form_builder.php:405
+#: widgets/search_form_builder.php:419
+msgid "Hide"
+msgstr ""
+
+#: widgets/contact_form_builder.php:260
+msgid "GDPR Agreement"
+msgstr ""
+
+#: widgets/contact_form_builder.php:273
+msgid "GDPR Agreement Text"
+msgstr ""
+
+#: widgets/contact_form_builder.php:275
+msgid "I consent to the GDPR Terms"
+msgstr ""
+
+#: widgets/contact_form_builder.php:294
+#: widgets/search_form_builder.php:451
+msgid "Submit Button"
+msgstr ""
+
+#: widgets/contact_form_builder.php:300
+#: widgets/search_form_builder.php:457
+msgid "Text"
+msgstr ""
+
+#: widgets/contact_form_builder.php:302
+#: widgets/contact_form_builder.php:303
+msgid "Send Email"
+msgstr ""
+
+#: widgets/contact_form_builder.php:309
+msgid "Submit Button Size"
+msgstr ""
+
+#: widgets/contact_form_builder.php:324
+#: widgets/search_form_builder.php:468
+msgid "Submit Button Width"
+msgstr ""
+
+#: widgets/contact_form_builder.php:346
+msgid "Button Alignment"
+msgstr ""
+
+#: widgets/contact_form_builder.php:350
+#: widgets/display_categories_as_tabs.php:211
+#: widgets/properties_slider_v2.php:250
+#: widgets/recent-properties-top-bar.php:433
+#: widgets/search_form_builder.php:737
+msgid "Left"
+msgstr ""
+
+#: widgets/contact_form_builder.php:354
+#: widgets/display_categories_as_tabs.php:215
+#: widgets/recent-properties-top-bar.php:437
+#: widgets/search_form_builder.php:741
+msgid "Center"
+msgstr ""
+
+#: widgets/contact_form_builder.php:358
+#: widgets/display_categories_as_tabs.php:219
+#: widgets/recent-properties-top-bar.php:441
+#: widgets/search_form_builder.php:745
+msgid "Right"
+msgstr ""
+
+#: widgets/contact_form_builder.php:362
+msgid "Justified"
+msgstr ""
+
+#: widgets/contact_form_builder.php:373
+msgid "Button ID"
+msgstr ""
+
+#: widgets/contact_form_builder.php:377
+msgid "Use a unique name without spaces or special characters"
+msgstr ""
+
+#: widgets/contact_form_builder.php:397
+msgid "Email Settings"
+msgstr ""
+
+#: widgets/contact_form_builder.php:403
+msgid "Email To(leave blank and will use company email)"
+msgstr ""
+
+#: widgets/contact_form_builder.php:408
+#: widgets/contact_form_builder.php:430
+#: widgets/contact_form_builder.php:440
+msgid "Multiple emails can be separated with commas"
+msgstr ""
+
+#: widgets/contact_form_builder.php:413
+msgid "New email from \"%s\" "
+msgstr ""
+
+#: widgets/contact_form_builder.php:416
+msgid "Email Subject"
+msgstr ""
+
+#: widgets/contact_form_builder.php:427
+msgid "Cc"
+msgstr ""
+
+#: widgets/contact_form_builder.php:437
+msgid "Bcc"
+msgstr ""
+
+#: widgets/contact_form_builder.php:449
+msgid "Form Name(used for internal saving)"
+msgstr ""
+
+#: widgets/contact_form_builder.php:468
+#: widgets/search_form_builder.php:513
+msgid "Form"
+msgstr ""
+
+#: widgets/contact_form_builder.php:475
+#: widgets/search_form_builder.php:520
+#: widgets/wpresidence-agent-grids.php:221
+#: widgets/wpresidence-grids.php:321
+msgid "Form Columns Gap"
+msgstr ""
+
+#: widgets/contact_form_builder.php:495
+#: widgets/search_form_builder.php:540
+#: widgets/wpresidence-agent-grids.php:240
+#: widgets/wpresidence-grids.php:341
+msgid "Rows Gap"
+msgstr ""
+
+#: widgets/contact_form_builder.php:515
+#: widgets/search_form_builder.php:560
+msgid "Form Label"
+msgstr ""
+
+#: widgets/contact_form_builder.php:523
+msgid "Form Label Spacing"
+msgstr ""
+
+#: widgets/contact_form_builder.php:544
+#: widgets/search_form_builder.php:591
+msgid "Label Text Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:580
+#: widgets/search_form_builder.php:1020
+msgid "Field Style"
+msgstr ""
+
+#: widgets/contact_form_builder.php:587
+#: widgets/search_form_builder.php:1027
+msgid "Field Text Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:609
+#: widgets/search_form_builder.php:1063
+msgid "Field Background Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:622
+#: widgets/contact_us.php:134
+#: widgets/properties_slider_v2.php:347
+#: widgets/recent-items-slider_v1.php:980
+#: widgets/recent-items-slider_v2.php:896
+#: widgets/recent-items-slider_v3.php:899
+#: widgets/recent-items-slider_v4.php:920
+#: widgets/recent-items-slider_v5.php:803
+#: widgets/recent-items-slider_v6.php:733
+#: widgets/recent-items-slider_v7.php:847
+#: widgets/search_form_builder.php:1115
+msgid "Border Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:636
+#: widgets/recent-items-slider_v1.php:992
+#: widgets/recent-items-slider_v2.php:908
+#: widgets/recent-items-slider_v3.php:911
+#: widgets/recent-items-slider_v4.php:932
+#: widgets/recent-items-slider_v5.php:815
+#: widgets/recent-items-slider_v6.php:745
+#: widgets/recent-items-slider_v7.php:859
+#: widgets/search_form_builder.php:1128
+#: widgets/video_player.php:265
+msgid "Border Width"
+msgstr ""
+
+#: widgets/contact_form_builder.php:649
+#: widgets/display_categories.php:256
+#: widgets/places-slider.php:209
+#: widgets/property_page_agent_card.php:300
+#: widgets/property_page_agent_contact.php:164
+#: widgets/recent-items-slider_v1.php:1005
+#: widgets/recent-items-slider_v2.php:921
+#: widgets/recent-items-slider_v3.php:924
+#: widgets/recent-items-slider_v4.php:945
+#: widgets/recent-items-slider_v5.php:828
+#: widgets/recent-items-slider_v6.php:758
+#: widgets/recent-items-slider_v7.php:872
+#: widgets/search_form_builder.php:1141
+#: widgets/single-property-widgets/property-page-address-section.php:224
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:336
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:223
+#: widgets/single-property-widgets/property-page-calculator-section.php:204
+#: widgets/single-property-widgets/property-page-description-section.php:202
+#: widgets/single-property-widgets/property-page-details-section.php:224
+#: widgets/single-property-widgets/property-page-features-section.php:224
+#: widgets/single-property-widgets/property-page-floorplans-section.php:204
+#: widgets/single-property-widgets/property-page-map-section.php:222
+#: widgets/single-property-widgets/property-page-overview-section.php:387
+#: widgets/single-property-widgets/property-page-reviews-section.php:203
+#: widgets/single-property-widgets/property-page-statistics-section.php:205
+#: widgets/single-property-widgets/property-page-subunits-section.php:212
+#: widgets/single-property-widgets/property-page-video-section.php:204
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:205
+#: widgets/single-property-widgets/property-page-walkscore-section.php:204
+#: widgets/single-property-widgets/property-page-yelp-section.php:204
+#: widgets/single-property-widgets/property_page_accordion_details.php:307
+#: widgets/single-property-widgets/property_page_agent_card.php:281
+#: widgets/single-property-widgets/property_page_agent_contact.php:162
+#: widgets/single-property-widgets/property_page_schedule_tour.php:155
+#: widgets/sliding-box.php:272
+#: widgets/video_player.php:277
+#: widgets/wpresidence-agent-grids.php:205
+#: widgets/wpresidence-grids.php:303
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/contact_form_builder.php:671
+msgid "GDPR"
+msgstr ""
+
+#: widgets/contact_form_builder.php:678
+#: widgets/property_page_agent_card.php:400
+#: widgets/single-property-widgets/property-page-address-section.php:312
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:443
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:305
+#: widgets/single-property-widgets/property-page-calculator-section.php:283
+#: widgets/single-property-widgets/property-page-description-section.php:291
+#: widgets/single-property-widgets/property-page-details-section.php:312
+#: widgets/single-property-widgets/property-page-features-section.php:313
+#: widgets/single-property-widgets/property-page-floorplans-section.php:299
+#: widgets/single-property-widgets/property-page-overview-section.php:475
+#: widgets/single-property-widgets/property-page-reviews-section.php:332
+#: widgets/single-property-widgets/property-page-walkscore-section.php:283
+#: widgets/single-property-widgets/property-page-yelp-section.php:293
+#: widgets/single-property-widgets/property_page_accordion_details.php:405
+#: widgets/single-property-widgets/property_page_agent_card.php:371
+#: widgets/single-property-widgets/property_page_agent_contact.php:243
+#: widgets/single-property-widgets/property_page_schedule_tour.php:214
+msgid "Text Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:712
+#: widgets/search_form_builder.php:1161
+msgid "Button"
+msgstr ""
+
+#: widgets/contact_form_builder.php:721
+#: widgets/search_form_builder.php:1184
+msgid "Normal State"
+msgstr ""
+
+#: widgets/contact_form_builder.php:727
+#: widgets/contact_form_builder.php:799
+#: widgets/search_form_builder.php:1190
+#: widgets/search_form_builder.php:1272
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:742
+#: widgets/contact_form_builder.php:810
+#: widgets/search_form_builder.php:1205
+#: widgets/search_form_builder.php:1283
+msgid "Submit Button Text Color"
+msgstr ""
+
+#: widgets/contact_form_builder.php:769
+#: widgets/search_form_builder.php:1242
+msgid "Submit Button Border Radius"
+msgstr ""
+
+#: widgets/contact_form_builder.php:780
+#: widgets/search_form_builder.php:1253
+msgid "Submit Button Text Padding"
+msgstr ""
+
+#: widgets/contact_form_builder.php:793
+#: widgets/search_form_builder.php:1266
+msgid "Hover State"
+msgstr ""
+
+#: widgets/contact_form_builder.php:821
+#: widgets/search_form_builder.php:1308
+msgid "Submit Button Border Color"
+msgstr ""
+
+#: widgets/contact_us.php:40
+msgid "WpResidence Contact Form"
+msgstr ""
+
+#: widgets/contact_us.php:108
+#: widgets/propert_page_image_gallery_masonry.php:111
+#: widgets/single-property-widgets/propert_page_image_gallery_masonry.php:111
+msgid "Text Align"
+msgstr ""
+
+#: widgets/contact_us.php:118
+msgid "Input Background Color"
+msgstr ""
+
+#: widgets/contact_us.php:126
+msgid "Input Text Color"
+msgstr ""
+
+#: widgets/contact_us.php:142
+msgid "Button Size"
+msgstr ""
+
+#: widgets/display_categories.php:47
+msgid "WpResidence Display Categories"
+msgstr ""
+
+#: widgets/display_categories.php:116
+#: widgets/places-slider.php:126
+msgid "Type Categories,Actions,Cities,Areas,Neighborhoods or County name you want to show"
+msgstr ""
+
+#: widgets/display_categories.php:126
+#: widgets/single-property-widgets/propert_page_other_agents.php:124
+msgid "Items per row"
+msgstr ""
+
+#: widgets/display_categories.php:136
+#: widgets/search_form_builder.php:103
+msgid "Type"
+msgstr ""
+
+#: widgets/display_categories.php:145
+msgid "Type 1 Alingmet"
+msgstr ""
+
+#: widgets/display_categories.php:157
+#: widgets/places-slider.php:148
+msgid "Extra Class Name"
+msgstr ""
+
+#: widgets/display_categories.php:175
+#: widgets/places-slider.php:168
+#: widgets/wpresidence-agent-grids.php:167
+#: widgets/wpresidence-grids.php:262
+msgid "Item Settings"
+msgstr ""
+
+#: widgets/display_categories.php:183
+#: widgets/places-slider.php:177
+#: widgets/single-property-widgets/property_full_width_slider.php:102
+#: widgets/single-property-widgets/property_masonary_gallery1.php:102
+#: widgets/single-property-widgets/property_masonary_gallery2.php:102
+#: widgets/single-property-widgets/property_three_items_slider.php:108
+#: widgets/single-property-widgets/propert_page_other_agents.php:227
+#: widgets/wpresidence-agent-grids.php:175
+#: widgets/wpresidence-grids.php:271
+msgid "Item Height"
+msgstr ""
+
+#: widgets/display_categories.php:219
+msgid "Item Size"
+msgstr ""
+
+#: widgets/display_categories.php:281
+#: widgets/hello-world.php:114
+#: widgets/properties_slider_v2.php:239
+#: widgets/properties_slider_v3.php:239
+#: widgets/sliding-box.php:189
+#: widgets/testimonial_slider.php:178
+#: widgets/video_player.php:159
+#: widgets/wpresidence-agent-grids.php:266
+#: widgets/wpresidence-grids.php:368
+msgid "Style"
+msgstr ""
+
+#: widgets/display_categories.php:289
+#: widgets/places-slider.php:242
+#: widgets/properties_slider_v2.php:260
+#: widgets/properties_slider_v3.php:249
+#: widgets/testimonial_slider.php:186
+#: widgets/wpresidence-agent-grids.php:274
+#: widgets/wpresidence-grids.php:377
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/display_categories.php:307
+#: widgets/wpresidence-grids.php:396
+msgid "Title Margin Bottom(px) - Design Type 2"
+msgstr ""
+
+#: widgets/display_categories.php:339
+#: widgets/wpresidence-grids.php:427
+msgid "Tagline Margin Bottom(px) - Design Type 2"
+msgstr ""
+
+#: widgets/display_categories.php:371
+msgid "Details Section Margin Bottom(px) - Design Type 2"
+msgstr ""
+
+#: widgets/display_categories.php:405
+#: widgets/wpresidence-grids.php:490
+msgid "Tagline Typography - Design Type 2"
+msgstr ""
+
+#: widgets/display_categories.php:430
+#: widgets/places-slider.php:347
+#: widgets/wpresidence-grids.php:513
+msgid "Listings Text Typography"
+msgstr ""
+
+#: widgets/display_categories.php:464
+#: widgets/wpresidence-grids.php:549
+msgid "Subtitle Color - Design Type2"
+msgstr ""
+
+#: widgets/display_categories.php:478
+#: widgets/places-slider.php:394
+#: widgets/wpresidence-grids.php:561
+msgid "Listings text Color"
+msgstr ""
+
+#: widgets/display_categories.php:491
+msgid "Listings Backgorund Color - Design Type2"
+msgstr ""
+
+#: widgets/display_categories.php:506
+#: widgets/wpresidence-grids.php:587
+msgid "Image Overlay Background Color"
+msgstr ""
+
+#: widgets/display_categories.php:517
+#: widgets/wpresidence-grids.php:600
+msgid "Image Overlay Background Color Hover"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:47
+msgid "WpResidence Display Categories As Tabs"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:155
+#: widgets/recent-properties-top-bar.php:221
+msgid "Categories"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:172
+msgid "Items per row (1, 2, 3, 4 or 6)"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:181
+msgid "Hide Terms with no listings"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:183
+#: widgets/display_categories_as_tabs.php:419
+#: widgets/filter_list_properties_v1.php:277
+#: widgets/filter_list_properties_v1.php:292
+#: widgets/filter_list_properties_v1.php:307
+#: widgets/filter_list_properties_v1.php:324
+#: widgets/filter_list_properties_v1.php:339
+#: widgets/filter_list_properties_v1.php:354
+#: widgets/filter_list_properties_v1.php:369
+#: widgets/filter_list_properties_v1.php:385
+#: widgets/filter_list_properties_v1.php:399
+#: widgets/filter_list_properties_v1.php:414
+#: widgets/filter_list_properties_v1.php:430
+#: widgets/filter_list_properties_v2.php:277
+#: widgets/filter_list_properties_v2.php:292
+#: widgets/filter_list_properties_v2.php:307
+#: widgets/filter_list_properties_v2.php:324
+#: widgets/filter_list_properties_v2.php:339
+#: widgets/filter_list_properties_v2.php:354
+#: widgets/filter_list_properties_v2.php:369
+#: widgets/filter_list_properties_v2.php:384
+#: widgets/filter_list_properties_v2.php:399
+#: widgets/filter_list_properties_v2.php:416
+#: widgets/filter_list_properties_v2.php:432
+#: widgets/filter_list_properties_v3.php:278
+#: widgets/filter_list_properties_v3.php:293
+#: widgets/filter_list_properties_v3.php:308
+#: widgets/filter_list_properties_v3.php:325
+#: widgets/filter_list_properties_v3.php:340
+#: widgets/filter_list_properties_v3.php:357
+#: widgets/filter_list_properties_v3.php:372
+#: widgets/filter_list_properties_v3.php:387
+#: widgets/filter_list_properties_v3.php:404
+#: widgets/filter_list_properties_v3.php:420
+#: widgets/filter_list_properties_v4.php:277
+#: widgets/filter_list_properties_v4.php:292
+#: widgets/filter_list_properties_v4.php:307
+#: widgets/filter_list_properties_v4.php:324
+#: widgets/filter_list_properties_v4.php:339
+#: widgets/filter_list_properties_v4.php:353
+#: widgets/filter_list_properties_v4.php:369
+#: widgets/filter_list_properties_v4.php:384
+#: widgets/filter_list_properties_v4.php:401
+#: widgets/filter_list_properties_v4.php:417
+#: widgets/filter_list_properties_v4.php:433
+#: widgets/filter_list_properties_v5.php:277
+#: widgets/filter_list_properties_v5.php:292
+#: widgets/filter_list_properties_v5.php:307
+#: widgets/filter_list_properties_v5.php:324
+#: widgets/filter_list_properties_v5.php:339
+#: widgets/filter_list_properties_v5.php:354
+#: widgets/filter_list_properties_v5.php:369
+#: widgets/filter_list_properties_v5.php:387
+#: widgets/filter_list_properties_v5.php:403
+#: widgets/filter_list_properties_v5.php:419
+#: widgets/filter_list_properties_v6.php:289
+#: widgets/filter_list_properties_v6.php:304
+#: widgets/filter_list_properties_v6.php:320
+#: widgets/filter_list_properties_v6.php:335
+#: widgets/filter_list_properties_v6.php:350
+#: widgets/filter_list_properties_v7.php:276
+#: widgets/filter_list_properties_v7.php:291
+#: widgets/filter_list_properties_v7.php:306
+#: widgets/filter_list_properties_v7.php:323
+#: widgets/filter_list_properties_v7.php:338
+#: widgets/filter_list_properties_v7.php:353
+#: widgets/filter_list_properties_v7.php:367
+#: widgets/filter_list_properties_v7.php:385
+#: widgets/filter_list_properties_v7.php:401
+#: widgets/property_page_agent_card.php:134
+#: widgets/property_page_agent_card.php:149
+#: widgets/property_page_agent_card.php:163
+#: widgets/property_page_agent_card.php:177
+#: widgets/property_page_agent_card.php:192
+#: widgets/property_page_agent_card.php:208
+#: widgets/recent-items-slider_v1.php:306
+#: widgets/recent-items-slider_v1.php:320
+#: widgets/recent-items-slider_v1.php:334
+#: widgets/recent-items-slider_v1.php:350
+#: widgets/recent-items-slider_v1.php:364
+#: widgets/recent-items-slider_v1.php:378
+#: widgets/recent-items-slider_v1.php:392
+#: widgets/recent-items-slider_v1.php:407
+#: widgets/recent-items-slider_v1.php:420
+#: widgets/recent-items-slider_v1.php:435
+#: widgets/recent-items-slider_v1.php:449
+#: widgets/recent-items-slider_v2.php:302
+#: widgets/recent-items-slider_v2.php:316
+#: widgets/recent-items-slider_v2.php:330
+#: widgets/recent-items-slider_v2.php:346
+#: widgets/recent-items-slider_v2.php:360
+#: widgets/recent-items-slider_v2.php:374
+#: widgets/recent-items-slider_v2.php:388
+#: widgets/recent-items-slider_v2.php:402
+#: widgets/recent-items-slider_v2.php:416
+#: widgets/recent-items-slider_v2.php:432
+#: widgets/recent-items-slider_v2.php:446
+#: widgets/recent-items-slider_v3.php:301
+#: widgets/recent-items-slider_v3.php:315
+#: widgets/recent-items-slider_v3.php:329
+#: widgets/recent-items-slider_v3.php:345
+#: widgets/recent-items-slider_v3.php:359
+#: widgets/recent-items-slider_v3.php:375
+#: widgets/recent-items-slider_v3.php:389
+#: widgets/recent-items-slider_v3.php:403
+#: widgets/recent-items-slider_v3.php:419
+#: widgets/recent-items-slider_v3.php:433
+#: widgets/recent-items-slider_v4.php:321
+#: widgets/recent-items-slider_v4.php:335
+#: widgets/recent-items-slider_v4.php:349
+#: widgets/recent-items-slider_v4.php:365
+#: widgets/recent-items-slider_v4.php:379
+#: widgets/recent-items-slider_v4.php:392
+#: widgets/recent-items-slider_v4.php:407
+#: widgets/recent-items-slider_v4.php:421
+#: widgets/recent-items-slider_v4.php:437
+#: widgets/recent-items-slider_v4.php:451
+#: widgets/recent-items-slider_v4.php:465
+#: widgets/recent-items-slider_v5.php:317
+#: widgets/recent-items-slider_v5.php:331
+#: widgets/recent-items-slider_v5.php:345
+#: widgets/recent-items-slider_v5.php:361
+#: widgets/recent-items-slider_v5.php:375
+#: widgets/recent-items-slider_v5.php:389
+#: widgets/recent-items-slider_v5.php:402
+#: widgets/recent-items-slider_v5.php:418
+#: widgets/recent-items-slider_v5.php:432
+#: widgets/recent-items-slider_v5.php:446
+#: widgets/recent-items-slider_v6.php:326
+#: widgets/recent-items-slider_v6.php:340
+#: widgets/recent-items-slider_v6.php:355
+#: widgets/recent-items-slider_v6.php:369
+#: widgets/recent-items-slider_v6.php:383
+#: widgets/recent-items-slider_v7.php:320
+#: widgets/recent-items-slider_v7.php:334
+#: widgets/recent-items-slider_v7.php:348
+#: widgets/recent-items-slider_v7.php:364
+#: widgets/recent-items-slider_v7.php:378
+#: widgets/recent-items-slider_v7.php:392
+#: widgets/recent-items-slider_v7.php:405
+#: widgets/recent-items-slider_v7.php:422
+#: widgets/recent-items-slider_v7.php:436
+#: widgets/recent-items_card_v1.php:363
+#: widgets/recent-items_card_v1.php:378
+#: widgets/recent-items_card_v1.php:393
+#: widgets/recent-items_card_v1.php:410
+#: widgets/recent-items_card_v1.php:425
+#: widgets/recent-items_card_v1.php:440
+#: widgets/recent-items_card_v1.php:455
+#: widgets/recent-items_card_v1.php:471
+#: widgets/recent-items_card_v1.php:485
+#: widgets/recent-items_card_v1.php:501
+#: widgets/recent-items_card_v1.php:518
+#: widgets/recent-items_card_v2.php:361
+#: widgets/recent-items_card_v2.php:376
+#: widgets/recent-items_card_v2.php:391
+#: widgets/recent-items_card_v2.php:408
+#: widgets/recent-items_card_v2.php:423
+#: widgets/recent-items_card_v2.php:438
+#: widgets/recent-items_card_v2.php:453
+#: widgets/recent-items_card_v2.php:468
+#: widgets/recent-items_card_v2.php:483
+#: widgets/recent-items_card_v2.php:500
+#: widgets/recent-items_card_v2.php:516
+#: widgets/recent-items_card_v3.php:362
+#: widgets/recent-items_card_v3.php:377
+#: widgets/recent-items_card_v3.php:392
+#: widgets/recent-items_card_v3.php:409
+#: widgets/recent-items_card_v3.php:424
+#: widgets/recent-items_card_v3.php:441
+#: widgets/recent-items_card_v3.php:456
+#: widgets/recent-items_card_v3.php:471
+#: widgets/recent-items_card_v3.php:488
+#: widgets/recent-items_card_v3.php:504
+#: widgets/recent-items_card_v4.php:362
+#: widgets/recent-items_card_v4.php:377
+#: widgets/recent-items_card_v4.php:392
+#: widgets/recent-items_card_v4.php:409
+#: widgets/recent-items_card_v4.php:424
+#: widgets/recent-items_card_v4.php:438
+#: widgets/recent-items_card_v4.php:454
+#: widgets/recent-items_card_v4.php:469
+#: widgets/recent-items_card_v4.php:486
+#: widgets/recent-items_card_v4.php:502
+#: widgets/recent-items_card_v4.php:518
+#: widgets/recent-items_card_v5.php:363
+#: widgets/recent-items_card_v5.php:378
+#: widgets/recent-items_card_v5.php:393
+#: widgets/recent-items_card_v5.php:410
+#: widgets/recent-items_card_v5.php:425
+#: widgets/recent-items_card_v5.php:440
+#: widgets/recent-items_card_v5.php:455
+#: widgets/recent-items_card_v5.php:473
+#: widgets/recent-items_card_v5.php:489
+#: widgets/recent-items_card_v5.php:505
+#: widgets/recent-items_card_v6.php:368
+#: widgets/recent-items_card_v6.php:383
+#: widgets/recent-items_card_v6.php:399
+#: widgets/recent-items_card_v6.php:414
+#: widgets/recent-items_card_v6.php:429
+#: widgets/recent-items_card_v7.php:363
+#: widgets/recent-items_card_v7.php:378
+#: widgets/recent-items_card_v7.php:393
+#: widgets/recent-items_card_v7.php:410
+#: widgets/recent-items_card_v7.php:425
+#: widgets/recent-items_card_v7.php:440
+#: widgets/recent-items_card_v7.php:454
+#: widgets/recent-items_card_v7.php:472
+#: widgets/recent-items_card_v7.php:488
+#: widgets/recent-properties-top-bar.php:643
+#: widgets/search_form_builder.php:88
+#: widgets/search_form_builder.php:1170
+#: widgets/single-property-widgets/property-page-address-section.php:108
+#: widgets/single-property-widgets/property-page-address.php:123
+#: widgets/single-property-widgets/property-page-addto-favorite.php:137
+#: widgets/single-property-widgets/property-page-addto-favorite.php:151
+#: widgets/single-property-widgets/property-page-addto-favorite.php:165
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:108
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:122
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:135
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:148
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:162
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:179
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:192
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:108
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:125
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:138
+#: widgets/single-property-widgets/property-page-calculator-section.php:108
+#: widgets/single-property-widgets/property-page-description-section.php:108
+#: widgets/single-property-widgets/property-page-details-section.php:108
+#: widgets/single-property-widgets/property-page-features-section.php:108
+#: widgets/single-property-widgets/property-page-floorplans-section.php:108
+#: widgets/single-property-widgets/property-page-map-section.php:101
+#: widgets/single-property-widgets/property-page-overview-section.php:202
+#: widgets/single-property-widgets/property-page-overview-section.php:226
+#: widgets/single-property-widgets/property-page-reviews-section.php:108
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:108
+#: widgets/single-property-widgets/property-page-statistics-section.php:108
+#: widgets/single-property-widgets/property-page-subunits-section.php:108
+#: widgets/single-property-widgets/property-page-video-section.php:108
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:108
+#: widgets/single-property-widgets/property-page-walkscore-section.php:108
+#: widgets/single-property-widgets/property-page-yelp-section.php:108
+#: widgets/single-property-widgets/property_classic_slider.php:146
+#: widgets/single-property-widgets/property_horizontal_slider.php:148
+#: widgets/single-property-widgets/property_horizontal_slider.php:163
+#: widgets/single-property-widgets/property_horizontal_slider.php:177
+#: widgets/single-property-widgets/property_horizontal_slider.php:190
+#: widgets/single-property-widgets/property_masonary_gallery1.php:177
+#: widgets/single-property-widgets/property_masonary_gallery2.php:177
+#: widgets/single-property-widgets/property_page_agent_card.php:133
+#: widgets/single-property-widgets/property_page_agent_card.php:148
+#: widgets/single-property-widgets/property_page_agent_card.php:162
+#: widgets/single-property-widgets/property_page_agent_card.php:176
+#: widgets/single-property-widgets/property_page_agent_card.php:191
+#: widgets/single-property-widgets/property_vertical_slider.php:148
+#: widgets/single-property-widgets/property_vertical_slider.php:163
+#: widgets/single-property-widgets/property_vertical_slider.php:177
+#: widgets/single-property-widgets/property_vertical_slider.php:190
+#: widgets/single-property-widgets/propert_page_other_agents.php:136
+#: widgets/single-property-widgets/propert_page_other_agents.php:152
+#: widgets/single-property-widgets/propert_page_other_agents.php:168
+#: widgets/single-property-widgets/propert_page_other_agents.php:182
+#: widgets/single-property-widgets/propert_page_other_agents.php:197
+#: widgets/single-property-widgets/propert_page_other_agents.php:213
+#: widgets/sliding-box.php:114
+#: widgets/wpresidence-grids.php:206
+msgid "Yes"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:184
+#: widgets/display_categories_as_tabs.php:420
+#: widgets/recent-properties-top-bar.php:644
+msgid "no"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:200
+msgid "Tab Items Settings"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:207
+#: widgets/recent-properties-top-bar.php:429
+#: widgets/search_form_builder.php:733
+msgid "Alignment"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:233
+msgid "Tab item Content Padding "
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:245
+#: widgets/recent-properties-top-bar.php:467
+msgid "Tab item Margin "
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:257
+#: widgets/recent-properties-top-bar.php:479
+#: widgets/search_form_builder.php:927
+msgid "Tab Item Border Radius"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:270
+#: widgets/display_categories_as_tabs.php:498
+#: widgets/recent-properties-top-bar.php:492
+#: widgets/search_form_builder.php:766
+msgid "Tab Item Background Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:283
+#: widgets/display_categories_as_tabs.php:307
+#: widgets/recent-properties-top-bar.php:505
+#: widgets/search_form_builder.php:781
+msgid "Tab Item Font Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:294
+#: widgets/recent-properties-top-bar.php:516
+msgid "Tab Item Active Background Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:320
+#: widgets/recent-properties-top-bar.php:541
+msgid "Tab Item Typography"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:339
+#: widgets/recent-properties-top-bar.php:562
+msgid "Tab item Icon Margin "
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:353
+#: widgets/recent-properties-top-bar.php:576
+msgid "Tab Item Icon Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:371
+#: widgets/recent-properties-top-bar.php:594
+msgid "Tab Item Active Icon Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:384
+#: widgets/properties_slider_v3.php:373
+#: widgets/recent-properties-top-bar.php:608
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:416
+#: widgets/recent-properties-top-bar.php:640
+msgid "Put Icon above label"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:439
+msgid "Tab Content Settings"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:446
+#: widgets/search_form_builder.php:642
+msgid "Tab Content Padding "
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:458
+msgid "Tab Content Margin"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:470
+msgid "List Element Margin"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:483
+#: widgets/search_form_builder.php:985
+msgid "Tab Content Border Radius"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:511
+msgid "Term Font Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:523
+msgid "Term Second row Font Color"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:538
+msgid "Term Typography"
+msgstr ""
+
+#: widgets/display_categories_as_tabs.php:559
+msgid "Second Row Typography"
+msgstr ""
+
+#: widgets/favorites-list.php:19
+msgid "Remove from Favorites"
+msgstr ""
+
+#: widgets/favorites-list.php:58
+msgid "WpResidence Favorite List - Front End"
+msgstr ""
+
+#: widgets/favorites-list.php:162
+#: widgets/filter_list_properties.php:216
+#: widgets/filter_list_properties_v1.php:219
+#: widgets/filter_list_properties_v2.php:219
+#: widgets/filter_list_properties_v3.php:219
+#: widgets/filter_list_properties_v4.php:219
+#: widgets/filter_list_properties_v5.php:219
+#: widgets/filter_list_properties_v6.php:219
+#: widgets/filter_list_properties_v7.php:219
+#: widgets/list-agents.php:206
+#: widgets/list-items-by-id.php:140
+#: widgets/places-slider.php:137
+#: widgets/recent-items.php:187
+#: widgets/recent-items_card_v1.php:181
+#: widgets/recent-items_card_v2.php:180
+#: widgets/recent-items_card_v3.php:181
+#: widgets/recent-items_card_v4.php:181
+#: widgets/recent-items_card_v5.php:181
+#: widgets/recent-items_card_v6.php:181
+#: widgets/recent-items_card_v7.php:182
+#: widgets/recent-properties-top-bar.php:267
+msgid "No of items per row"
+msgstr ""
+
+#: widgets/favorites-list.php:172
+#: widgets/filter_list_properties.php:226
+#: widgets/filter_list_properties_v1.php:229
+#: widgets/filter_list_properties_v2.php:229
+#: widgets/filter_list_properties_v3.php:229
+#: widgets/filter_list_properties_v4.php:229
+#: widgets/filter_list_properties_v5.php:229
+#: widgets/filter_list_properties_v6.php:229
+#: widgets/filter_list_properties_v7.php:229
+#: widgets/list-items-by-id.php:158
+#: widgets/recent-items.php:197
+#: widgets/recent-items_card_v1.php:191
+#: widgets/recent-items_card_v2.php:190
+#: widgets/recent-items_card_v3.php:191
+#: widgets/recent-items_card_v4.php:191
+#: widgets/recent-items_card_v5.php:191
+#: widgets/recent-items_card_v6.php:191
+#: widgets/recent-items_card_v7.php:192
+#: widgets/recent-properties-top-bar.php:277
+msgid "\"What type of alignment ?"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:40
+msgid "WpResidence Featured Agency Developer"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:143
+msgid "Type Agency or Developer name"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:154
+msgid "Status Text Label"
+msgstr ""
+
+#: widgets/featured-agency-developer.php:163
+msgid "Image "
+msgstr ""
+
+#: widgets/featured-agent.php:40
+msgid "WpResidence Featured Agent"
+msgstr ""
+
+#: widgets/featured-agent.php:117
+msgid "Select one Agent"
+msgstr ""
+
+#: widgets/featured-agent.php:128
+msgid "Notes"
+msgstr ""
+
+#: widgets/featured-article.php:39
+msgid "WpResidence Featured Article"
+msgstr ""
+
+#: widgets/featured-article.php:109
+msgid "Select article"
+msgstr ""
+
+#: widgets/featured-article.php:120
+msgid "Featured Text(for type1)"
+msgstr ""
+
+#: widgets/featured-article.php:127
+#: widgets/featured-property.php:117
+#: widgets/properties_slider.php:128
+msgid "Design Type"
+msgstr ""
+
+#: widgets/featured-property.php:40
+msgid "WpResidence Featured Property"
+msgstr ""
+
+#: widgets/featured-property.php:102
+msgid "Property Id"
+msgstr ""
+
+#: widgets/featured-property.php:109
+msgid "Second Line"
+msgstr ""
+
+#: widgets/filter_list_properties.php:46
+msgid "WpResidence Properties List with Filter"
+msgstr ""
+
+#: widgets/filter_list_properties.php:151
+#: widgets/full_map.php:173
+#: widgets/recent-items-slider.php:239
+#: widgets/recent-items.php:247
+#: widgets/recent-properties-top-bar.php:327
+msgid "List of categories (*only for properties)"
+msgstr ""
+
+#: widgets/filter_list_properties.php:162
+#: widgets/full_map.php:184
+#: widgets/recent-items-slider.php:251
+#: widgets/recent-items.php:259
+#: widgets/recent-properties-top-bar.php:339
+msgid "List of action categories (*only for properties)"
+msgstr ""
+
+#: widgets/filter_list_properties.php:173
+#: widgets/full_map.php:195
+#: widgets/recent-items-slider.php:263
+#: widgets/recent-items.php:271
+#: widgets/recent-properties-top-bar.php:351
+msgid "List of city  (*only for properties)"
+msgstr ""
+
+#: widgets/filter_list_properties.php:183
+#: widgets/full_map.php:205
+#: widgets/recent-items-slider.php:274
+#: widgets/recent-items.php:282
+#: widgets/recent-properties-top-bar.php:362
+msgid "List of areas (*only for properties)"
+msgstr ""
+
+#: widgets/filter_list_properties.php:193
+#: widgets/full_map.php:215
+#: widgets/recent-items-slider.php:285
+#: widgets/recent-items.php:293
+#: widgets/recent-properties-top-bar.php:373
+msgid "List of Counties/States (*only for properties)"
+msgstr ""
+
+#: widgets/filter_list_properties.php:235
+#: widgets/filter_list_properties_v1.php:238
+#: widgets/filter_list_properties_v2.php:238
+#: widgets/filter_list_properties_v3.php:238
+#: widgets/filter_list_properties_v4.php:238
+#: widgets/filter_list_properties_v5.php:238
+#: widgets/filter_list_properties_v6.php:238
+#: widgets/filter_list_properties_v7.php:238
+#: widgets/list-items-by-id.php:149
+#: widgets/properties_slider_v2.php:208
+#: widgets/properties_slider_v3.php:208
+#: widgets/recent-items-slider.php:328
+#: widgets/recent-items-slider_v1.php:277
+#: widgets/recent-items-slider_v2.php:275
+#: widgets/recent-items-slider_v3.php:275
+#: widgets/recent-items-slider_v4.php:293
+#: widgets/recent-items-slider_v5.php:291
+#: widgets/recent-items-slider_v6.php:293
+#: widgets/recent-items-slider_v7.php:293
+#: widgets/recent-items.php:335
+#: widgets/recent-items_card_v1.php:330
+#: widgets/recent-items_card_v2.php:328
+#: widgets/recent-items_card_v3.php:329
+#: widgets/recent-items_card_v4.php:329
+#: widgets/recent-items_card_v5.php:330
+#: widgets/recent-items_card_v6.php:329
+#: widgets/recent-items_card_v7.php:330
+#: widgets/recent-properties-top-bar.php:410
+msgid "Show featured listings only?"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:49
+msgid "WpResidence Properties List with Filter V1"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:154
+#: widgets/filter_list_properties_v2.php:154
+#: widgets/filter_list_properties_v3.php:154
+#: widgets/filter_list_properties_v4.php:154
+#: widgets/filter_list_properties_v5.php:154
+#: widgets/filter_list_properties_v6.php:154
+#: widgets/filter_list_properties_v7.php:154
+#: widgets/recent-items_card_v1.php:242
+msgid "List of categories"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:165
+#: widgets/filter_list_properties_v2.php:165
+#: widgets/filter_list_properties_v3.php:165
+#: widgets/filter_list_properties_v4.php:165
+#: widgets/filter_list_properties_v5.php:165
+#: widgets/filter_list_properties_v6.php:165
+#: widgets/filter_list_properties_v7.php:165
+#: widgets/recent-items_card_v1.php:254
+#: widgets/recent-items_card_v2.php:252
+msgid "List of action categories"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:176
+#: widgets/filter_list_properties_v2.php:176
+#: widgets/filter_list_properties_v3.php:176
+#: widgets/filter_list_properties_v4.php:176
+#: widgets/filter_list_properties_v5.php:176
+#: widgets/filter_list_properties_v6.php:176
+#: widgets/filter_list_properties_v7.php:176
+#: widgets/recent-items_card_v1.php:266
+msgid "List of city"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:186
+#: widgets/filter_list_properties_v2.php:186
+#: widgets/filter_list_properties_v3.php:186
+#: widgets/filter_list_properties_v4.php:186
+#: widgets/filter_list_properties_v5.php:186
+#: widgets/filter_list_properties_v6.php:186
+#: widgets/filter_list_properties_v7.php:186
+#: widgets/recent-items_card_v1.php:277
+msgid "List of areas"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:196
+#: widgets/filter_list_properties_v2.php:196
+#: widgets/filter_list_properties_v3.php:196
+#: widgets/filter_list_properties_v4.php:196
+#: widgets/filter_list_properties_v5.php:196
+#: widgets/filter_list_properties_v6.php:196
+#: widgets/filter_list_properties_v7.php:196
+#: widgets/recent-items_card_v1.php:288
+msgid "List of Counties/States"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:267
+#: widgets/filter_list_properties_v2.php:267
+#: widgets/filter_list_properties_v3.php:268
+#: widgets/filter_list_properties_v4.php:267
+#: widgets/filter_list_properties_v5.php:267
+#: widgets/filter_list_properties_v6.php:273
+#: widgets/filter_list_properties_v7.php:266
+#: widgets/recent-items-slider_v1.php:297
+#: widgets/recent-items-slider_v2.php:293
+#: widgets/recent-items-slider_v3.php:292
+#: widgets/recent-items-slider_v4.php:312
+#: widgets/recent-items-slider_v5.php:308
+#: widgets/recent-items-slider_v6.php:311
+#: widgets/recent-items-slider_v7.php:311
+#: widgets/recent-items_card_v1.php:353
+#: widgets/recent-items_card_v2.php:351
+#: widgets/recent-items_card_v3.php:352
+#: widgets/recent-items_card_v4.php:352
+#: widgets/recent-items_card_v5.php:353
+#: widgets/recent-items_card_v6.php:352
+#: widgets/recent-items_card_v7.php:353
+msgid "Show/Hide Data"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:275
+#: widgets/filter_list_properties_v2.php:275
+#: widgets/filter_list_properties_v3.php:276
+#: widgets/filter_list_properties_v4.php:275
+#: widgets/filter_list_properties_v5.php:275
+#: widgets/filter_list_properties_v7.php:274
+#: widgets/recent-items-slider_v1.php:304
+#: widgets/recent-items-slider_v2.php:300
+#: widgets/recent-items-slider_v3.php:299
+#: widgets/recent-items-slider_v4.php:319
+#: widgets/recent-items-slider_v5.php:315
+#: widgets/recent-items-slider_v7.php:318
+#: widgets/recent-items_card_v1.php:361
+#: widgets/recent-items_card_v2.php:359
+#: widgets/recent-items_card_v3.php:360
+#: widgets/recent-items_card_v4.php:360
+#: widgets/recent-items_card_v5.php:361
+#: widgets/recent-items_card_v7.php:361
+msgid "Hide Compare Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:278
+#: widgets/filter_list_properties_v1.php:293
+#: widgets/filter_list_properties_v1.php:308
+#: widgets/filter_list_properties_v1.php:325
+#: widgets/filter_list_properties_v1.php:340
+#: widgets/filter_list_properties_v1.php:355
+#: widgets/filter_list_properties_v1.php:370
+#: widgets/filter_list_properties_v1.php:386
+#: widgets/filter_list_properties_v1.php:400
+#: widgets/filter_list_properties_v1.php:415
+#: widgets/filter_list_properties_v1.php:431
+#: widgets/filter_list_properties_v2.php:278
+#: widgets/filter_list_properties_v2.php:293
+#: widgets/filter_list_properties_v2.php:308
+#: widgets/filter_list_properties_v2.php:325
+#: widgets/filter_list_properties_v2.php:340
+#: widgets/filter_list_properties_v2.php:355
+#: widgets/filter_list_properties_v2.php:370
+#: widgets/filter_list_properties_v2.php:385
+#: widgets/filter_list_properties_v2.php:400
+#: widgets/filter_list_properties_v2.php:417
+#: widgets/filter_list_properties_v2.php:433
+#: widgets/filter_list_properties_v3.php:279
+#: widgets/filter_list_properties_v3.php:294
+#: widgets/filter_list_properties_v3.php:309
+#: widgets/filter_list_properties_v3.php:326
+#: widgets/filter_list_properties_v3.php:341
+#: widgets/filter_list_properties_v3.php:358
+#: widgets/filter_list_properties_v3.php:373
+#: widgets/filter_list_properties_v3.php:388
+#: widgets/filter_list_properties_v3.php:405
+#: widgets/filter_list_properties_v3.php:421
+#: widgets/filter_list_properties_v4.php:278
+#: widgets/filter_list_properties_v4.php:293
+#: widgets/filter_list_properties_v4.php:308
+#: widgets/filter_list_properties_v4.php:325
+#: widgets/filter_list_properties_v4.php:340
+#: widgets/filter_list_properties_v4.php:354
+#: widgets/filter_list_properties_v4.php:370
+#: widgets/filter_list_properties_v4.php:385
+#: widgets/filter_list_properties_v4.php:402
+#: widgets/filter_list_properties_v4.php:418
+#: widgets/filter_list_properties_v4.php:434
+#: widgets/filter_list_properties_v5.php:278
+#: widgets/filter_list_properties_v5.php:293
+#: widgets/filter_list_properties_v5.php:308
+#: widgets/filter_list_properties_v5.php:325
+#: widgets/filter_list_properties_v5.php:340
+#: widgets/filter_list_properties_v5.php:355
+#: widgets/filter_list_properties_v5.php:370
+#: widgets/filter_list_properties_v5.php:388
+#: widgets/filter_list_properties_v5.php:404
+#: widgets/filter_list_properties_v5.php:420
+#: widgets/filter_list_properties_v6.php:290
+#: widgets/filter_list_properties_v6.php:305
+#: widgets/filter_list_properties_v6.php:321
+#: widgets/filter_list_properties_v6.php:336
+#: widgets/filter_list_properties_v6.php:351
+#: widgets/filter_list_properties_v7.php:277
+#: widgets/filter_list_properties_v7.php:292
+#: widgets/filter_list_properties_v7.php:307
+#: widgets/filter_list_properties_v7.php:324
+#: widgets/filter_list_properties_v7.php:339
+#: widgets/filter_list_properties_v7.php:354
+#: widgets/filter_list_properties_v7.php:368
+#: widgets/filter_list_properties_v7.php:386
+#: widgets/filter_list_properties_v7.php:402
+#: widgets/property_page_agent_card.php:135
+#: widgets/property_page_agent_card.php:150
+#: widgets/property_page_agent_card.php:164
+#: widgets/property_page_agent_card.php:178
+#: widgets/property_page_agent_card.php:193
+#: widgets/property_page_agent_card.php:209
+#: widgets/recent-items-slider_v1.php:307
+#: widgets/recent-items-slider_v1.php:321
+#: widgets/recent-items-slider_v1.php:335
+#: widgets/recent-items-slider_v1.php:351
+#: widgets/recent-items-slider_v1.php:365
+#: widgets/recent-items-slider_v1.php:379
+#: widgets/recent-items-slider_v1.php:393
+#: widgets/recent-items-slider_v1.php:408
+#: widgets/recent-items-slider_v1.php:421
+#: widgets/recent-items-slider_v1.php:436
+#: widgets/recent-items-slider_v1.php:450
+#: widgets/recent-items-slider_v2.php:303
+#: widgets/recent-items-slider_v2.php:317
+#: widgets/recent-items-slider_v2.php:331
+#: widgets/recent-items-slider_v2.php:347
+#: widgets/recent-items-slider_v2.php:361
+#: widgets/recent-items-slider_v2.php:375
+#: widgets/recent-items-slider_v2.php:389
+#: widgets/recent-items-slider_v2.php:403
+#: widgets/recent-items-slider_v2.php:417
+#: widgets/recent-items-slider_v2.php:433
+#: widgets/recent-items-slider_v2.php:447
+#: widgets/recent-items-slider_v3.php:302
+#: widgets/recent-items-slider_v3.php:316
+#: widgets/recent-items-slider_v3.php:330
+#: widgets/recent-items-slider_v3.php:346
+#: widgets/recent-items-slider_v3.php:360
+#: widgets/recent-items-slider_v3.php:376
+#: widgets/recent-items-slider_v3.php:390
+#: widgets/recent-items-slider_v3.php:404
+#: widgets/recent-items-slider_v3.php:420
+#: widgets/recent-items-slider_v3.php:434
+#: widgets/recent-items-slider_v4.php:322
+#: widgets/recent-items-slider_v4.php:336
+#: widgets/recent-items-slider_v4.php:350
+#: widgets/recent-items-slider_v4.php:366
+#: widgets/recent-items-slider_v4.php:380
+#: widgets/recent-items-slider_v4.php:393
+#: widgets/recent-items-slider_v4.php:408
+#: widgets/recent-items-slider_v4.php:422
+#: widgets/recent-items-slider_v4.php:438
+#: widgets/recent-items-slider_v4.php:452
+#: widgets/recent-items-slider_v4.php:466
+#: widgets/recent-items-slider_v5.php:318
+#: widgets/recent-items-slider_v5.php:332
+#: widgets/recent-items-slider_v5.php:346
+#: widgets/recent-items-slider_v5.php:362
+#: widgets/recent-items-slider_v5.php:376
+#: widgets/recent-items-slider_v5.php:390
+#: widgets/recent-items-slider_v5.php:403
+#: widgets/recent-items-slider_v5.php:419
+#: widgets/recent-items-slider_v5.php:433
+#: widgets/recent-items-slider_v5.php:447
+#: widgets/recent-items-slider_v6.php:327
+#: widgets/recent-items-slider_v6.php:341
+#: widgets/recent-items-slider_v6.php:356
+#: widgets/recent-items-slider_v6.php:370
+#: widgets/recent-items-slider_v6.php:384
+#: widgets/recent-items-slider_v7.php:321
+#: widgets/recent-items-slider_v7.php:335
+#: widgets/recent-items-slider_v7.php:349
+#: widgets/recent-items-slider_v7.php:365
+#: widgets/recent-items-slider_v7.php:379
+#: widgets/recent-items-slider_v7.php:393
+#: widgets/recent-items-slider_v7.php:406
+#: widgets/recent-items-slider_v7.php:423
+#: widgets/recent-items-slider_v7.php:437
+#: widgets/recent-items_card_v1.php:364
+#: widgets/recent-items_card_v1.php:379
+#: widgets/recent-items_card_v1.php:394
+#: widgets/recent-items_card_v1.php:411
+#: widgets/recent-items_card_v1.php:426
+#: widgets/recent-items_card_v1.php:441
+#: widgets/recent-items_card_v1.php:456
+#: widgets/recent-items_card_v1.php:472
+#: widgets/recent-items_card_v1.php:486
+#: widgets/recent-items_card_v1.php:502
+#: widgets/recent-items_card_v1.php:519
+#: widgets/recent-items_card_v2.php:362
+#: widgets/recent-items_card_v2.php:377
+#: widgets/recent-items_card_v2.php:392
+#: widgets/recent-items_card_v2.php:409
+#: widgets/recent-items_card_v2.php:424
+#: widgets/recent-items_card_v2.php:439
+#: widgets/recent-items_card_v2.php:454
+#: widgets/recent-items_card_v2.php:469
+#: widgets/recent-items_card_v2.php:484
+#: widgets/recent-items_card_v2.php:501
+#: widgets/recent-items_card_v2.php:517
+#: widgets/recent-items_card_v3.php:363
+#: widgets/recent-items_card_v3.php:378
+#: widgets/recent-items_card_v3.php:393
+#: widgets/recent-items_card_v3.php:410
+#: widgets/recent-items_card_v3.php:425
+#: widgets/recent-items_card_v3.php:442
+#: widgets/recent-items_card_v3.php:457
+#: widgets/recent-items_card_v3.php:472
+#: widgets/recent-items_card_v3.php:489
+#: widgets/recent-items_card_v3.php:505
+#: widgets/recent-items_card_v4.php:363
+#: widgets/recent-items_card_v4.php:378
+#: widgets/recent-items_card_v4.php:393
+#: widgets/recent-items_card_v4.php:410
+#: widgets/recent-items_card_v4.php:425
+#: widgets/recent-items_card_v4.php:439
+#: widgets/recent-items_card_v4.php:455
+#: widgets/recent-items_card_v4.php:470
+#: widgets/recent-items_card_v4.php:487
+#: widgets/recent-items_card_v4.php:503
+#: widgets/recent-items_card_v4.php:519
+#: widgets/recent-items_card_v5.php:364
+#: widgets/recent-items_card_v5.php:379
+#: widgets/recent-items_card_v5.php:394
+#: widgets/recent-items_card_v5.php:411
+#: widgets/recent-items_card_v5.php:426
+#: widgets/recent-items_card_v5.php:441
+#: widgets/recent-items_card_v5.php:456
+#: widgets/recent-items_card_v5.php:474
+#: widgets/recent-items_card_v5.php:490
+#: widgets/recent-items_card_v5.php:506
+#: widgets/recent-items_card_v6.php:369
+#: widgets/recent-items_card_v6.php:384
+#: widgets/recent-items_card_v6.php:400
+#: widgets/recent-items_card_v6.php:415
+#: widgets/recent-items_card_v6.php:430
+#: widgets/recent-items_card_v7.php:364
+#: widgets/recent-items_card_v7.php:379
+#: widgets/recent-items_card_v7.php:394
+#: widgets/recent-items_card_v7.php:411
+#: widgets/recent-items_card_v7.php:426
+#: widgets/recent-items_card_v7.php:441
+#: widgets/recent-items_card_v7.php:455
+#: widgets/recent-items_card_v7.php:473
+#: widgets/recent-items_card_v7.php:489
+#: widgets/search_form_builder.php:89
+#: widgets/search_form_builder.php:1171
+#: widgets/single-property-widgets/property-page-address-section.php:109
+#: widgets/single-property-widgets/property-page-address.php:124
+#: widgets/single-property-widgets/property-page-addto-favorite.php:138
+#: widgets/single-property-widgets/property-page-addto-favorite.php:152
+#: widgets/single-property-widgets/property-page-addto-favorite.php:166
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:109
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:123
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:136
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:149
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:163
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:180
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:193
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:109
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:126
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:139
+#: widgets/single-property-widgets/property-page-calculator-section.php:109
+#: widgets/single-property-widgets/property-page-description-section.php:109
+#: widgets/single-property-widgets/property-page-details-section.php:109
+#: widgets/single-property-widgets/property-page-features-section.php:109
+#: widgets/single-property-widgets/property-page-floorplans-section.php:109
+#: widgets/single-property-widgets/property-page-map-section.php:102
+#: widgets/single-property-widgets/property-page-overview-section.php:203
+#: widgets/single-property-widgets/property-page-overview-section.php:227
+#: widgets/single-property-widgets/property-page-reviews-section.php:109
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:109
+#: widgets/single-property-widgets/property-page-statistics-section.php:109
+#: widgets/single-property-widgets/property-page-subunits-section.php:109
+#: widgets/single-property-widgets/property-page-video-section.php:109
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:109
+#: widgets/single-property-widgets/property-page-walkscore-section.php:109
+#: widgets/single-property-widgets/property-page-yelp-section.php:109
+#: widgets/single-property-widgets/property_classic_slider.php:147
+#: widgets/single-property-widgets/property_horizontal_slider.php:149
+#: widgets/single-property-widgets/property_horizontal_slider.php:164
+#: widgets/single-property-widgets/property_horizontal_slider.php:178
+#: widgets/single-property-widgets/property_horizontal_slider.php:191
+#: widgets/single-property-widgets/property_masonary_gallery1.php:178
+#: widgets/single-property-widgets/property_masonary_gallery2.php:178
+#: widgets/single-property-widgets/property_page_agent_card.php:134
+#: widgets/single-property-widgets/property_page_agent_card.php:149
+#: widgets/single-property-widgets/property_page_agent_card.php:163
+#: widgets/single-property-widgets/property_page_agent_card.php:177
+#: widgets/single-property-widgets/property_page_agent_card.php:192
+#: widgets/single-property-widgets/property_vertical_slider.php:149
+#: widgets/single-property-widgets/property_vertical_slider.php:164
+#: widgets/single-property-widgets/property_vertical_slider.php:178
+#: widgets/single-property-widgets/property_vertical_slider.php:191
+#: widgets/single-property-widgets/propert_page_other_agents.php:137
+#: widgets/single-property-widgets/propert_page_other_agents.php:153
+#: widgets/single-property-widgets/propert_page_other_agents.php:169
+#: widgets/single-property-widgets/propert_page_other_agents.php:183
+#: widgets/single-property-widgets/propert_page_other_agents.php:198
+#: widgets/single-property-widgets/propert_page_other_agents.php:214
+#: widgets/sliding-box.php:115
+#: widgets/wpresidence-grids.php:205
+msgid "No"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:290
+#: widgets/filter_list_properties_v2.php:290
+#: widgets/filter_list_properties_v3.php:291
+#: widgets/filter_list_properties_v4.php:290
+#: widgets/filter_list_properties_v5.php:290
+#: widgets/filter_list_properties_v7.php:289
+#: widgets/recent-items-slider_v1.php:318
+#: widgets/recent-items-slider_v2.php:314
+#: widgets/recent-items-slider_v3.php:313
+#: widgets/recent-items-slider_v4.php:333
+#: widgets/recent-items-slider_v5.php:329
+#: widgets/recent-items-slider_v7.php:332
+#: widgets/recent-items_card_v1.php:376
+#: widgets/recent-items_card_v2.php:374
+#: widgets/recent-items_card_v3.php:375
+#: widgets/recent-items_card_v4.php:375
+#: widgets/recent-items_card_v5.php:376
+#: widgets/recent-items_card_v7.php:376
+msgid "Hide Favorite Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:305
+#: widgets/filter_list_properties_v2.php:305
+#: widgets/filter_list_properties_v3.php:306
+#: widgets/filter_list_properties_v4.php:305
+#: widgets/filter_list_properties_v5.php:305
+#: widgets/filter_list_properties_v7.php:304
+#: widgets/recent-items-slider_v1.php:332
+#: widgets/recent-items-slider_v2.php:328
+#: widgets/recent-items-slider_v3.php:327
+#: widgets/recent-items-slider_v4.php:347
+#: widgets/recent-items-slider_v5.php:343
+#: widgets/recent-items-slider_v7.php:346
+#: widgets/recent-items_card_v1.php:391
+#: widgets/recent-items_card_v2.php:389
+#: widgets/recent-items_card_v3.php:390
+#: widgets/recent-items_card_v4.php:390
+#: widgets/recent-items_card_v5.php:391
+#: widgets/recent-items_card_v7.php:391
+#: widgets/single-property-widgets/property-page-addto-favorite.php:135
+msgid "Hide Share Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:322
+#: widgets/filter_list_properties_v2.php:322
+#: widgets/filter_list_properties_v3.php:323
+#: widgets/filter_list_properties_v4.php:322
+#: widgets/filter_list_properties_v5.php:322
+#: widgets/filter_list_properties_v6.php:287
+#: widgets/filter_list_properties_v7.php:321
+#: widgets/recent-items-slider_v1.php:348
+#: widgets/recent-items-slider_v2.php:344
+#: widgets/recent-items-slider_v3.php:343
+#: widgets/recent-items-slider_v4.php:363
+#: widgets/recent-items-slider_v5.php:359
+#: widgets/recent-items-slider_v6.php:324
+#: widgets/recent-items-slider_v7.php:362
+#: widgets/recent-items_card_v1.php:408
+#: widgets/recent-items_card_v2.php:406
+#: widgets/recent-items_card_v3.php:407
+#: widgets/recent-items_card_v4.php:407
+#: widgets/recent-items_card_v5.php:408
+#: widgets/recent-items_card_v6.php:366
+#: widgets/recent-items_card_v7.php:408
+msgid "Hide Featured Label"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:337
+#: widgets/filter_list_properties_v2.php:337
+#: widgets/filter_list_properties_v3.php:338
+#: widgets/filter_list_properties_v4.php:337
+#: widgets/filter_list_properties_v5.php:337
+#: widgets/filter_list_properties_v6.php:302
+#: widgets/filter_list_properties_v7.php:336
+#: widgets/recent-items-slider_v1.php:362
+#: widgets/recent-items-slider_v2.php:358
+#: widgets/recent-items-slider_v3.php:357
+#: widgets/recent-items-slider_v4.php:377
+#: widgets/recent-items-slider_v5.php:373
+#: widgets/recent-items-slider_v6.php:338
+#: widgets/recent-items-slider_v7.php:376
+#: widgets/recent-items_card_v1.php:423
+#: widgets/recent-items_card_v2.php:421
+#: widgets/recent-items_card_v3.php:422
+#: widgets/recent-items_card_v4.php:422
+#: widgets/recent-items_card_v5.php:423
+#: widgets/recent-items_card_v6.php:381
+#: widgets/recent-items_card_v7.php:423
+msgid "Hide Label Categories"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:352
+#: widgets/filter_list_properties_v2.php:352
+#: widgets/filter_list_properties_v4.php:382
+#: widgets/recent-items-slider_v1.php:376
+#: widgets/recent-items-slider_v2.php:372
+#: widgets/recent-items-slider_v4.php:419
+#: widgets/recent-items_card_v1.php:438
+#: widgets/recent-items_card_v2.php:436
+#: widgets/recent-items_card_v4.php:467
+msgid "Hide Address"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:367
+#: widgets/filter_list_properties_v3.php:355
+#: widgets/recent-items-slider_v1.php:390
+#: widgets/recent-items-slider_v3.php:373
+#: widgets/recent-items_card_v1.php:453
+#: widgets/recent-items_card_v3.php:439
+msgid "Hide Image Number"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:383
+#: widgets/filter_list_properties_v4.php:415
+#: widgets/recent-items-slider_v1.php:405
+#: widgets/recent-items-slider_v4.php:449
+#: widgets/recent-items_card_v1.php:469
+#: widgets/recent-items_card_v4.php:500
+msgid "Hide Details Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:397
+#: widgets/filter_list_properties_v3.php:385
+#: widgets/recent-items-slider_v1.php:418
+#: widgets/recent-items-slider_v3.php:401
+#: widgets/recent-items_card_v1.php:483
+#: widgets/recent-items_card_v3.php:469
+msgid "Hide Description"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:412
+#: widgets/filter_list_properties_v2.php:414
+#: widgets/filter_list_properties_v3.php:402
+#: widgets/filter_list_properties_v4.php:399
+#: widgets/filter_list_properties_v5.php:401
+#: widgets/filter_list_properties_v7.php:383
+#: widgets/recent-items-slider_v1.php:433
+#: widgets/recent-items-slider_v2.php:430
+#: widgets/recent-items-slider_v3.php:417
+#: widgets/recent-items-slider_v4.php:435
+#: widgets/recent-items-slider_v5.php:430
+#: widgets/recent-items-slider_v7.php:420
+#: widgets/recent-items_card_v1.php:499
+#: widgets/recent-items_card_v2.php:498
+#: widgets/recent-items_card_v3.php:486
+#: widgets/recent-items_card_v4.php:484
+#: widgets/recent-items_card_v5.php:487
+#: widgets/recent-items_card_v7.php:470
+msgid "Hide Agent"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:428
+#: widgets/filter_list_properties_v2.php:430
+#: widgets/filter_list_properties_v3.php:418
+#: widgets/filter_list_properties_v4.php:431
+#: widgets/filter_list_properties_v5.php:417
+#: widgets/filter_list_properties_v7.php:399
+#: widgets/recent-items-slider_v1.php:447
+#: widgets/recent-items-slider_v2.php:444
+#: widgets/recent-items-slider_v3.php:431
+#: widgets/recent-items-slider_v4.php:463
+#: widgets/recent-items-slider_v5.php:444
+#: widgets/recent-items-slider_v7.php:434
+#: widgets/recent-items_card_v1.php:516
+#: widgets/recent-items_card_v2.php:514
+#: widgets/recent-items_card_v3.php:502
+#: widgets/recent-items_card_v4.php:516
+#: widgets/recent-items_card_v5.php:503
+#: widgets/recent-items_card_v7.php:486
+msgid "Hide Bottom section "
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:467
+#: widgets/filter_list_properties_v2.php:469
+#: widgets/filter_list_properties_v3.php:457
+#: widgets/filter_list_properties_v4.php:470
+#: widgets/filter_list_properties_v5.php:456
+#: widgets/filter_list_properties_v6.php:387
+#: widgets/filter_list_properties_v7.php:438
+#: widgets/recent-items-slider_v1.php:482
+#: widgets/recent-items-slider_v2.php:479
+#: widgets/recent-items-slider_v3.php:466
+#: widgets/recent-items-slider_v4.php:498
+#: widgets/recent-items-slider_v5.php:479
+#: widgets/recent-items-slider_v6.php:417
+#: widgets/recent-items-slider_v7.php:469
+#: widgets/recent-items_card_v1.php:555
+#: widgets/recent-items_card_v2.php:553
+#: widgets/recent-items_card_v3.php:541
+#: widgets/recent-items_card_v4.php:555
+#: widgets/recent-items_card_v5.php:542
+#: widgets/recent-items_card_v6.php:466
+#: widgets/recent-items_card_v7.php:525
+#: widgets/single-property-widgets/property-page-address-section.php:252
+#: widgets/single-property-widgets/property-page-calculator-section.php:232
+#: widgets/single-property-widgets/property-page-description-section.php:230
+#: widgets/single-property-widgets/property-page-details-section.php:252
+#: widgets/single-property-widgets/property-page-features-section.php:252
+#: widgets/single-property-widgets/property-page-floorplans-section.php:232
+#: widgets/single-property-widgets/property-page-header-section.php:205
+#: widgets/single-property-widgets/property-page-map-section.php:250
+#: widgets/single-property-widgets/property-page-overview-section.php:415
+#: widgets/single-property-widgets/property-page-reviews-section.php:231
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:234
+#: widgets/single-property-widgets/property-page-statistics-section.php:233
+#: widgets/single-property-widgets/property-page-subunits-section.php:249
+#: widgets/single-property-widgets/property-page-title.php:44
+#: widgets/single-property-widgets/property-page-title.php:98
+#: widgets/single-property-widgets/property-page-video-section.php:232
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:233
+#: widgets/single-property-widgets/property-page-walkscore-section.php:232
+#: widgets/single-property-widgets/property-page-yelp-section.php:232
+#: widgets/single-property-widgets/property_page_accordion_details.php:337
+msgid "Property Title"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:487
+#: widgets/filter_list_properties_v2.php:499
+#: widgets/filter_list_properties_v3.php:478
+#: widgets/filter_list_properties_v4.php:491
+#: widgets/filter_list_properties_v5.php:468
+#: widgets/filter_list_properties_v6.php:399
+#: widgets/filter_list_properties_v7.php:450
+#: widgets/recent-items-slider_v1.php:500
+#: widgets/recent-items-slider_v2.php:506
+#: widgets/recent-items-slider_v3.php:485
+#: widgets/recent-items-slider_v4.php:517
+#: widgets/recent-items-slider_v5.php:490
+#: widgets/recent-items-slider_v6.php:428
+#: widgets/recent-items-slider_v7.php:480
+#: widgets/recent-items_card_v1.php:575
+#: widgets/recent-items_card_v2.php:583
+#: widgets/recent-items_card_v3.php:562
+#: widgets/recent-items_card_v4.php:576
+#: widgets/recent-items_card_v5.php:554
+#: widgets/recent-items_card_v6.php:478
+#: widgets/recent-items_card_v7.php:537
+msgid "Property Info Text"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:497
+#: widgets/filter_list_properties_v1.php:770
+#: widgets/filter_list_properties_v2.php:509
+#: widgets/filter_list_properties_v2.php:735
+#: widgets/filter_list_properties_v3.php:491
+#: widgets/filter_list_properties_v3.php:746
+#: widgets/filter_list_properties_v5.php:478
+#: widgets/filter_list_properties_v5.php:666
+#: widgets/filter_list_properties_v6.php:409
+#: widgets/filter_list_properties_v6.php:599
+#: widgets/filter_list_properties_v7.php:460
+#: widgets/filter_list_properties_v7.php:686
+#: widgets/recent-items-slider_v1.php:509
+#: widgets/recent-items-slider_v1.php:765
+#: widgets/recent-items-slider_v2.php:515
+#: widgets/recent-items-slider_v2.php:727
+#: widgets/recent-items-slider_v3.php:497
+#: widgets/recent-items-slider_v3.php:737
+#: widgets/recent-items-slider_v5.php:499
+#: widgets/recent-items-slider_v5.php:674
+#: widgets/recent-items-slider_v6.php:437
+#: widgets/recent-items-slider_v6.php:617
+#: widgets/recent-items-slider_v7.php:489
+#: widgets/recent-items-slider_v7.php:700
+#: widgets/recent-items_card_v1.php:585
+#: widgets/recent-items_card_v1.php:858
+#: widgets/recent-items_card_v2.php:593
+#: widgets/recent-items_card_v2.php:819
+#: widgets/recent-items_card_v3.php:575
+#: widgets/recent-items_card_v3.php:830
+#: widgets/recent-items_card_v5.php:564
+#: widgets/recent-items_card_v5.php:752
+#: widgets/recent-items_card_v6.php:488
+#: widgets/recent-items_card_v6.php:678
+#: widgets/recent-items_card_v7.php:547
+#: widgets/recent-items_card_v7.php:773
+msgid "Price"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:507
+#: widgets/filter_list_properties_v2.php:519
+#: widgets/filter_list_properties_v3.php:501
+#: widgets/filter_list_properties_v5.php:488
+#: widgets/filter_list_properties_v6.php:419
+#: widgets/filter_list_properties_v7.php:470
+#: widgets/recent-items-slider_v1.php:518
+#: widgets/recent-items-slider_v2.php:524
+#: widgets/recent-items-slider_v3.php:506
+#: widgets/recent-items-slider_v5.php:508
+#: widgets/recent-items-slider_v6.php:446
+#: widgets/recent-items-slider_v7.php:498
+#: widgets/recent-items_card_v1.php:595
+#: widgets/recent-items_card_v2.php:603
+#: widgets/recent-items_card_v3.php:585
+#: widgets/recent-items_card_v5.php:574
+#: widgets/recent-items_card_v6.php:498
+#: widgets/recent-items_card_v7.php:557
+msgid "Price Label"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:517
+#: widgets/recent-items-slider_v1.php:527
+#: widgets/recent-items_card_v1.php:605
+msgid "Property Description"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:529
+#: widgets/recent-items-slider_v1.php:538
+#: widgets/recent-items_card_v1.php:617
+msgid "Detail Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:539
+#: widgets/filter_list_properties_v2.php:533
+#: widgets/filter_list_properties_v3.php:515
+#: widgets/filter_list_properties_v4.php:518
+#: widgets/filter_list_properties_v7.php:482
+#: widgets/recent-items-slider_v1.php:547
+#: widgets/recent-items-slider_v2.php:537
+#: widgets/recent-items-slider_v3.php:519
+#: widgets/recent-items-slider_v4.php:542
+#: widgets/recent-items-slider_v7.php:509
+#: widgets/recent-items_card_v1.php:627
+#: widgets/recent-items_card_v2.php:617
+#: widgets/recent-items_card_v3.php:599
+#: widgets/recent-items_card_v4.php:603
+#: widgets/recent-items_card_v7.php:569
+msgid "Agent"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:560
+#: widgets/filter_list_properties_v2.php:554
+#: widgets/filter_list_properties_v3.php:536
+#: widgets/filter_list_properties_v4.php:539
+#: widgets/filter_list_properties_v5.php:511
+#: widgets/filter_list_properties_v6.php:442
+#: widgets/filter_list_properties_v7.php:503
+#: widgets/property_page_agent_card.php:250
+#: widgets/property_page_agent_contact.php:142
+#: widgets/recent-items-slider_v1.php:567
+#: widgets/recent-items-slider_v2.php:557
+#: widgets/recent-items-slider_v3.php:539
+#: widgets/recent-items-slider_v4.php:562
+#: widgets/recent-items-slider_v5.php:530
+#: widgets/recent-items-slider_v6.php:468
+#: widgets/recent-items-slider_v7.php:529
+#: widgets/recent-items_card_v1.php:648
+#: widgets/recent-items_card_v2.php:638
+#: widgets/recent-items_card_v3.php:620
+#: widgets/recent-items_card_v4.php:624
+#: widgets/recent-items_card_v5.php:597
+#: widgets/recent-items_card_v6.php:521
+#: widgets/recent-items_card_v7.php:590
+#: widgets/single-property-widgets/property-page-address-section.php:177
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:230
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:176
+#: widgets/single-property-widgets/property-page-calculator-section.php:157
+#: widgets/single-property-widgets/property-page-description-section.php:155
+#: widgets/single-property-widgets/property-page-details-section.php:177
+#: widgets/single-property-widgets/property-page-features-section.php:177
+#: widgets/single-property-widgets/property-page-floorplans-section.php:157
+#: widgets/single-property-widgets/property-page-map-section.php:173
+#: widgets/single-property-widgets/property-page-overview-section.php:340
+#: widgets/single-property-widgets/property-page-reviews-section.php:156
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:169
+#: widgets/single-property-widgets/property-page-statistics-section.php:158
+#: widgets/single-property-widgets/property-page-subunits-section.php:165
+#: widgets/single-property-widgets/property-page-video-section.php:157
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:158
+#: widgets/single-property-widgets/property-page-walkscore-section.php:157
+#: widgets/single-property-widgets/property-page-yelp-section.php:157
+#: widgets/single-property-widgets/property_page_accordion_details.php:257
+#: widgets/single-property-widgets/property_page_agent_card.php:231
+#: widgets/single-property-widgets/property_page_agent_contact.php:140
+#: widgets/single-property-widgets/property_page_schedule_tour.php:135
+msgid "Spaces & Sizes"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:568
+#: widgets/filter_list_properties_v2.php:562
+#: widgets/filter_list_properties_v3.php:544
+#: widgets/filter_list_properties_v5.php:519
+#: widgets/filter_list_properties_v6.php:450
+#: widgets/filter_list_properties_v7.php:511
+#: widgets/recent-items-slider_v1.php:574
+#: widgets/recent-items-slider_v2.php:564
+#: widgets/recent-items-slider_v3.php:546
+#: widgets/recent-items-slider_v5.php:537
+#: widgets/recent-items-slider_v6.php:475
+#: widgets/recent-items-slider_v7.php:536
+#: widgets/recent-items_card_v1.php:656
+#: widgets/recent-items_card_v2.php:646
+#: widgets/recent-items_card_v3.php:628
+#: widgets/recent-items_card_v5.php:605
+#: widgets/recent-items_card_v6.php:529
+#: widgets/recent-items_card_v7.php:598
+#: widgets/single-property-widgets/property-page-address-section.php:184
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:134
+#: widgets/single-property-widgets/property-page-calculator-section.php:164
+#: widgets/single-property-widgets/property-page-description-section.php:162
+#: widgets/single-property-widgets/property-page-details-section.php:184
+#: widgets/single-property-widgets/property-page-features-section.php:184
+#: widgets/single-property-widgets/property-page-floorplans-section.php:164
+#: widgets/single-property-widgets/property-page-header-section.php:102
+#: widgets/single-property-widgets/property-page-map-section.php:180
+#: widgets/single-property-widgets/property-page-overview-section.php:347
+#: widgets/single-property-widgets/property-page-reviews-section.php:163
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:176
+#: widgets/single-property-widgets/property-page-statistics-section.php:165
+#: widgets/single-property-widgets/property-page-subunits-section.php:172
+#: widgets/single-property-widgets/property-page-title.php:133
+#: widgets/single-property-widgets/property-page-video-section.php:164
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:165
+#: widgets/single-property-widgets/property-page-walkscore-section.php:164
+#: widgets/single-property-widgets/property-page-yelp-section.php:164
+#: widgets/single-property-widgets/property_page_accordion_details.php:265
+msgid "Title Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:598
+#: widgets/filter_list_properties_v3.php:574
+#: widgets/filter_list_properties_v6.php:480
+#: widgets/filter_list_properties_v7.php:541
+#: widgets/recent-items-slider_v1.php:603
+#: widgets/recent-items-slider_v3.php:575
+#: widgets/recent-items-slider_v6.php:504
+#: widgets/recent-items-slider_v7.php:565
+#: widgets/recent-items_card_v1.php:686
+#: widgets/recent-items_card_v3.php:658
+#: widgets/recent-items_card_v6.php:559
+#: widgets/recent-items_card_v7.php:628
+msgid "Property Price Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:629
+#: widgets/filter_list_properties_v3.php:605
+#: widgets/recent-items-slider_v1.php:633
+#: widgets/recent-items-slider_v3.php:605
+#: widgets/recent-items_card_v1.php:717
+#: widgets/recent-items_card_v3.php:689
+msgid "Property Description Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:660
+#: widgets/recent-items-slider_v1.php:663
+#: widgets/recent-items_card_v1.php:748
+msgid "Meta Icons Margin Bottom (px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:690
+#: widgets/filter_list_properties_v2.php:655
+#: widgets/filter_list_properties_v3.php:666
+#: widgets/filter_list_properties_v4.php:640
+#: widgets/filter_list_properties_v5.php:584
+#: widgets/filter_list_properties_v6.php:542
+#: widgets/filter_list_properties_v7.php:604
+#: widgets/property_page_agent_card.php:288
+#: widgets/property_page_agent_contact.php:152
+#: widgets/recent-items-slider_v1.php:692
+#: widgets/recent-items-slider_v2.php:654
+#: widgets/recent-items-slider_v3.php:664
+#: widgets/recent-items-slider_v4.php:659
+#: widgets/recent-items-slider_v5.php:600
+#: widgets/recent-items-slider_v6.php:564
+#: widgets/recent-items-slider_v7.php:626
+#: widgets/recent-items_card_v1.php:778
+#: widgets/recent-items_card_v2.php:739
+#: widgets/recent-items_card_v3.php:750
+#: widgets/recent-items_card_v4.php:725
+#: widgets/recent-items_card_v5.php:670
+#: widgets/recent-items_card_v6.php:621
+#: widgets/recent-items_card_v7.php:691
+#: widgets/single-property-widgets/property-page-address-section.php:213
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:325
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:212
+#: widgets/single-property-widgets/property-page-calculator-section.php:193
+#: widgets/single-property-widgets/property-page-description-section.php:191
+#: widgets/single-property-widgets/property-page-details-section.php:213
+#: widgets/single-property-widgets/property-page-features-section.php:213
+#: widgets/single-property-widgets/property-page-floorplans-section.php:193
+#: widgets/single-property-widgets/property-page-map-section.php:209
+#: widgets/single-property-widgets/property-page-overview-section.php:376
+#: widgets/single-property-widgets/property-page-reviews-section.php:192
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:205
+#: widgets/single-property-widgets/property-page-statistics-section.php:194
+#: widgets/single-property-widgets/property-page-subunits-section.php:201
+#: widgets/single-property-widgets/property-page-video-section.php:193
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:194
+#: widgets/single-property-widgets/property-page-walkscore-section.php:193
+#: widgets/single-property-widgets/property-page-yelp-section.php:193
+#: widgets/single-property-widgets/property_page_accordion_details.php:295
+#: widgets/single-property-widgets/property_page_agent_card.php:269
+#: widgets/single-property-widgets/property_page_agent_contact.php:150
+#: widgets/single-property-widgets/property_page_schedule_tour.php:143
+#: widgets/video_player.php:194
+msgid "Content Area Padding"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:782
+#: widgets/filter_list_properties_v1.php:794
+#: widgets/filter_list_properties_v5.php:679
+#: widgets/filter_list_properties_v7.php:698
+#: widgets/recent-items-slider_v1.php:776
+#: widgets/recent-items-slider_v1.php:787
+#: widgets/recent-items-slider_v5.php:686
+#: widgets/recent-items-slider_v7.php:711
+#: widgets/recent-items_card_v1.php:870
+#: widgets/recent-items_card_v1.php:882
+#: widgets/recent-items_card_v5.php:765
+#: widgets/recent-items_card_v7.php:785
+msgid "Share,Compare & Favorite Background Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:819
+#: widgets/recent-items-slider_v1.php:810
+#: widgets/recent-items_card_v1.php:907
+msgid "Address and Image no Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:830
+#: widgets/recent-items-slider_v1.php:820
+#: widgets/recent-items_card_v1.php:918
+msgid "Property Description color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:844
+#: widgets/filter_list_properties_v2.php:809
+#: widgets/filter_list_properties_v3.php:810
+#: widgets/filter_list_properties_v4.php:766
+#: widgets/filter_list_properties_v5.php:718
+#: widgets/filter_list_properties_v6.php:636
+#: widgets/filter_list_properties_v7.php:736
+#: widgets/recent-items-slider_v1.php:833
+#: widgets/recent-items-slider_v2.php:794
+#: widgets/recent-items-slider_v3.php:796
+#: widgets/recent-items-slider_v4.php:775
+#: widgets/recent-items-slider_v5.php:722
+#: widgets/recent-items-slider_v6.php:651
+#: widgets/recent-items-slider_v7.php:746
+#: widgets/recent-items_card_v1.php:932
+#: widgets/recent-items_card_v2.php:893
+#: widgets/recent-items_card_v3.php:894
+#: widgets/recent-items_card_v4.php:851
+#: widgets/recent-items_card_v5.php:804
+#: widgets/recent-items_card_v6.php:715
+#: widgets/recent-items_card_v7.php:823
+msgid "Property info Text color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:856
+#: widgets/filter_list_properties_v7.php:748
+#: widgets/recent-items-slider_v1.php:844
+#: widgets/recent-items-slider_v7.php:757
+#: widgets/recent-items_card_v1.php:944
+#: widgets/recent-items_card_v7.php:835
+msgid "Property Info icons color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:871
+#: widgets/filter_list_properties_v2.php:835
+#: widgets/filter_list_properties_v3.php:836
+#: widgets/filter_list_properties_v4.php:793
+#: widgets/filter_list_properties_v7.php:762
+#: widgets/recent-items-slider_v1.php:858
+#: widgets/recent-items-slider_v2.php:818
+#: widgets/recent-items-slider_v3.php:820
+#: widgets/recent-items-slider_v4.php:800
+#: widgets/recent-items-slider_v7.php:769
+#: widgets/recent-items_card_v1.php:959
+#: widgets/recent-items_card_v2.php:919
+#: widgets/recent-items_card_v3.php:920
+#: widgets/recent-items_card_v4.php:878
+#: widgets/recent-items_card_v7.php:849
+msgid "Agent Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:885
+#: widgets/filter_list_properties_v4.php:808
+#: widgets/filter_list_properties_v4.php:819
+#: widgets/recent-items-slider_v1.php:870
+#: widgets/recent-items-slider_v4.php:813
+#: widgets/recent-items-slider_v4.php:823
+#: widgets/recent-items_card_v1.php:973
+#: widgets/recent-items_card_v4.php:893
+#: widgets/recent-items_card_v4.php:904
+msgid "Details Button Background Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:899
+#: widgets/recent-items-slider_v1.php:881
+#: widgets/recent-items_card_v1.php:987
+msgid "Details Button Background Color Hover"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:912
+#: widgets/recent-items-slider_v1.php:892
+#: widgets/recent-items_card_v1.php:1000
+msgid "Detail Button Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v1.php:924
+#: widgets/recent-items-slider_v1.php:903
+#: widgets/recent-items_card_v1.php:1012
+msgid "Detail Button Color Hover"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:49
+msgid "WpResidence Properties List with Filter V2"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:367
+#: widgets/recent-items-slider_v2.php:386
+#: widgets/recent-items_card_v2.php:451
+msgid "Hide Categories"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:382
+#: widgets/filter_list_properties_v5.php:385
+#: widgets/filter_list_properties_v6.php:348
+#: widgets/filter_list_properties_v7.php:365
+#: widgets/recent-items-slider_v2.php:400
+#: widgets/recent-items-slider_v5.php:416
+#: widgets/recent-items-slider_v6.php:381
+#: widgets/recent-items-slider_v7.php:403
+#: widgets/recent-items_card_v2.php:466
+#: widgets/recent-items_card_v5.php:471
+#: widgets/recent-items_card_v6.php:427
+#: widgets/recent-items_card_v7.php:452
+msgid "Hide Price"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:397
+#: widgets/filter_list_properties_v3.php:370
+#: widgets/filter_list_properties_v4.php:367
+#: widgets/recent-items-slider_v2.php:414
+#: widgets/recent-items-slider_v3.php:387
+#: widgets/recent-items-slider_v4.php:405
+#: widgets/recent-items_card_v2.php:481
+#: widgets/recent-items_card_v3.php:454
+#: widgets/recent-items_card_v4.php:452
+msgid "Hide Details"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:489
+#: widgets/recent-items-slider_v2.php:497
+#: widgets/recent-items_card_v2.php:573
+msgid "Property Categories Text"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:592
+#: widgets/recent-items-slider_v2.php:593
+#: widgets/recent-items_card_v2.php:676
+msgid "Property Address Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:623
+#: widgets/recent-items-slider_v2.php:623
+#: widgets/recent-items_card_v2.php:707
+msgid "Property Category Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:747
+#: widgets/recent-items-slider_v2.php:738
+#: widgets/recent-items_card_v2.php:831
+msgid "Share & Compare Background Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:759
+#: widgets/recent-items-slider_v2.php:749
+#: widgets/recent-items_card_v2.php:843
+msgid "Share & Compare Background Color Hover"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:771
+#: widgets/filter_list_properties_v3.php:783
+#: widgets/recent-items-slider_v2.php:759
+#: widgets/recent-items-slider_v3.php:771
+#: widgets/recent-items_card_v2.php:855
+#: widgets/recent-items_card_v3.php:867
+msgid "Favorite Button Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:796
+#: widgets/recent-items-slider_v2.php:782
+#: widgets/recent-items_card_v2.php:880
+#: widgets/single-property-widgets/property-page-header-section.php:267
+msgid "Address Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v2.php:821
+#: widgets/recent-items-slider_v2.php:805
+#: widgets/recent-items_card_v2.php:905
+msgid "Property Categories color"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:49
+msgid "WpResidence Properties List with Filter V3"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:467
+#: widgets/recent-items-slider_v3.php:475
+#: widgets/recent-items_card_v3.php:551
+#: widgets/single-property-widgets/propert_page_other_agents.php:309
+msgid "Description"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:635
+#: widgets/filter_list_properties_v4.php:609
+#: widgets/filter_list_properties_v6.php:511
+#: widgets/filter_list_properties_v7.php:572
+#: widgets/recent-items-slider_v3.php:634
+#: widgets/recent-items-slider_v4.php:629
+#: widgets/recent-items-slider_v6.php:534
+#: widgets/recent-items-slider_v7.php:595
+#: widgets/recent-items_card_v3.php:719
+#: widgets/recent-items_card_v4.php:694
+#: widgets/recent-items_card_v6.php:590
+#: widgets/recent-items_card_v7.php:659
+msgid "Property Info Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:758
+#: widgets/recent-items-slider_v3.php:748
+#: widgets/recent-items_card_v3.php:842
+msgid "Share & Compare Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:771
+#: widgets/filter_list_properties_v4.php:748
+#: widgets/recent-items-slider_v3.php:760
+#: widgets/recent-items-slider_v4.php:758
+#: widgets/recent-items_card_v3.php:855
+#: widgets/recent-items_card_v4.php:833
+msgid "Share & Compare Hover Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v3.php:822
+#: widgets/recent-items-slider_v3.php:807
+#: widgets/recent-items_card_v3.php:906
+msgid "Property description color"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:49
+msgid "WpResidence Properties List with Filter V4"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:351
+#: widgets/filter_list_properties_v6.php:318
+#: widgets/filter_list_properties_v7.php:351
+#: widgets/recent-items-slider_v4.php:390
+#: widgets/recent-items-slider_v6.php:353
+#: widgets/recent-items-slider_v7.php:390
+#: widgets/recent-items_card_v4.php:436
+#: widgets/recent-items_card_v6.php:397
+#: widgets/recent-items_card_v7.php:438
+msgid "Hide Title"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:480
+#: widgets/recent-items-slider_v4.php:507
+#: widgets/recent-items_card_v4.php:565
+#: widgets/single-property-widgets/property-page-address.php:44
+msgid "Property Address"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:504
+#: widgets/recent-items-slider_v4.php:529
+#: widgets/recent-items_card_v4.php:589
+msgid "Details Button"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:548
+#: widgets/recent-items-slider_v4.php:570
+#: widgets/recent-items_card_v4.php:633
+msgid "Property Title Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:579
+#: widgets/recent-items-slider_v4.php:600
+#: widgets/recent-items_card_v4.php:664
+msgid "Property Adress Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:734
+#: widgets/recent-items-slider_v4.php:745
+#: widgets/recent-items_card_v4.php:819
+msgid "Share, Favorite & Compare Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:779
+#: widgets/recent-items-slider_v4.php:787
+#: widgets/recent-items_card_v4.php:864
+msgid "Property Address color"
+msgstr ""
+
+#: widgets/filter_list_properties_v4.php:831
+#: widgets/filter_list_properties_v4.php:842
+#: widgets/recent-items-slider_v4.php:834
+#: widgets/recent-items-slider_v4.php:844
+#: widgets/recent-items_card_v4.php:916
+#: widgets/recent-items_card_v4.php:927
+msgid "Details Button Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v5.php:49
+msgid "WpResidence Properties List with Filter V5"
+msgstr ""
+
+#: widgets/filter_list_properties_v5.php:352
+#: widgets/recent-items-slider_v5.php:387
+#: widgets/recent-items_card_v5.php:438
+msgid "Hide Property Title"
+msgstr ""
+
+#: widgets/filter_list_properties_v5.php:367
+#: widgets/recent-items-slider_v5.php:400
+#: widgets/recent-items_card_v5.php:453
+msgid "Hide Property Info"
+msgstr ""
+
+#: widgets/filter_list_properties_v5.php:550
+#: widgets/recent-items-slider_v5.php:567
+#: widgets/recent-items_card_v5.php:636
+msgid "Property Details Margin Bottom(px)"
+msgstr ""
+
+#: widgets/filter_list_properties_v5.php:691
+#: widgets/filter_list_properties_v7.php:710
+#: widgets/recent-items-slider_v5.php:697
+#: widgets/recent-items-slider_v7.php:722
+#: widgets/recent-items_card_v5.php:777
+#: widgets/recent-items_card_v7.php:797
+msgid "Share,Compare & Favorite Hover Background Color"
+msgstr ""
+
+#: widgets/filter_list_properties_v6.php:49
+msgid "WpResidence Properties List with Filter V6"
+msgstr ""
+
+#: widgets/filter_list_properties_v6.php:333
+#: widgets/recent-items-slider_v6.php:367
+#: widgets/recent-items_card_v6.php:412
+msgid "Hide Property Information"
+msgstr ""
+
+#: widgets/filter_list_properties_v6.php:625
+#: widgets/recent-items-slider_v6.php:641
+#: widgets/recent-items_card_v6.php:704
+msgid "Property info Background color"
+msgstr ""
+
+#: widgets/filter_list_properties_v7.php:49
+msgid "WpResidence Properties List with Filter V7"
+msgstr ""
+
+#: widgets/full_map.php:40
+msgid "WpResidence Map with Listings or Contact Details"
+msgstr ""
+
+#: widgets/full_map.php:134
+msgid "Map With Listings or Office location pin?"
+msgstr ""
+
+#: widgets/full_map.php:147
+msgid "Show Contact Details over map "
+msgstr ""
+
+#: widgets/full_map.php:162
+msgid "Map Height"
+msgstr ""
+
+#: widgets/full_map.php:226
+#: widgets/recent-items-slider.php:297
+#: widgets/recent-items.php:305
+#: widgets/recent-properties-top-bar.php:385
+msgid "List of Property Status (*only for properties)"
+msgstr ""
+
+#: widgets/full_map.php:241
+msgid "Map Style from Snazy Maps"
+msgstr ""
+
+#: widgets/google_map_property.php:40
+msgid "WpResidence Google Map with Property Marker"
+msgstr ""
+
+#: widgets/google_map_property.php:145
+#: widgets/single-property-widgets/property-page-overview-section.php:106
+msgid "Property ID"
+msgstr ""
+
+#: widgets/hello-world.php:35
+msgid "Hello Worldxxxxx"
+msgstr ""
+
+#: widgets/hello-world.php:122
+msgid "Text Transform"
+msgstr ""
+
+#: widgets/hello-world.php:126
+msgid "None"
+msgstr ""
+
+#: widgets/hello-world.php:127
+msgid "UPPERCASE"
+msgstr ""
+
+#: widgets/hello-world.php:128
+msgid "lowercase"
+msgstr ""
+
+#: widgets/hello-world.php:129
+msgid "Capitalize"
+msgstr ""
+
+#: widgets/hotspot.php:50
+msgid "Wpresidence HotSpots"
+msgstr ""
+
+#: widgets/hotspot.php:385
+msgid "Image Overlay color"
+msgstr ""
+
+#: widgets/hotspot.php:434
+msgid " Hover Color"
+msgstr ""
+
+#: widgets/hotspot.php:444
+msgid " Hotspot Background Color"
+msgstr ""
+
+#: widgets/hotspot.php:454
+msgid " Hotspot Hover Background Color"
+msgstr ""
+
+#: widgets/hotspot.php:573
+msgid " Tooltip Color"
+msgstr ""
+
+#: widgets/hotspot.php:583
+msgid " Tooltip  Background Color"
+msgstr ""
+
+#: widgets/list-agents.php:40
+msgid "WpResidence List Agents"
+msgstr ""
+
+#: widgets/list-agents.php:154
+msgid "Type Category names"
+msgstr ""
+
+#: widgets/list-agents.php:165
+msgid "Type Action name"
+msgstr ""
+
+#: widgets/list-agents.php:176
+msgid "Type City names"
+msgstr ""
+
+#: widgets/list-agents.php:186
+msgid "Type Area names"
+msgstr ""
+
+#: widgets/list-agents.php:213
+#: widgets/list-items-by-id.php:168
+msgid "Link to global listing"
+msgstr ""
+
+#: widgets/list-agents.php:221
+#: widgets/wpresidence-agent-grids.php:139
+msgid "Order by ID"
+msgstr ""
+
+#: widgets/list-agents.php:224
+#: widgets/wpresidence-agent-grids.php:142
+#: widgets/wpresidence-grids.php:235
+msgid "ASC"
+msgstr ""
+
+#: widgets/list-agents.php:225
+#: widgets/wpresidence-agent-grids.php:143
+#: widgets/wpresidence-grids.php:236
+msgid "DESC"
+msgstr ""
+
+#: widgets/list-agents.php:233
+#: widgets/recent-items-slider.php:197
+#: widgets/recent-items-slider_v1.php:171
+#: widgets/recent-items-slider_v2.php:170
+#: widgets/recent-items-slider_v3.php:170
+#: widgets/recent-items-slider_v4.php:171
+#: widgets/recent-items-slider_v5.php:169
+#: widgets/recent-items-slider_v6.php:171
+#: widgets/recent-items-slider_v7.php:171
+#: widgets/recent-items.php:207
+#: widgets/recent-items_card_v1.php:201
+#: widgets/recent-items_card_v2.php:200
+#: widgets/recent-items_card_v3.php:201
+#: widgets/recent-items_card_v4.php:201
+#: widgets/recent-items_card_v5.php:201
+#: widgets/recent-items_card_v6.php:201
+#: widgets/recent-items_card_v7.php:202
+#: widgets/recent-properties-top-bar.php:287
+msgid "Random Pick ?"
+msgstr ""
+
+#: widgets/list-items-agent.php:40
+msgid "WpResidence List Items per Agent"
+msgstr ""
+
+#: widgets/list-items-agent.php:114
+msgid "Type Agent, Agency or Developert name"
+msgstr ""
+
+#: widgets/list-items-agent.php:127
+msgid "\"Number of Listings"
+msgstr ""
+
+#: widgets/list-items-by-id.php:40
+msgid "WpResidence List Items By Id"
+msgstr ""
+
+#: widgets/list-items-by-id.php:112
+#: widgets/recent-items-slider.php:157
+#: widgets/recent-items.php:156
+msgid "What type of items"
+msgstr ""
+
+#: widgets/list-items-by-id.php:122
+#: widgets/properties_slider.php:118
+msgid "Items IDs"
+msgstr ""
+
+#: widgets/login-form.php:40
+msgid "WpResidence Login"
+msgstr ""
+
+#: widgets/login-form.php:109
+msgid "Register link text"
+msgstr ""
+
+#: widgets/login-form.php:116
+msgid "Register page url"
+msgstr ""
+
+#: widgets/membership-package.php:40
+msgid "WpResidence Membership Package"
+msgstr ""
+
+#: widgets/membership-package.php:115
+msgid "Type Package name"
+msgstr ""
+
+#: widgets/membership-package.php:126
+msgid "Content of the package box"
+msgstr ""
+
+#: widgets/membership-package.php:134
+msgid "Make package featured?"
+msgstr ""
+
+#: widgets/places-slider.php:48
+msgid "WpResidence Category Slider"
+msgstr ""
+
+#: widgets/places-slider.php:261
+msgid "Title Margin Bottom(px) "
+msgstr ""
+
+#: widgets/places-slider.php:292
+msgid "Tagline Margin Bottom(px) "
+msgstr ""
+
+#: widgets/places-slider.php:324
+msgid "Tagline Typography "
+msgstr ""
+
+#: widgets/places-slider.php:382
+msgid "Subtitle Color"
+msgstr ""
+
+#: widgets/places-slider.php:407
+msgid "Listings Backgorund Color"
+msgstr ""
+
+#: widgets/properties_slider.php:40
+msgid "WpResidence Property Slider"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:46
+msgid "WpResidence Property Slider v2"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:128
+#: widgets/properties_slider_v3.php:128
+#: widgets/recent-items-slider.php:225
+#: widgets/recent-items-slider_v1.php:197
+#: widgets/recent-items-slider_v2.php:195
+#: widgets/recent-items-slider_v3.php:196
+#: widgets/recent-items-slider_v4.php:197
+#: widgets/recent-items-slider_v5.php:195
+#: widgets/recent-items-slider_v6.php:197
+#: widgets/recent-items-slider_v7.php:197
+#: widgets/recent-items.php:235
+#: widgets/recent-items_card_v1.php:230
+#: widgets/recent-items_card_v2.php:228
+#: widgets/recent-items_card_v3.php:229
+#: widgets/recent-items_card_v4.php:229
+#: widgets/recent-items_card_v5.php:230
+#: widgets/recent-items_card_v6.php:229
+#: widgets/recent-items_card_v7.php:230
+#: widgets/recent-properties-top-bar.php:315
+msgid "Filters"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:141
+#: widgets/properties_slider_v3.php:141
+#: widgets/recent-items-slider_v1.php:210
+#: widgets/recent-items-slider_v2.php:208
+#: widgets/recent-items-slider_v3.php:209
+#: widgets/recent-items-slider_v4.php:210
+#: widgets/recent-items-slider_v5.php:208
+#: widgets/recent-items-slider_v6.php:210
+#: widgets/recent-items-slider_v7.php:210
+#: widgets/recent-items_card_v2.php:240
+#: widgets/recent-items_card_v3.php:241
+#: widgets/recent-items_card_v4.php:241
+#: widgets/recent-items_card_v5.php:242
+#: widgets/recent-items_card_v6.php:241
+#: widgets/recent-items_card_v7.php:242
+msgid "List of categories "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:152
+#: widgets/properties_slider_v3.php:152
+#: widgets/recent-items-slider_v1.php:221
+#: widgets/recent-items-slider_v2.php:219
+#: widgets/recent-items-slider_v3.php:220
+#: widgets/recent-items-slider_v4.php:221
+#: widgets/recent-items-slider_v5.php:219
+#: widgets/recent-items-slider_v6.php:221
+#: widgets/recent-items-slider_v7.php:221
+#: widgets/recent-items_card_v3.php:253
+#: widgets/recent-items_card_v4.php:253
+#: widgets/recent-items_card_v5.php:254
+#: widgets/recent-items_card_v6.php:253
+#: widgets/recent-items_card_v7.php:254
+msgid "List of action categories "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:163
+#: widgets/properties_slider_v3.php:163
+#: widgets/recent-items-slider_v1.php:232
+#: widgets/recent-items-slider_v2.php:230
+#: widgets/recent-items-slider_v3.php:231
+#: widgets/recent-items-slider_v4.php:232
+#: widgets/recent-items-slider_v5.php:230
+#: widgets/recent-items-slider_v6.php:232
+#: widgets/recent-items-slider_v7.php:232
+#: widgets/recent-items_card_v2.php:264
+#: widgets/recent-items_card_v3.php:265
+#: widgets/recent-items_card_v4.php:265
+#: widgets/recent-items_card_v5.php:266
+#: widgets/recent-items_card_v6.php:265
+#: widgets/recent-items_card_v7.php:266
+msgid "List of city  "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:173
+#: widgets/properties_slider_v3.php:173
+#: widgets/recent-items-slider_v1.php:242
+#: widgets/recent-items-slider_v2.php:240
+#: widgets/recent-items-slider_v3.php:241
+#: widgets/recent-items-slider_v4.php:242
+#: widgets/recent-items-slider_v5.php:240
+#: widgets/recent-items-slider_v6.php:242
+#: widgets/recent-items-slider_v7.php:242
+#: widgets/recent-items_card_v2.php:275
+#: widgets/recent-items_card_v3.php:276
+#: widgets/recent-items_card_v4.php:276
+#: widgets/recent-items_card_v5.php:277
+#: widgets/recent-items_card_v6.php:276
+#: widgets/recent-items_card_v7.php:277
+msgid "List of areas "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:183
+#: widgets/properties_slider_v3.php:183
+#: widgets/recent-items-slider_v1.php:252
+#: widgets/recent-items-slider_v2.php:250
+#: widgets/recent-items-slider_v3.php:251
+#: widgets/recent-items-slider_v4.php:252
+#: widgets/recent-items-slider_v5.php:250
+#: widgets/recent-items-slider_v6.php:252
+#: widgets/recent-items-slider_v7.php:252
+#: widgets/recent-items_card_v2.php:286
+#: widgets/recent-items_card_v3.php:287
+#: widgets/recent-items_card_v4.php:287
+#: widgets/recent-items_card_v5.php:288
+#: widgets/recent-items_card_v6.php:287
+#: widgets/recent-items_card_v7.php:288
+msgid "List of Counties/States "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:194
+#: widgets/properties_slider_v3.php:194
+#: widgets/recent-items-slider_v1.php:263
+#: widgets/recent-items-slider_v2.php:261
+#: widgets/recent-items-slider_v3.php:262
+#: widgets/recent-items-slider_v4.php:263
+#: widgets/recent-items-slider_v5.php:261
+#: widgets/recent-items-slider_v6.php:263
+#: widgets/recent-items-slider_v7.php:263
+#: widgets/recent-items_card_v2.php:298
+#: widgets/recent-items_card_v3.php:299
+#: widgets/recent-items_card_v4.php:299
+#: widgets/recent-items_card_v5.php:300
+#: widgets/recent-items_card_v6.php:299
+#: widgets/recent-items_card_v7.php:300
+msgid "List of Property Status "
+msgstr ""
+
+#: widgets/properties_slider_v2.php:223
+#: widgets/properties_slider_v3.php:223
+msgid "Items IDs - will override the above filters"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:249
+msgid "right"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:270
+#: widgets/properties_slider_v3.php:259
+#: widgets/single-property-widgets/property-page-price-info.php:98
+#: widgets/single-property-widgets/property-page-price.php:98
+msgid "Price Typography"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:282
+#: widgets/properties_slider_v3.php:288
+msgid "Title Font Color"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:295
+msgid "Price Background Color"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:308
+#: widgets/properties_slider_v3.php:303
+msgid "Price Font Color"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:333
+#: widgets/search_form_builder.php:940
+msgid "Tab Item Border Width"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:369
+#: widgets/properties_slider_v3.php:406
+#: widgets/testimonial_slider.php:305
+msgid "Arrows Style"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:378
+#: widgets/properties_slider_v3.php:415
+#: widgets/single-property-widgets/property_classic_slider.php:116
+#: widgets/single-property-widgets/property_full_width_slider.php:132
+#: widgets/single-property-widgets/property_horizontal_slider.php:117
+#: widgets/single-property-widgets/property_three_items_slider.php:138
+#: widgets/single-property-widgets/property_vertical_slider.php:117
+#: widgets/testimonial_slider.php:314
+msgid "Arrow Color"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:391
+#: widgets/properties_slider_v3.php:428
+#: widgets/testimonial_slider.php:327
+msgid "Arrow Background Color"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:406
+#: widgets/properties_slider_v3.php:443
+#: widgets/testimonial_slider.php:342
+msgid "Arrow Color Hover"
+msgstr ""
+
+#: widgets/properties_slider_v2.php:419
+#: widgets/properties_slider_v3.php:456
+#: widgets/testimonial_slider.php:355
+msgid "Arrow Background Color Hover"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:46
+msgid "WpResidence Property Slider v3"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:268
+#: widgets/testimonial_slider.php:195
+msgid "Content Typography"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:277
+msgid "Agent Font Size"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:317
+msgid "Content Font Color"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:334
+msgid "Agent Font Color"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:347
+msgid "Icon  Color"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:470
+#: widgets/testimonial_slider.php:369
+msgid "Dot Color"
+msgstr ""
+
+#: widgets/properties_slider_v3.php:484
+#: widgets/testimonial_slider.php:383
+msgid "Dot Color Active"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:40
+#: widgets/single-property-widgets/property_page_accordion_details.php:48
+msgid "Details as Accordion"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:104
+#: widgets/single-property-widgets/property_page_accordion_details.php:112
+msgid "all open"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:105
+#: widgets/single-property-widgets/property_page_accordion_details.php:113
+msgid "all closed"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:106
+#: widgets/single-property-widgets/property_page_accordion_details.php:114
+msgid "only the first one open"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:112
+#: widgets/single-property-widgets/property_page_accordion_details.php:120
+msgid "Accordion Open/Close status"
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:122
+#: widgets/single-property-widgets/property_page_accordion_details.php:130
+msgid "Description Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:131
+#: widgets/single-property-widgets/property_page_accordion_details.php:139
+msgid "Property Address Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:140
+#: widgets/single-property-widgets/property_page_accordion_details.php:148
+msgid "Property Details Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:149
+#: widgets/single-property-widgets/property_page_accordion_details.php:157
+msgid "Amenities and Features Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:158
+#: widgets/single-property-widgets/property_page_accordion_details.php:166
+msgid "Map Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:167
+#: widgets/single-property-widgets/property_page_accordion_details.php:175
+msgid "Walkscore Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:176
+#: widgets/single-property-widgets/property_page_accordion_details.php:184
+msgid "Floor Plans Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:185
+#: widgets/single-property-widgets/property_page_accordion_details.php:193
+msgid "Page Views Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:194
+#: widgets/single-property-widgets/property_page_accordion_details.php:202
+msgid "Virtual Tour Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:203
+#: widgets/single-property-widgets/property_page_accordion_details.php:211
+msgid "Yelp Label. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_accordion_details.php:213
+#: widgets/single-property-widgets/property_page_accordion_details.php:221
+msgid "Custom Css"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:47
+#: widgets/single-property-widgets/property_page_agent_card.php:47
+msgid "Agent Card"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:120
+#: widgets/single-property-widgets/property_page_agent_card.php:120
+msgid "Columns"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:132
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:106
+#: widgets/single-property-widgets/property_page_agent_card.php:131
+#: widgets/single-property-widgets/propert_page_other_agents.php:134
+msgid "Hide Phone "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:147
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:120
+#: widgets/single-property-widgets/property_page_agent_card.php:146
+msgid "Hide Mobile "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:161
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:133
+#: widgets/single-property-widgets/property_page_agent_card.php:160
+#: widgets/single-property-widgets/propert_page_other_agents.php:150
+msgid "Hide Email "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:175
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:146
+#: widgets/single-property-widgets/property_page_agent_card.php:174
+msgid "Hide skype "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:190
+msgid "Hide Website "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:206
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:160
+#: widgets/single-property-widgets/property_page_agent_card.php:189
+msgid "Hide Social "
+msgstr ""
+
+#: widgets/property_page_agent_card.php:258
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:237
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:183
+#: widgets/single-property-widgets/property_page_agent_card.php:239
+msgid "Agent Postion Margin Bottom(px)"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:330
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:364
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:251
+#: widgets/single-property-widgets/property_page_agent_card.php:311
+#: widgets/single-property-widgets/propert_page_other_agents.php:299
+msgid "Agent Name"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:340
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:373
+msgid "Agent Details"
+msgstr ""
+
+#: widgets/property_page_agent_card.php:388
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:432
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:294
+#: widgets/single-property-widgets/property_page_agent_card.php:359
+msgid "Agent Title Color"
+msgstr ""
+
+#: widgets/property_page_agent_contact.php:47
+#: widgets/single-property-widgets/property_page_agent_contact.php:47
+msgid "Agent Contact Form"
+msgstr ""
+
+#: widgets/property_page_agent_contact.php:190
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:382
+msgid "Contact Form Title"
+msgstr ""
+
+#: widgets/property_page_agent_contact.php:200
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:391
+msgid "Form Font"
+msgstr ""
+
+#: widgets/property_page_agent_details_intext_details.php:40
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:47
+msgid "Text with Agent Details "
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:40
+msgid "Property Gallery"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:110
+#: widgets/single-property-widgets/property_page_design_gallery.php:110
+msgid "Thumbnail max width in px (*height is auto calculated based on image ratio)"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:121
+#: widgets/single-property-widgets/property_page_design_gallery.php:121
+msgid "Thumbnail right & bottom margin in px"
+msgstr ""
+
+#: widgets/property_page_design_gallery.php:132
+#: widgets/single-property-widgets/property_page_design_gallery.php:132
+msgid "Maximum no of thumbs"
+msgstr ""
+
+#: widgets/property_page_intext_details.php:40
+#: widgets/single-property-widgets/property_page_intext_details.php:47
+msgid "Text with Property Details "
+msgstr ""
+
+#: widgets/property_page_related_listings.php:40
+msgid "Related Listings"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:40
+#: widgets/single-property-widgets/property_page_simple_detail.php:47
+msgid "Property Single Detail"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:165
+#: widgets/single-property-widgets/property_page_simple_detail.php:172
+msgid "Select single detail"
+msgstr ""
+
+#: widgets/property_page_simple_detail.php:175
+#: widgets/single-property-widgets/property_page_simple_detail.php:182
+msgid "Element Label"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:40
+msgid "Detail Section"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:129
+#: widgets/single-property-widgets/property_page_simple_detail_section.php:129
+msgid "Select section"
+msgstr ""
+
+#: widgets/property_page_simple_detail_section.php:139
+#: widgets/single-property-widgets/property_page_simple_detail_section.php:139
+msgid "Columns (*works only for address, property details and features and amenities)"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:40
+#: widgets/single-property-widgets/property_page_slider_section.php:40
+msgid "Property Slider"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:117
+#: widgets/single-property-widgets/property_page_slider_section.php:117
+msgid "Slider Type"
+msgstr ""
+
+#: widgets/property_page_slider_section.php:129
+#: widgets/single-property-widgets/property_page_slider_section.php:129
+msgid "Show map in slider type?"
+msgstr ""
+
+#: widgets/property_page_tab_details.php:40
+#: widgets/single-property-widgets/property_page_tab_details.php:48
+msgid "Details as Tabs"
+msgstr ""
+
+#: widgets/property_page_tab_details.php:107
+#: widgets/single-property-widgets/property_page_tab_details.php:115
+msgid "Description Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:116
+#: widgets/single-property-widgets/property_page_tab_details.php:124
+msgid "Property Address  Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:125
+#: widgets/single-property-widgets/property_page_tab_details.php:133
+msgid "Property Details Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:134
+#: widgets/single-property-widgets/property_page_tab_details.php:142
+msgid "Amenities and Features Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:143
+#: widgets/single-property-widgets/property_page_tab_details.php:151
+msgid "Map Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:152
+#: widgets/single-property-widgets/property_page_tab_details.php:160
+msgid "Walkscore Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:161
+#: widgets/single-property-widgets/property_page_tab_details.php:169
+msgid "Floor Plans Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:170
+#: widgets/single-property-widgets/property_page_tab_details.php:178
+msgid "Page Views Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:179
+#: widgets/single-property-widgets/property_page_tab_details.php:187
+msgid "Virtual Tour Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/property_page_tab_details.php:188
+#: widgets/single-property-widgets/property_page_tab_details.php:196
+msgid "Yelp Label in the tab. Set it blank if you don't want it to appear."
+msgstr ""
+
+#: widgets/propert_page_image_gallery_masonry.php:40
+msgid "Masonry Gallery"
+msgstr ""
+
+#: widgets/propert_page_other_agents.php:40
+#: widgets/single-property-widgets/propert_page_other_agents.php:47
+msgid "Other Agents"
+msgstr ""
+
+#: widgets/recent-items-slider.php:46
+msgid "WpResidence Items Slider"
+msgstr ""
+
+#: widgets/recent-items-slider.php:168
+#: widgets/recent-items-slider_v1.php:146
+#: widgets/recent-items-slider_v2.php:145
+#: widgets/recent-items-slider_v3.php:145
+#: widgets/recent-items-slider_v4.php:146
+#: widgets/recent-items-slider_v5.php:144
+#: widgets/recent-items-slider_v6.php:146
+#: widgets/recent-items-slider_v7.php:146
+msgid "Slider Navigation Arrows Position"
+msgstr ""
+
+#: widgets/recent-items-slider.php:186
+#: widgets/recent-items-slider_v1.php:162
+#: widgets/recent-items-slider_v2.php:161
+#: widgets/recent-items-slider_v3.php:161
+#: widgets/recent-items-slider_v4.php:162
+#: widgets/recent-items-slider_v5.php:160
+#: widgets/recent-items-slider_v6.php:162
+#: widgets/recent-items-slider_v7.php:162
+msgid "Auto scroll period"
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:44
+msgid "WpResidence Items Slider - card v1 "
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:926
+#: widgets/recent-items-slider_v2.php:842
+#: widgets/recent-items-slider_v3.php:845
+#: widgets/recent-items-slider_v4.php:866
+#: widgets/recent-items-slider_v5.php:749
+#: widgets/recent-items-slider_v6.php:679
+#: widgets/recent-items-slider_v7.php:793
+msgid "Arrows"
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:933
+#: widgets/recent-items-slider_v2.php:849
+#: widgets/recent-items-slider_v3.php:852
+#: widgets/recent-items-slider_v4.php:873
+#: widgets/recent-items-slider_v5.php:756
+#: widgets/recent-items-slider_v6.php:686
+#: widgets/recent-items-slider_v7.php:800
+msgid "Arrows Background"
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:945
+#: widgets/recent-items-slider_v2.php:861
+#: widgets/recent-items-slider_v3.php:864
+#: widgets/recent-items-slider_v4.php:885
+#: widgets/recent-items-slider_v5.php:768
+#: widgets/recent-items-slider_v6.php:698
+#: widgets/recent-items-slider_v7.php:812
+msgid "Arrows Colors"
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:956
+#: widgets/recent-items-slider_v2.php:872
+#: widgets/recent-items-slider_v3.php:875
+#: widgets/recent-items-slider_v4.php:896
+#: widgets/recent-items-slider_v5.php:779
+#: widgets/recent-items-slider_v6.php:709
+#: widgets/recent-items-slider_v7.php:823
+msgid "Arrows Background on hover"
+msgstr ""
+
+#: widgets/recent-items-slider_v1.php:968
+#: widgets/recent-items-slider_v2.php:884
+#: widgets/recent-items-slider_v3.php:887
+#: widgets/recent-items-slider_v4.php:908
+#: widgets/recent-items-slider_v5.php:791
+#: widgets/recent-items-slider_v6.php:721
+#: widgets/recent-items-slider_v7.php:835
+msgid "Arrows Colors on hover"
+msgstr ""
+
+#: widgets/recent-items-slider_v2.php:44
+msgid "WpResidence Items Slider - card v2 "
+msgstr ""
+
+#: widgets/recent-items-slider_v3.php:44
+msgid "WpResidence Items Slider - card v3 "
+msgstr ""
+
+#: widgets/recent-items-slider_v4.php:44
+msgid "WpResidence Items Slider - card V4 "
+msgstr ""
+
+#: widgets/recent-items-slider_v5.php:44
+msgid "WpResidence Items Slider - card V5 "
+msgstr ""
+
+#: widgets/recent-items-slider_v6.php:44
+msgid "WpResidence Items Slider - card V6 "
+msgstr ""
+
+#: widgets/recent-items-slider_v7.php:44
+msgid "WpResidence Items Slider - card V7 "
+msgstr ""
+
+#: widgets/recent-items.php:46
+msgid "WpResidence Items List"
+msgstr ""
+
+#: widgets/recent-items.php:166
+msgid "List of terms for the filter bar (*applies only for properties, not articles/posts)"
+msgstr ""
+
+#: widgets/recent-items_card_v1.php:49
+msgid "WpResidence Property List- Card V1"
+msgstr ""
+
+#: widgets/recent-items_card_v1.php:160
+#: widgets/recent-items_card_v2.php:159
+#: widgets/recent-items_card_v3.php:160
+#: widgets/recent-items_card_v4.php:160
+#: widgets/recent-items_card_v5.php:160
+#: widgets/recent-items_card_v6.php:160
+#: widgets/recent-items_card_v7.php:161
+msgid "List of terms for the filter bar"
+msgstr ""
+
+#: widgets/recent-items_card_v1.php:300
+msgid "List of Property Status"
+msgstr ""
+
+#: widgets/recent-items_card_v1.php:1103
+#: widgets/recent-items_card_v2.php:1011
+#: widgets/recent-items_card_v3.php:1012
+#: widgets/recent-items_card_v4.php:1017
+#: widgets/recent-items_card_v5.php:901
+#: widgets/recent-items_card_v6.php:824
+#: widgets/recent-items_card_v7.php:944
+msgid "Filter Buttons"
+msgstr ""
+
+#: widgets/recent-items_card_v2.php:49
+msgid "WpResidence Property List- Card V2"
+msgstr ""
+
+#: widgets/recent-items_card_v3.php:49
+msgid "WpResidence Property List- Card V3"
+msgstr ""
+
+#: widgets/recent-items_card_v4.php:49
+msgid "WpResidence Property List- Card V4"
+msgstr ""
+
+#: widgets/recent-items_card_v5.php:49
+msgid "WpResidence Property List- Card V5"
+msgstr ""
+
+#: widgets/recent-items_card_v6.php:49
+msgid "WpResidence Property List- Card V6"
+msgstr ""
+
+#: widgets/recent-items_card_v6.php:727
+msgid "Property details background color"
+msgstr ""
+
+#: widgets/recent-items_card_v7.php:49
+msgid "WpResidence Property List- Card V7"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:51
+msgid "WpResidence Properties List with Top Bar"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:172
+msgid "Top Bar Filters"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:181
+msgid "Category Terms"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:397
+msgid "List of Property Features (*only for properties)"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:422
+msgid "Filters Settings"
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:455
+msgid "Top  item Content Padding "
+msgstr ""
+
+#: widgets/recent-properties-top-bar.php:529
+msgid "Active Tab Item Font Color"
+msgstr ""
+
+#: widgets/register-form.php:40
+msgid "WpResidence Register"
+msgstr ""
+
+#: widgets/search_form_builder.php:48
+msgid "Search Form Builder"
+msgstr ""
+
+#: widgets/search_form_builder.php:79
+#: widgets/search_form_builder.php:726
+msgid "Tabs"
+msgstr ""
+
+#: widgets/search_form_builder.php:86
+msgid "Use Multiple Tabs?"
+msgstr ""
+
+#: widgets/search_form_builder.php:100
+msgid "Tab Type"
+msgstr ""
+
+#: widgets/search_form_builder.php:104
+msgid "Category"
+msgstr ""
+
+#: widgets/search_form_builder.php:106
+msgid "Area"
+msgstr ""
+
+#: widgets/search_form_builder.php:107
+msgid "County/State"
+msgstr ""
+
+#: widgets/search_form_builder.php:108
+msgid "Status"
+msgstr ""
+
+#: widgets/search_form_builder.php:121
+msgid "Select Items -  Property Types ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:137
+msgid "Select Items - Property Category ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:155
+msgid "Select Items -  Property City ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:173
+msgid "Select Items - Property Area ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:191
+msgid "Select Items - Property County ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:207
+msgid "Select Items - Property Status ( Elementor needs you to Update and Refresh the page aftter selecting the categories for tabs, before you start adding fields for each tab)"
+msgstr ""
+
+#: widgets/search_form_builder.php:223
+msgid "Order by"
+msgstr ""
+
+#: widgets/search_form_builder.php:226
+msgid "Order by Term Id Asc"
+msgstr ""
+
+#: widgets/search_form_builder.php:227
+msgid "Order by Term Id Desc"
+msgstr ""
+
+#: widgets/search_form_builder.php:228
+msgid "Order by Term Name Asc"
+msgstr ""
+
+#: widgets/search_form_builder.php:229
+msgid "Order by Term Name Desc"
+msgstr ""
+
+#: widgets/search_form_builder.php:269
+msgid "How it will Compare"
+msgstr ""
+
+#: widgets/search_form_builder.php:301
+msgid "Slider min price"
+msgstr ""
+
+#: widgets/search_form_builder.php:312
+msgid "Slider Max price"
+msgstr ""
+
+#: widgets/search_form_builder.php:346
+msgid "In what Tab"
+msgstr ""
+
+#: widgets/search_form_builder.php:370
+#: widgets/search_form_builder.php:371
+#: widgets/single-property-widgets/property-page-overview-section.php:110
+msgid "Property Category"
+msgstr ""
+
+#: widgets/search_form_builder.php:377
+#: widgets/search_form_builder.php:378
+#: widgets/single-property-widgets/property-page-overview-section.php:107
+msgid "Property City"
+msgstr ""
+
+#: widgets/search_form_builder.php:390
+msgid "Show Labels"
+msgstr ""
+
+#: widgets/search_form_builder.php:402
+msgid "Show Amenities and Features fields?"
+msgstr ""
+
+#: widgets/search_form_builder.php:416
+msgid "Show Section Title"
+msgstr ""
+
+#: widgets/search_form_builder.php:428
+msgid "Section Title Text"
+msgstr ""
+
+#: widgets/search_form_builder.php:430
+msgid "Advanced Search"
+msgstr ""
+
+#: widgets/search_form_builder.php:432
+msgid "Search form Title"
+msgstr ""
+
+#: widgets/search_form_builder.php:459
+#: widgets/search_form_builder.php:460
+msgid "Search Properties"
+msgstr ""
+
+#: widgets/search_form_builder.php:568
+msgid "Form Label Margin Bottom"
+msgstr ""
+
+#: widgets/search_form_builder.php:654
+msgid "Form Border Radius"
+msgstr ""
+
+#: widgets/search_form_builder.php:713
+msgid "Box Shadow Form (no tabs)"
+msgstr ""
+
+#: widgets/search_form_builder.php:796
+msgid "Tab Item Active Background  Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:823
+msgid "Tab Item Active Font Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:839
+msgid "Tab Item Active Underline color"
+msgstr ""
+
+#: widgets/search_form_builder.php:856
+msgid "Tab Content Background  Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:872
+msgid "Minimum Width"
+msgstr ""
+
+#: widgets/search_form_builder.php:887
+msgid "Tab Item Margin"
+msgstr ""
+
+#: widgets/search_form_builder.php:898
+msgid "Tab Item Padding"
+msgstr ""
+
+#: widgets/search_form_builder.php:910
+msgid "Tab Item Border Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:956
+msgid "Tab Content Padding"
+msgstr ""
+
+#: widgets/search_form_builder.php:967
+msgid "Tab Content Border Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:996
+msgid "Tab Content Border Width"
+msgstr ""
+
+#: widgets/search_form_builder.php:1054
+msgid "Dropdown Typography"
+msgstr ""
+
+#: widgets/search_form_builder.php:1075
+msgid "Field Padding"
+msgstr ""
+
+#: widgets/search_form_builder.php:1087
+msgid "Slider Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:1101
+msgid "Slider Track Color"
+msgstr ""
+
+#: widgets/search_form_builder.php:1168
+msgid "Use Hover Effect ?"
+msgstr ""
+
+#: widgets/search_form_builder.php:1356
+msgid "Icon Size Padding"
+msgstr ""
+
+#: widgets/single-property-widgets/property-featured_image.php:48
+msgid "Property Featured Image"
+msgstr ""
+
+#: widgets/single-property-widgets/property-featured_image.php:94
+#: widgets/single-property-widgets/property-page-address.php:90
+#: widgets/single-property-widgets/property-page-addto-favorite.php:90
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:90
+#: widgets/single-property-widgets/property-page-content.php:90
+#: widgets/single-property-widgets/property-page-excerpt.php:90
+#: widgets/single-property-widgets/property-page-header-section.php:93
+#: widgets/single-property-widgets/property-page-price-info.php:90
+#: widgets/single-property-widgets/property-page-price.php:90
+#: widgets/single-property-widgets/property-page-status.php:90
+#: widgets/single-property-widgets/property-page-title.php:90
+#: widgets/single-property-widgets/property_classic_slider.php:94
+#: widgets/single-property-widgets/property_full_width_slider.php:92
+#: widgets/single-property-widgets/property_horizontal_slider.php:94
+#: widgets/single-property-widgets/property_masonary_gallery1.php:94
+#: widgets/single-property-widgets/property_masonary_gallery2.php:94
+#: widgets/single-property-widgets/property_three_items_slider.php:92
+#: widgets/single-property-widgets/property_vertical_slider.php:94
+msgid "Settings"
+msgstr ""
+
+#: widgets/single-property-widgets/property-featured_image.php:144
+#: widgets/single-property-widgets/property-page-status.php:146
+msgid "Margin"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-address-section.php:47
+msgid "Property Page Address Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-address-section.php:106
+#: widgets/single-property-widgets/property-page-calculator-section.php:106
+#: widgets/single-property-widgets/property-page-description-section.php:106
+#: widgets/single-property-widgets/property-page-details-section.php:106
+#: widgets/single-property-widgets/property-page-features-section.php:106
+#: widgets/single-property-widgets/property-page-floorplans-section.php:106
+#: widgets/single-property-widgets/property-page-map-section.php:99
+#: widgets/single-property-widgets/property-page-overview-section.php:200
+#: widgets/single-property-widgets/property-page-reviews-section.php:106
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:106
+#: widgets/single-property-widgets/property-page-statistics-section.php:106
+#: widgets/single-property-widgets/property-page-subunits-section.php:106
+#: widgets/single-property-widgets/property-page-video-section.php:106
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:106
+#: widgets/single-property-widgets/property-page-walkscore-section.php:106
+#: widgets/single-property-widgets/property-page-yelp-section.php:106
+msgid "Hide Section Title"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-address-section.php:302
+#: widgets/single-property-widgets/property-page-description-section.php:280
+#: widgets/single-property-widgets/property-page-details-section.php:302
+#: widgets/single-property-widgets/property-page-features-section.php:302
+#: widgets/single-property-widgets/property-page-header-section.php:246
+#: widgets/single-property-widgets/property-page-overview-section.php:465
+#: widgets/single-property-widgets/property-page-reviews-section.php:298
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:277
+#: widgets/single-property-widgets/property-page-statistics-section.php:277
+#: widgets/single-property-widgets/property-page-subunits-section.php:305
+#: widgets/single-property-widgets/property-page-video-section.php:276
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:276
+#: widgets/single-property-widgets/property-page-yelp-section.php:282
+#: widgets/single-property-widgets/property_page_accordion_details.php:391
+#: widgets/single-property-widgets/property_page_tab_details.php:263
+msgid "Section Title Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-address.php:98
+msgid "Address Typography"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-address.php:121
+msgid "Hide Marker Icon"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-addto-favorite.php:44
+msgid "Property Add To Favorites/Share/Print buttons"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-addto-favorite.php:149
+msgid "Hide Add to Favorite Button"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-addto-favorite.php:163
+msgid "Hide Print Button"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-addto-favorite.php:189
+#: widgets/single-property-widgets/property-page-status.php:157
+#: widgets/sliding-box.php:196
+msgid "Padding"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:47
+msgid "Property Page Agent Form Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:177
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:123
+msgid "Hide Call Button "
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:190
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:136
+msgid "Hide WhatsApp Button "
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:266
+msgid "Agent Picture width in %"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-section.php:295
+msgid "Agent Details  width in %"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:47
+msgid "Property Page - Agent Form v2 (for sidebar) Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-agec_form_v2-sidebar-section.php:106
+msgid "Hide Picture & Name area "
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:44
+msgid "Property Breadcrumbs"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:98
+msgid "Breadcrumbs Typography"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:106
+#: widgets/single-property-widgets/property-page-title.php:105
+msgid "Title Margin Top(px)"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-breadcrumbs.php:176
+msgid "Active Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-calculator-section.php:47
+msgid "Property Page Calculator Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-content.php:44
+msgid "Property Content"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-content.php:98
+#: widgets/single-property-widgets/property-page-excerpt.php:98
+#: widgets/single-property-widgets/property-page-status.php:98
+msgid "Item Typography"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-description-section.php:47
+msgid "Property Page Description Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-details-section.php:47
+msgid "Property Page Details Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-excerpt.php:44
+msgid "Property Excerpt"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-features-section.php:47
+msgid "Property Page Features Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-floorplans-section.php:47
+msgid "Property Page Floor Plans Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-floorplans-section.php:286
+msgid "Floor plan Title Background Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:47
+msgid "Property Header Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:132
+msgid "Buttons Margin top"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:161
+msgid "Categories Margin top"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:214
+#: widgets/single-property-widgets/property-page-overview-section.php:101
+#: widgets/single-property-widgets/property-page-price.php:44
+#: widgets/single-property-widgets/property-page-subunits-section.php:257
+msgid "Property Price"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:223
+msgid "Property Location"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:256
+msgid "Price Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:281
+msgid "Category Label Font Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-header-section.php:294
+msgid "Category Label Back Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-map-section.php:47
+msgid "Property Page Map Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:46
+msgid "Property Page Overview Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:90
+msgid "Rooms"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:91
+#: widgets/single-property-widgets/property-page-overview-section.php:246
+msgid "Bedrooms"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:92
+#: widgets/single-property-widgets/property-page-overview-section.php:253
+msgid "Bathrooms"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:93
+msgid "Property  Size"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:94
+msgid "Lot size Area"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:95
+#: widgets/single-property-widgets/property-page-overview-section.php:260
+msgid "Garages"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:96
+msgid "Built Year"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:97
+msgid "Property Adress"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:98
+msgid "Property Zip"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:99
+msgid "Property Country"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:100
+#: widgets/single-property-widgets/property-page-status.php:44
+msgid "Property Status"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:102
+msgid "Property Year Tax"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:103
+msgid "Property HOA"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:104
+msgid "Property Energy Class"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:105
+msgid "Property Energy Index"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:108
+msgid "Property Area"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:109
+msgid "Property County/State"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:111
+msgid "Property Action Category"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:127
+msgid "Field"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:136
+#: widgets/single-property-widgets/property_page_simple_detail.php:216
+msgid "Label"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:144
+msgid "Label Plural"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:164
+msgid "Icons From"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:167
+msgid "Theme Options "
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:168
+msgid "Custom Icon"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:169
+msgid "No Icon"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:214
+#: widgets/single-property-widgets/property-page-subunits-section.php:240
+#: widgets/single-property-widgets/property_page_tab_details.php:222
+msgid "Section Title"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:224
+msgid "Hide Updated On"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:245
+msgid "Bedroom"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:252
+msgid "Bathroom"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:259
+msgid "Garage"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:266
+msgid "Area Size"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:273
+msgid "Year Built"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:285
+msgid "Detail Section Width"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-overview-section.php:425
+msgid "Property Labels"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-price-info.php:44
+msgid "Additional Price Info"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-price-info.php:107
+#: widgets/single-property-widgets/property-page-price.php:107
+msgid "Price Label Typography"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:47
+msgid "Property Page Reviews Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:240
+msgid "Review Title"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:249
+msgid "Review Meta"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:258
+msgid "Review Content"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:309
+msgid "Review Title Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-reviews-section.php:320
+msgid "Review Meta Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:47
+msgid "Property Page Similar Listings Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:138
+msgid "No of items per row(2 or 3)"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-similar-listings-section.php:155
+msgid "Card unit ?"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-statistics-section.php:47
+msgid "Property Page Statistics Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-status.php:138
+msgid "Button Shadow"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:47
+msgid "Property Page Subunits Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:265
+msgid "Property Meta"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:315
+msgid "Unit Background Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:325
+msgid "Subunit Title Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:336
+msgid "Subunit Price Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-subunits-section.php:348
+msgid "Subunit Meta Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-video-section.php:47
+msgid "Property Page Video Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-virtual-tour-section.php:47
+msgid "Property Page Virtual Tour Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-walkscore-section.php:47
+msgid "Property Page Walkscore Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property-page-yelp-section.php:47
+msgid "Property Page Yelp Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property_classic_slider.php:48
+msgid "Property Classic Slider"
+msgstr ""
+
+#: widgets/single-property-widgets/property_classic_slider.php:144
+#: widgets/single-property-widgets/property_horizontal_slider.php:146
+#: widgets/single-property-widgets/property_masonary_gallery1.php:175
+#: widgets/single-property-widgets/property_masonary_gallery2.php:175
+#: widgets/single-property-widgets/property_vertical_slider.php:146
+msgid "Hide Status"
+msgstr ""
+
+#: widgets/single-property-widgets/property_full_width_slider.php:49
+msgid "Property Full Width Slider"
+msgstr ""
+
+#: widgets/single-property-widgets/property_horizontal_slider.php:48
+msgid "Property Horizontal Slider"
+msgstr ""
+
+#: widgets/single-property-widgets/property_horizontal_slider.php:161
+#: widgets/single-property-widgets/property_vertical_slider.php:161
+msgid "Hide Map Button"
+msgstr ""
+
+#: widgets/single-property-widgets/property_horizontal_slider.php:175
+#: widgets/single-property-widgets/property_vertical_slider.php:175
+msgid "Hide Street View Button"
+msgstr ""
+
+#: widgets/single-property-widgets/property_horizontal_slider.php:188
+#: widgets/single-property-widgets/property_vertical_slider.php:188
+msgid "Hide Gallery Button"
+msgstr ""
+
+#: widgets/single-property-widgets/property_masonary_gallery1.php:48
+msgid "Property Masonary Gallery"
+msgstr ""
+
+#: widgets/single-property-widgets/property_masonary_gallery1.php:163
+#: widgets/single-property-widgets/property_masonary_gallery2.php:163
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property_masonary_gallery2.php:48
+msgid "Property Masonary Gallery - Type 2"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_agent_contact.php:231
+#: widgets/single-property-widgets/property_page_schedule_tour.php:203
+msgid " Title Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:168
+#: widgets/single-property-widgets/property_page_intext_details.php:212
+#: widgets/single-property-widgets/property_page_simple_detail.php:206
+msgid "Detail"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_agent_details_intext_details.php:196
+#: widgets/single-property-widgets/property_page_intext_details.php:240
+#: widgets/single-property-widgets/property_page_simple_detail.php:243
+msgid "Detail Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_design_gallery.php:40
+msgid "Property Gallery "
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_related_listings.php:40
+msgid "Related Listings - Deprecated"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_schedule_tour.php:47
+msgid "Property Page Schedule Tour Section"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_simple_detail.php:255
+msgid "Label Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_simple_detail_section.php:40
+msgid "Detail Section - Deprecated"
+msgstr ""
+
+#: widgets/single-property-widgets/property_page_tab_details.php:251
+msgid "Section Title Back Color"
+msgstr ""
+
+#: widgets/single-property-widgets/property_three_items_slider.php:49
+msgid "Property Multi Image Slider"
+msgstr ""
+
+#: widgets/single-property-widgets/property_vertical_slider.php:48
+msgid "Property Vertical Slider"
+msgstr ""
+
+#: widgets/single-property-widgets/propert_page_image_gallery_masonry.php:40
+msgid "Masonry Gallery - Deprecated"
+msgstr ""
+
+#: widgets/single-property-widgets/propert_page_other_agents.php:166
+msgid "Hide Facebook "
+msgstr ""
+
+#: widgets/single-property-widgets/propert_page_other_agents.php:180
+msgid "Hide Twitter "
+msgstr ""
+
+#: widgets/single-property-widgets/propert_page_other_agents.php:195
+msgid "Hide Linkedin "
+msgstr ""
+
+#: widgets/single-property-widgets/propert_page_other_agents.php:211
+msgid "Hide Pinterest "
+msgstr ""
+
+#: widgets/sliding-box.php:47
+msgid "WpResidence Sliding Box"
+msgstr ""
+
+#: widgets/sliding-box.php:112
+msgid "Open Box"
+msgstr ""
+
+#: widgets/sliding-box.php:124
+msgid "Read Me Text"
+msgstr ""
+
+#: widgets/sliding-box.php:132
+msgid "Read Me Link text"
+msgstr ""
+
+#: widgets/sliding-box.php:160
+msgid "Boxes"
+msgstr ""
+
+#: widgets/sliding-box.php:172
+msgid "Learn More"
+msgstr ""
+
+#: widgets/sliding-box.php:256
+msgid "Read Me Color"
+msgstr ""
+
+#: widgets/sliding-box.php:337
+msgid "Read Me"
+msgstr ""
+
+#: widgets/taxonomy_list.php:40
+msgid "WpResidence Taxonomy List"
+msgstr ""
+
+#: widgets/taxonomy_list.php:119
+msgid "Select category"
+msgstr ""
+
+#: widgets/taxonomy_list.php:132
+msgid "Show number of listings?"
+msgstr ""
+
+#: widgets/testimonial.php:40
+msgid "WpResidence Testimonial"
+msgstr ""
+
+#: widgets/testimonial.php:116
+msgid "Client Name"
+msgstr ""
+
+#: widgets/testimonial.php:124
+msgid "Title Client"
+msgstr ""
+
+#: widgets/testimonial.php:132
+msgid "Image"
+msgstr ""
+
+#: widgets/testimonial.php:141
+msgid "Testimonial Text "
+msgstr ""
+
+#: widgets/testimonial.php:149
+msgid "Testimonial Type"
+msgstr ""
+
+#: widgets/testimonial.php:159
+msgid "Stars "
+msgstr ""
+
+#: widgets/testimonial.php:167
+msgid "Testimonial Title - Only for type3"
+msgstr ""
+
+#: widgets/testimonial_slider.php:49
+msgid "Testimonial Slider"
+msgstr ""
+
+#: widgets/testimonial_slider.php:84
+#: widgets/testimonial_slider.php:91
+msgid "Person Name"
+msgstr ""
+
+#: widgets/testimonial_slider.php:99
+msgid "Person Job"
+msgstr ""
+
+#: widgets/testimonial_slider.php:107
+msgid "Stars (1 to 5)"
+msgstr ""
+
+#: widgets/testimonial_slider.php:116
+msgid "Testimonial Text"
+msgstr ""
+
+#: widgets/testimonial_slider.php:144
+msgid "Testimonial #1"
+msgstr ""
+
+#: widgets/testimonial_slider.php:145
+#: widgets/testimonial_slider.php:149
+msgid "Testimonial content. Click the edit button to change this text."
+msgstr ""
+
+#: widgets/testimonial_slider.php:148
+msgid "Testimonial #2"
+msgstr ""
+
+#: widgets/testimonial_slider.php:205
+msgid "Name Typography"
+msgstr ""
+
+#: widgets/testimonial_slider.php:215
+msgid "Position Typography"
+msgstr ""
+
+#: widgets/testimonial_slider.php:240
+msgid "Background"
+msgstr ""
+
+#: widgets/testimonial_slider.php:262
+msgid "Content Color"
+msgstr ""
+
+#: widgets/testimonial_slider.php:273
+msgid "Name Color"
+msgstr ""
+
+#: widgets/testimonial_slider.php:284
+msgid "Position Color"
+msgstr ""
+
+#: widgets/video_player.php:43
+msgid "WpResidence Video Player"
+msgstr ""
+
+#: widgets/video_player.php:103
+#: widgets/video_player.php:110
+msgid "Icon"
+msgstr ""
+
+#: widgets/video_player.php:123
+msgid "Video Location"
+msgstr ""
+
+#: widgets/video_player.php:127
+msgid "YouTube"
+msgstr ""
+
+#: widgets/video_player.php:128
+msgid "Vimeo"
+msgstr ""
+
+#: widgets/video_player.php:129
+msgid "Local"
+msgstr ""
+
+#: widgets/video_player.php:138
+msgid "Video Id( if youtube or vimeo)"
+msgstr ""
+
+#: widgets/video_player.php:147
+msgid "Video path (if filled will be used instead of vimeo or youtube videos)"
+msgstr ""
+
+#: widgets/video_player.php:210
+msgid "Icon Background"
+msgstr ""
+
+#: widgets/video_player.php:223
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/video_player.php:236
+msgid "Background Color on Hover"
+msgstr ""
+
+#: widgets/video_player.php:249
+msgid "Icon Color on Hover"
+msgstr ""
+
+#: widgets/video_player.php:289
+msgid "Border Color "
+msgstr ""
+
+#: widgets/video_player.php:304
+msgid "Border Color on Hover"
+msgstr ""
+
+#: widgets/wpestate_accordions.php:40
+msgid "WpResidence Accordions"
+msgstr ""
+
+#: widgets/wpestate_tabs.php:40
+msgid "WpResidence Tabs"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:46
+msgid "WpResidence Agent Grids"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:107
+#: widgets/wpresidence-grids.php:114
+msgid "Select Grid Type"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:110
+#: widgets/wpresidence-grids.php:117
+msgid "Type 1"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:111
+#: widgets/wpresidence-grids.php:118
+msgid "Type 2"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:112
+#: widgets/wpresidence-grids.php:119
+msgid "Type 3"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:113
+#: widgets/wpresidence-grids.php:120
+msgid "Type 4"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:114
+#: widgets/wpresidence-grids.php:121
+msgid "Type 5"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:115
+#: widgets/wpresidence-grids.php:122
+msgid "Type 6"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:126
+msgid "Select Agents"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:152
+#: widgets/wpresidence-grids.php:246
+msgid " Number of Items to Show"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:292
+msgid "Title Margin Bottom"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:321
+msgid "Agent Position Margin Bottom(px) "
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:357
+msgid "Agent Position Typography"
+msgstr ""
+
+#: widgets/wpresidence-agent-grids.php:392
+msgid "Agent Position Color"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:46
+msgid "WpResidence Grids"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:132
+msgid "Select Design Type"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:135
+msgid "Design Type 1"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:136
+msgid "Design Type 2"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:146
+msgid "Pick Categories"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:202
+msgid "Hide Empty"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:216
+msgid "Order By"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:220
+msgid "ID"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:221
+msgid "Count"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:232
+msgid "Order"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:459
+msgid "Listings Number margin Bottom - Design Type 2"
+msgstr ""
+
+#: widgets/wpresidence-grids.php:574
+msgid "Listings Background Color - Design Type2"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor
+#: wpresidence-elementor.php:122
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: wpresidence-elementor.php:123
+#: wpresidence-elementor.php:170
+msgid "WpResidence Elementor"
+msgstr ""
+
+#: wpresidence-elementor.php:124
+#: wpresidence-elementor.php:147
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: wpresidence-elementor.php:145
+#: wpresidence-elementor.php:169
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: wpresidence-elementor.php:146
+msgid "WpResidence Elementor "
+msgstr ""
+
+#: wpresidence-elementor.php:171
+msgid "PHP"
+msgstr ""
