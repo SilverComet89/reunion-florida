@@ -1,4 +1,7 @@
-<?php
+<?php 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /**
  * Define the internationalization functionality
@@ -39,9 +42,5 @@ class Mlsimport_i18n {
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
-
 	}
-
-
-
 }

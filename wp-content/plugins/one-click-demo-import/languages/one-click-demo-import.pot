@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: One Click Demo Import 3.2.0\n"
+"Project-Id-Version: One Click Demo Import 3.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/one-click-demo-import\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-11-23T09:35:25+00:00\n"
+"POT-Creation-Date: 2024-04-10T07:42:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.8.1\n"
+"X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: one-click-demo-import\n"
 
 #. Plugin Name of the plugin

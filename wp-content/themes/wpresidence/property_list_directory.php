@@ -229,9 +229,11 @@ $args = array(
 $order_array    =   wpestate_create_query_order_by_array($order);
 $args           =   array_merge($args,$order_array['order_array']);
 if( $order==0 ){
+    var_dump('test die blah');
     $prop_selection = wpestate_return_filtered_by_order($args);
 
 }else{
+    var_dump('test die blah2');
     $prop_selection = new WP_Query($args);
 }
             

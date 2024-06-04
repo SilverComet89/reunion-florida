@@ -108,8 +108,22 @@ $postID= get_the_ID();
             </div>
 
             <div class="blog_unit_meta">
-                <span class="span_widemeta"> <?php print esc_html('published on ','wpresidence').' '. get_the_date();?></span>  
+                <span class="span_widemeta">
+                    <?php $agent = get_field('agent')[0]; ?>
+                    <?php
+                    if ($agent != null) {
+                        print '<a href="' . get_permalink($agent->ID) . '">';
+                        //print get_the_post_thumbnail($agent->ID, 'post-thumbnail', ['class' => 'rounded author-icon']);
+                        print ' by ' . $agent->post_title . ' ';
+                        print '</a>';
+                    } else {
+                        print esc_html('by ', 'wpresidence') . ' ' . get_the_author_meta('display_name');
+
+                    }
+                    print esc_html(' - ', 'wpresidence') . ' ' . get_the_date();
+                    ?>
+                </span>  
             </div>
 
         </div>          
-    </div>      
+    </div>

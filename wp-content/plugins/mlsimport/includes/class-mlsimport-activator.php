@@ -1,4 +1,8 @@
-<?php
+<?php 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 
 /**
  * Fired during plugin activation
@@ -22,6 +26,7 @@
  */
 class Mlsimport_Activator {
 
+
 	/**
 	 * Short Description. (use period)
 	 *
@@ -30,7 +35,6 @@ class Mlsimport_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-            delete_transient('mlsimport_plugin_data_schema');
+			delete_transient( 'mlsimport_plugin_data_schema' );
 	}
-
 }

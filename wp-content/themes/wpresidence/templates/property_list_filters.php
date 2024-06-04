@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 global $current_adv_filter_search_label;
 global $current_adv_filter_category_label;
 global $current_adv_filter_city_label;
@@ -143,6 +144,7 @@ if(is_page_template('property_list.php')){
 
 
 if( is_tax() ){
+    var_dump('test');
     $listing_filter =  intval(wpresidence_get_option('wp_estate_property_list_type_tax_order',''));
 }else if( isset($post->ID) ){
     if(is_page_template( 'advanced_search_results.php' ) ){
@@ -172,7 +174,7 @@ if( $show_filter_area != 'yes' ){
 }
 
 if( $show_filter_area=='yes' ){
-
+var_dump('test123');
         if ( is_tax() ){
             $curent_term    =   get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
             $current_slug   =   $curent_term->slug;

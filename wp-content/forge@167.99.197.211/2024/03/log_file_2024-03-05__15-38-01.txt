@@ -1,0 +1,77 @@
+
+---Downloaded files---
+The import files for: Dubai Demo were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://florida.test
+Data file = /Users/benjaminfaulkner/Sites/abire/florida/wp-content/uploads/2024/03/demo-content-import-file_2024-03-05__15-38-01.xml
+Widget file = /Users/benjaminfaulkner/Sites/abire/florida/wp-content/uploads/2024/03/demo-widgets-import-file_2024-03-05__15-38-01.json
+Customizer file = not defined!
+Redux files:
+wpresidence_admin -> /Users/benjaminfaulkner/Sites/abire/florida/wp-content/uploads/2024/03/demo-redux-import-file_0-2024-03-05__15-38-01.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Primary Widget Area : 
+
+Wp Estate: Advanced Search - Advanced Search - Imported
+Wp Estate: Latest Listing  - Latest Listings - Imported
+Wp Estate: List Properties by Categories - Listings by Category - Imported
+
+Secondary Widget Area : 
+
+Wp Estate: Advanced Search - Advanced Search - Imported
+Wp Estate: Latest Listing  - Latest Listing - Imported
+
+First Footer Widget Area : 
+
+Text - About - Imported
+Wp Estate:  Social Links for Header / Footer - No Title - Imported
+
+Second Footer Widget Area : 
+
+Wp Estate: Contact - CONTACT - Imported
+
+Third Footer Widget Area : 
+
+Wp Estate: Latest Listing  - Featured Properties - Imported
+
+Top Bar Left Widget Area : 
+
+Wp Estate:  Social Links for Header / Footer - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: wpresidence_admin finished successfully!
+
+---ocdi/after_import---
+

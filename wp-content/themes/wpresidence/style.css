@@ -31116,3 +31116,19 @@ ul.wd_user_menu {
 .wpestate-price-popoup-wrapper_v3 .dropdown-menu{
     min-width: 130px;
 }
+
+.grid-2-column {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: auto;
+}
+
+.grid-2-column > div, .grid-1-column > div {
+    padding-right: calc(25px / 2);
+    padding-left: calc(25px / 2);
+    margin-bottom: 6px;
+}
+
+.grid-2-column > div label, .grid-1-column > div label {
+width: 100%;
+}

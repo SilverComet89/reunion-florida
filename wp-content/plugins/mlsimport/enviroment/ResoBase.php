@@ -1,4 +1,7 @@
-<?php
+<?php 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /*
  * To change this license header, choose License Headers in Project Properties.

@@ -44,7 +44,7 @@ get_header();
 
             );
 
-
+            var_dump('test die11 blah');
             $prop_selection = new WP_Query($args);
             $counter = 0;
 

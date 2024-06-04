@@ -1,7 +1,10 @@
-<?php
+<?php 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /**
- * 
+ *
  *
  * @link       http://mlsimport.com/
  * @since      1.0.0
@@ -39,14 +42,13 @@ class Mlsimport_Public {
 	 * Initialize the class and set its properties.
 	 *
 	 * @since    1.0.0
-	 * @param      string    $plugin_name       The name of the plugin.
-	 * @param      string    $version    The version of this plugin.
+	 * @param      string $plugin_name       The name of the plugin.
+	 * @param      string $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 
 		$this->plugin_name = $plugin_name;
-		$this->version = $version;
-
+		$this->version     = $version;
 	}
 
 	/**
@@ -55,15 +57,13 @@ class Mlsimport_Public {
 	 * @since    1.0.0
 	 */
 	public function enqueue_styles() {
-                global $mlsimport;
-                $theme_enviroment=$mlsimport->get_plugin_data('theme_enviroment');
+				global $mlsimport;
+				$theme_enviroment = $mlsimport->get_plugin_data( 'theme_enviroment' );
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/mlsimport-public.css', array(), $this->version, 'all' );
-                
-                
-                if( isset( $options['enviroment']) ){
-                    wp_enqueue_style( $this->plugin_name.strtolower($theme_enviroment), plugin_dir_url( __FILE__ ) . 'css/mlsimport-public-'.strtolower($theme_enviroment).'.css', array(), $this->version, 'all' );
-                }
 
+		if ( isset( $options['enviroment'] ) ) {
+			wp_enqueue_style( $this->plugin_name . strtolower( $theme_enviroment ), plugin_dir_url( __FILE__ ) . 'css/mlsimport-public-' . strtolower( $theme_enviroment ) . '.css', array(), $this->version, 'all' );
+		}
 	}
 
 	/**
@@ -72,33 +72,30 @@ class Mlsimport_Public {
 	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
-            wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/mlsimport-public.js', array( 'jquery' ), $this->version, false );
-
+			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/mlsimport-public.js', array( 'jquery' ), $this->version, false );
 	}
-        
-        
-        /**
-	 * ReWrite Image url
-	 *
-	 * @since    1.0.0
-	 */
-        /**
-	 * ReWrite Image url
-	 *
-	 * @since    1.0.0
-	 */
-        function mlsimport_wp_get_attachment_url($url, $post_id ){
-  
-            if( get_post_meta($post_id,'is_mlsimport',true)==1){
-                //$replace= get_site_url().'/wp-content/uploads/';
-               // $new_url= str_replace($replace,  '', $url);
-                
-                $explode = explode('/wp-content/uploads/', $url);
-                return $explode[1];
-              //  return $new_url;
-            }
 
-            return $url;
-        }
 
+		/**
+		 * ReWrite Image url
+		 *
+		 * @since    1.0.0
+		 */
+		/**
+		 * ReWrite Image url
+		 *
+		 * @since    1.0.0
+		 */
+	public function mlsimport_wp_get_attachment_url( $url, $post_id ) {
+
+
+		if( intval(get_post_meta($post_id,'is_mlsimport',true)) === 1){
+			
+			$explode = explode('/wp-content/uploads/', $url);
+			return $explode[1];
+		  
+		}
+
+		return $url;
+	}
 }

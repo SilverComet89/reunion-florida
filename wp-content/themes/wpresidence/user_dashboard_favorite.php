@@ -53,7 +53,7 @@ $wpestate_options=wpestate_page_details($post->ID);
                        'post__in'         => $curent_fav
                    );
 
-
+                   var_dump('test die10 blah');
                    $prop_selection = new WP_Query($args);
 
 

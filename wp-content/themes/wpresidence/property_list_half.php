@@ -139,8 +139,10 @@ $prop_selection=wpestate_request_transient_cache( 'wpestate_prop_list'.$transien
 
 if($prop_selection==false){
     if( $order==0 ){
+        var_dump('test die3 blah');
        $prop_selection = wpestate_return_filtered_by_order($args);
     }else{
+        var_dump('test die4 blah');
         $prop_selection = new WP_Query($args);
     }
     wpestate_set_transient_cache(  'wpestate_prop_list'.$transient_appendix, $prop_selection, 60*60*4 );
